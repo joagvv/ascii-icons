@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y shellcheck libxml2-utils
+
+      - name: Generated files are up to date
+        run: |
+          python3 src/build_installer.py
+          python3 src/build_preview.py
+          git diff --exit-code
+
+      - name: Lint
+        run: make check
+
+      - name: Install test
+        run: tests/install.sh
