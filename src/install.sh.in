@@ -139,7 +139,9 @@ GTK4_INI="$CONFIG_HOME/gtk-4.0/settings.ini"
 get_theme() {
   case "$(backend)" in
     xfce)
-      have xfconf-query && xfconf-query -c xsettings -p /Net/IconThemeName 2>/dev/null || true
+      if have xfconf-query; then
+        xfconf-query -c xsettings -p /Net/IconThemeName 2>/dev/null || true
+      fi
       ;;
     kde)      kde_config kreadconfig ;;
     lxqt)     ini_get "$CONFIG_HOME/lxqt/lxqt.conf" General icon_theme ;;
@@ -165,8 +167,10 @@ set_theme() {
     kde)
       if ! plasma_changeicons "$1"; then
         kde_config kwriteconfig "$1"
-        have dbus-send && dbus-send --session --type=signal /KIconLoader \
-          org.kde.KIconLoader.iconChanged int32:0 2>/dev/null || true
+        if have dbus-send; then
+          dbus-send --session --type=signal /KIconLoader \
+            org.kde.KIconLoader.iconChanged int32:0 2>/dev/null || true
+        fi
       fi
       ;;
     lxqt)     ini_set "$CONFIG_HOME/lxqt/lxqt.conf" General icon_theme "$1" ;;
