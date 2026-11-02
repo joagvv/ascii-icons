@@ -1,0 +1,131 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+THEME_NAME="ASCII"
+THEME_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/icons/$THEME_NAME"
+
+usage() {
+  cat <<'USAGE'
+usage: install.sh [text] [tile] [border]
+
+  each color is a preset name, a hex value (#rrggbb) or "none"
+  presets: white red magenta cyan yellow green gray black
+
+  install.sh
+  install.sh red
+  install.sh "#ff8800"
+  install.sh red "#000000" "#333344"
+  install.sh cyan none none
+  install.sh --uninstall
+USAGE
+}
+
+color() {
+  case "$1" in
+    white)   echo "#ececf2" ;;
+    red)     echo "#e8364a" ;;
+    magenta) echo "#e23a9b" ;;
+    cyan)    echo "#2bb7d8" ;;
+    yellow)  echo "#f2c14e" ;;
+    green)   echo "#5fd38d" ;;
+    gray)    echo "#8a8aa0" ;;
+    black)   echo "#0b0b10" ;;
+    *)       echo "$1" ;;
+  esac
+}
+
+valid() {
+  [[ "$1" == "none" || "$1" =~ ^#[0-9a-fA-F]{6}$ ]]
+}
+
+set_theme() {
+  command -v xfconf-query >/dev/null || return 0
+  xfconf-query -c xsettings -p /Net/IconThemeName -s "$1" 2>/dev/null || true
+}
+
+case "${1:-}" in
+  -h|--help)
+    usage
+    exit 0
+    ;;
+  --uninstall)
+    rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
+    set_theme "Papirus-Dark"
+    echo "removed $THEME_DIR"
+    exit 0
+    ;;
+esac
+
+FG="$(color "${1:-white}")"
+BG="$(color "${2:-black}")"
+BORDER="$(color "${3:-#2c2c38}")"
+
+for c in "$FG" "$BG" "$BORDER"; do
+  if ! valid "$c"; then
+    echo "invalid color: $c" >&2
+    usage >&2
+    exit 1
+  fi
+done
+
+if [[ "$FG" == "none" ]]; then
+  echo "text color can't be none" >&2
+  exit 1
+fi
+
+declare -A GLYPH NAMES
+@GLYPHS@
+@NAMES@
+
+tile=""
+if [[ "$BG" != "none" || "$BORDER" != "none" ]]; then
+  stroke=""
+  [[ "$BORDER" != "none" ]] && stroke=" stroke=\"$BORDER\" stroke-width=\"1.5\""
+  tile="<rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"12\" fill=\"$BG\"$stroke/>"
+fi
+
+rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
+mkdir -p "$THEME_DIR/scalable/apps" "$THEME_DIR/scalable/places"
+
+cat > "$THEME_DIR/index.theme" <<'THEME'
+[Icon Theme]
+Name=ASCII
+Comment=Monospace text icons
+Inherits=Papirus-Dark,Adwaita,hicolor
+Directories=scalable/apps,scalable/places
+
+[scalable/apps]
+Size=64
+MinSize=8
+MaxSize=512
+Context=Applications
+Type=Scalable
+
+[scalable/places]
+Size=64
+MinSize=8
+MaxSize=512
+Context=Places
+Type=Scalable
+THEME
+
+count=0
+for key in "${!GLYPH[@]}"; do
+  dir="apps"
+  [[ "$key" == "trash" ]] && dir="places"
+  svg="<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\">$tile<path d=\"${GLYPH[$key]}\" fill=\"$FG\"/></svg>"
+  for name in ${NAMES[$key]}; do
+    printf '%s\n' "$svg" > "$THEME_DIR/scalable/$dir/$name.svg"
+    count=$((count + 1))
+  done
+done
+
+if command -v gtk-update-icon-cache >/dev/null; then
+  gtk-update-icon-cache -f -t "$THEME_DIR" >/dev/null 2>&1 || true
+fi
+
+set_theme "Papirus-Dark"
+sleep 0.5
+set_theme "$THEME_NAME"
+
+echo "installed $count icons to $THEME_DIR (text $FG, tile $BG, border $BORDER)"
