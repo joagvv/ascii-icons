@@ -7,11 +7,25 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        awk: [mawk, gawk, busybox]
     steps:
       - uses: actions/checkout@v5
 
       - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y shellcheck libxml2-utils
+        run: sudo apt-get update && sudo apt-get install -y shellcheck libxml2-utils gawk mawk busybox
+
+      - name: Use ${{ matrix.awk }} as awk
+        run: |
+          mkdir -p "$RUNNER_TEMP/bin"
+          if [ "${{ matrix.awk }}" = busybox ]; then
+            printf '#!/bin/sh\nexec busybox awk "$@"\n' > "$RUNNER_TEMP/bin/awk"
+            chmod +x "$RUNNER_TEMP/bin/awk"
+          else
+            ln -s "$(command -v ${{ matrix.awk }})" "$RUNNER_TEMP/bin/awk"
+          fi
+          echo "$RUNNER_TEMP/bin" >> "$GITHUB_PATH"
 
       - name: Generated files are up to date
         run: |
