@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
+# Generated from src/install.sh.in by src/build_installer.py. Edit those instead.
 set -euo pipefail
 
 THEME_NAME="ASCII"
+FALLBACK_THEME="Papirus-Dark"
 THEME_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/icons/$THEME_NAME"
+PREVIOUS_FILE="$THEME_DIR/.previous-theme"
 
 usage() {
   cat <<'USAGE'
 usage: install.sh [text] [tile] [border]
+       install.sh --uninstall
 
   each color is a preset name, a hex value (#rrggbb) or "none"
   presets: white red magenta cyan yellow green gray black
@@ -16,7 +20,6 @@ usage: install.sh [text] [tile] [border]
   install.sh "#ff8800"
   install.sh red "#000000" "#333344"
   install.sh cyan none none
-  install.sh --uninstall
 USAGE
 }
 
@@ -38,9 +41,36 @@ valid() {
   [[ "$1" == "none" || "$1" =~ ^#[0-9a-fA-F]{6}$ ]]
 }
 
+have_xfconf() {
+  command -v xfconf-query >/dev/null
+}
+
+get_theme() {
+  have_xfconf || return 0
+  xfconf-query -c xsettings -p /Net/IconThemeName 2>/dev/null || true
+}
+
 set_theme() {
-  command -v xfconf-query >/dev/null || return 0
+  have_xfconf || return 0
   xfconf-query -c xsettings -p /Net/IconThemeName -s "$1" 2>/dev/null || true
+}
+
+# The theme that was active before ASCII, so --uninstall can go back to it.
+previous_theme() {
+  local theme
+  theme="$(get_theme)"
+  if [[ -z "$theme" || "$theme" == "$THEME_NAME" ]]; then
+    theme="$(cat "$PREVIOUS_FILE" 2>/dev/null || true)"
+  fi
+  echo "${theme:-$FALLBACK_THEME}"
+}
+
+theme_exists() {
+  local dir
+  for dir in "${XDG_DATA_HOME:-$HOME/.local/share}/icons" "$HOME/.icons" /usr/local/share/icons /usr/share/icons; do
+    [[ -f "$dir/$1/index.theme" ]] && return 0
+  done
+  return 1
 }
 
 case "${1:-}" in
@@ -49,12 +79,18 @@ case "${1:-}" in
     exit 0
     ;;
   --uninstall)
+    previous="$(previous_theme)"
     rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
-    set_theme "Papirus-Dark"
+    set_theme "$previous"
     echo "removed $THEME_DIR"
     exit 0
     ;;
 esac
+
+if (( $# > 3 )); then
+  usage >&2
+  exit 1
+fi
 
 FG="$(color "${1:-white}")"
 BG="$(color "${2:-black}")"
@@ -73,9 +109,12 @@ if [[ "$FG" == "none" ]]; then
   exit 1
 fi
 
-declare -A GLYPH NAMES
-@GLYPHS@
-@NAMES@
+if ! theme_exists "$FALLBACK_THEME"; then
+  echo "warning: $FALLBACK_THEME not found, icons outside this theme will fall back to Adwaita" >&2
+fi
+
+declare -A GLYPH CONTEXT NAMES
+@ICONS@
 
 tile=""
 if [[ "$BG" != "none" || "$BORDER" != "none" ]]; then
@@ -84,14 +123,16 @@ if [[ "$BG" != "none" || "$BORDER" != "none" ]]; then
   tile="<rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"12\" fill=\"$BG\"$stroke/>"
 fi
 
+previous="$(previous_theme)"
 rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
 mkdir -p "$THEME_DIR/scalable/apps" "$THEME_DIR/scalable/places"
+printf '%s\n' "$previous" > "$PREVIOUS_FILE"
 
-cat > "$THEME_DIR/index.theme" <<'THEME'
+cat > "$THEME_DIR/index.theme" <<THEME
 [Icon Theme]
-Name=ASCII
+Name=$THEME_NAME
 Comment=Monospace text icons
-Inherits=Papirus-Dark,Adwaita,hicolor
+Inherits=$FALLBACK_THEME,Adwaita,hicolor
 Directories=scalable/apps,scalable/places
 
 [scalable/apps]
@@ -111,11 +152,10 @@ THEME
 
 count=0
 for key in "${!GLYPH[@]}"; do
-  dir="apps"
-  [[ "$key" == "trash" ]] && dir="places"
   svg="<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\">$tile<path d=\"${GLYPH[$key]}\" fill=\"$FG\"/></svg>"
+  # shellcheck disable=SC2086 # NAMES holds a space-separated list
   for name in ${NAMES[$key]}; do
-    printf '%s\n' "$svg" > "$THEME_DIR/scalable/$dir/$name.svg"
+    printf '%s\n' "$svg" > "$THEME_DIR/scalable/${CONTEXT[$key]}/$name.svg"
     count=$((count + 1))
   done
 done
@@ -124,8 +164,11 @@ if command -v gtk-update-icon-cache >/dev/null; then
   gtk-update-icon-cache -f -t "$THEME_DIR" >/dev/null 2>&1 || true
 fi
 
-set_theme "Papirus-Dark"
-sleep 0.5
+# XFCE only reloads icons when the theme name changes, so switch away and back.
+if [[ "$(get_theme)" == "$THEME_NAME" ]]; then
+  set_theme "$previous"
+  sleep 0.5
+fi
 set_theme "$THEME_NAME"
 
 echo "installed $count icons to $THEME_DIR (text $FG, tile $BG, border $BORDER)"

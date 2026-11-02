@@ -1,4 +1,5 @@
 import json
+import sys
 from pathlib import Path
 
 from fontTools.pens.boundsPen import BoundsPen
@@ -6,24 +7,11 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
 
+from icons import ICONS
+
 SRC = Path(__file__).parent
 FONT = SRC / "JetBrainsMono-Bold.woff2"
 OUT = SRC / "paths.json"
-
-ICONS = {
-    "terminal": ">_",
-    "browser": "://",
-    "folder": "~/",
-    "code": "</>",
-    "music": "/\\/",
-    "trash": "rm",
-    "settings": "cfg",
-    "monitor": "top",
-    "clock": "12:00",
-    "notes": ".md",
-    "search": "/?",
-    "menu": "~$",
-}
 
 CANVAS = 64
 
@@ -67,11 +55,11 @@ def text_path(glyphs, cmap, upm, text):
 
 
 def main():
-    font = TTFont(FONT)
+    font = TTFont(sys.argv[1] if len(sys.argv) > 1 else FONT)
     glyphs = font.getGlyphSet()
     cmap = font.getBestCmap()
     upm = font["head"].unitsPerEm
-    paths = {name: text_path(glyphs, cmap, upm, text) for name, text in ICONS.items()}
+    paths = {key: text_path(glyphs, cmap, upm, icon["text"]) for key, icon in ICONS.items()}
     OUT.write_text(json.dumps(paths, indent=2) + "\n")
 
 

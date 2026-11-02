@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
+# Generated from src/install.sh.in by src/build_installer.py. Edit those instead.
 set -euo pipefail
 
 THEME_NAME="ASCII"
+FALLBACK_THEME="Papirus-Dark"
 THEME_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/icons/$THEME_NAME"
+PREVIOUS_FILE="$THEME_DIR/.previous-theme"
 
 usage() {
   cat <<'USAGE'
 usage: install.sh [text] [tile] [border]
+       install.sh --uninstall
 
   each color is a preset name, a hex value (#rrggbb) or "none"
   presets: white red magenta cyan yellow green gray black
@@ -16,7 +20,6 @@ usage: install.sh [text] [tile] [border]
   install.sh "#ff8800"
   install.sh red "#000000" "#333344"
   install.sh cyan none none
-  install.sh --uninstall
 USAGE
 }
 
@@ -38,9 +41,36 @@ valid() {
   [[ "$1" == "none" || "$1" =~ ^#[0-9a-fA-F]{6}$ ]]
 }
 
+have_xfconf() {
+  command -v xfconf-query >/dev/null
+}
+
+get_theme() {
+  have_xfconf || return 0
+  xfconf-query -c xsettings -p /Net/IconThemeName 2>/dev/null || true
+}
+
 set_theme() {
-  command -v xfconf-query >/dev/null || return 0
+  have_xfconf || return 0
   xfconf-query -c xsettings -p /Net/IconThemeName -s "$1" 2>/dev/null || true
+}
+
+# The theme that was active before ASCII, so --uninstall can go back to it.
+previous_theme() {
+  local theme
+  theme="$(get_theme)"
+  if [[ -z "$theme" || "$theme" == "$THEME_NAME" ]]; then
+    theme="$(cat "$PREVIOUS_FILE" 2>/dev/null || true)"
+  fi
+  echo "${theme:-$FALLBACK_THEME}"
+}
+
+theme_exists() {
+  local dir
+  for dir in "${XDG_DATA_HOME:-$HOME/.local/share}/icons" "$HOME/.icons" /usr/local/share/icons /usr/share/icons; do
+    [[ -f "$dir/$1/index.theme" ]] && return 0
+  done
+  return 1
 }
 
 case "${1:-}" in
@@ -49,12 +79,18 @@ case "${1:-}" in
     exit 0
     ;;
   --uninstall)
+    previous="$(previous_theme)"
     rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
-    set_theme "Papirus-Dark"
+    set_theme "$previous"
     echo "removed $THEME_DIR"
     exit 0
     ;;
 esac
+
+if (( $# > 3 )); then
+  usage >&2
+  exit 1
+fi
 
 FG="$(color "${1:-white}")"
 BG="$(color "${2:-black}")"
@@ -73,7 +109,11 @@ if [[ "$FG" == "none" ]]; then
   exit 1
 fi
 
-declare -A GLYPH NAMES
+if ! theme_exists "$FALLBACK_THEME"; then
+  echo "warning: $FALLBACK_THEME not found, icons outside this theme will fall back to Adwaita" >&2
+fi
+
+declare -A GLYPH CONTEXT NAMES
 GLYPH[terminal]='M16.04 37.3V33.84L24.74 29.83Q25.34 29.55 25.93 29.36Q26.51 29.16 26.84 29.11Q26.51 29.05 25.91 28.88Q25.31 28.72 24.74 28.45L16.04 24.4V20.89L29.48 27.22V30.97ZM33.56 43.12V39.73H47.96V43.12Z'
 GLYPH[browser]='M15.84 31.23Q14.83 31.23 14.22 30.67Q13.6 30.1 13.6 29.22Q13.6 28.3 14.22 27.75Q14.83 27.2 15.84 27.2Q16.84 27.2 17.46 27.75Q18.07 28.3 18.07 29.22Q18.07 30.1 17.46 30.67Q16.84 31.23 15.84 31.23ZM15.84 40.88Q14.83 40.88 14.22 40.33Q13.6 39.78 13.6 38.86Q13.6 37.95 14.22 37.4Q14.83 36.85 15.84 36.85Q16.84 36.85 17.46 37.4Q18.07 37.95 18.07 38.86Q18.07 39.78 17.46 40.33Q16.84 40.88 15.84 40.88ZM24.48 43.28 32.88 20.72H36L27.6 43.28ZM38.88 43.28 47.28 20.72H50.4L42 43.28Z'
 GLYPH[folder]='M15.65 35.15V32.78Q15.65 30.92 16.85 29.81Q18.05 28.7 20 28.7Q21.23 28.7 22.04 29.12Q22.85 29.54 23.41 30.14Q23.96 30.74 24.4 31.35Q24.83 31.97 25.28 32.38Q25.73 32.78 26.33 32.78Q26.9 32.78 27.19 32.44Q27.47 32.09 27.47 31.49V29.3H30.65V31.67Q30.65 33.5 29.47 34.62Q28.28 35.75 26.3 35.75Q25.07 35.75 24.26 35.33Q23.45 34.91 22.9 34.31Q22.34 33.71 21.91 33.09Q21.47 32.48 21.02 32.07Q20.57 31.67 19.97 31.67Q19.43 31.67 19.13 32Q18.83 32.33 18.83 32.96V35.15ZM33.95 46.1 44.45 17.9H48.35L37.85 46.1Z'
@@ -86,16 +126,28 @@ GLYPH[clock]='M10.65 37.48V35.83H13.5V28.19L10.63 30.32V28.34L13.15 26.53H15.37V
 GLYPH[notes]='M16.05 40.88Q15.02 40.88 14.41 40.28Q13.8 39.68 13.8 38.65Q13.8 37.62 14.41 37Q15.02 36.39 16.05 36.39Q17.08 36.39 17.7 37Q18.31 37.62 18.31 38.65Q18.31 39.68 17.7 40.28Q17.08 40.88 16.05 40.88ZM24.5 40.64V27.44H26.95V29.22H27.45L27.04 29.65Q27.04 28.54 27.67 27.87Q28.29 27.2 29.28 27.2Q30.33 27.2 30.92 28.06Q31.51 28.93 31.51 30.39L30.98 29.22H31.8L31.48 29.65Q31.48 28.54 32.11 27.87Q32.73 27.2 33.76 27.2Q34.99 27.2 35.71 28.11Q36.43 29.02 36.43 30.58V40.64H33.79V30.7Q33.79 30.06 33.5 29.68Q33.21 29.31 32.66 29.31Q32.13 29.31 31.83 29.67Q31.53 30.03 31.53 30.7V40.64H29.37V30.7Q29.37 30.03 29.08 29.67Q28.8 29.31 28.24 29.31Q27.69 29.31 27.42 29.67Q27.14 30.03 27.14 30.7V40.64ZM43.72 40.88Q41.76 40.88 40.54 39.51Q39.33 38.14 39.33 35.84V32.26Q39.33 29.94 40.53 28.57Q41.73 27.2 43.72 27.2Q45.36 27.2 46.32 28.12Q47.28 29.05 47.28 30.66L46.6 29.96H47.3L47.2 26.82V23.12H50.2V40.64H47.28V38.12H46.6L47.28 37.42Q47.28 39.03 46.32 39.96Q45.36 40.88 43.72 40.88ZM44.78 38.29Q45.93 38.29 46.57 37.6Q47.2 36.92 47.2 35.7V32.38Q47.2 31.16 46.57 30.48Q45.93 29.79 44.78 29.79Q43.63 29.79 42.98 30.46Q42.33 31.14 42.33 32.38V35.7Q42.33 36.94 42.98 37.62Q43.63 38.29 44.78 38.29Z'
 GLYPH[search]='M16.33 46.1 26.83 17.9H30.73L20.23 46.1ZM38.31 36.29 38.25 30.29H40.62Q42.12 30.29 43.02 29.48Q43.92 28.67 43.92 27.35Q43.92 26 43.02 25.2Q42.12 24.41 40.59 24.41H36.12V20.9H40.41Q42.63 20.9 44.25 21.7Q45.88 22.49 46.77 23.93Q47.67 25.37 47.67 27.35Q47.67 29.18 46.91 30.56Q46.14 31.94 44.8 32.75Q43.45 33.56 41.64 33.59V36.29ZM39.55 42.95Q38.61 42.95 38.05 42.39Q37.48 41.84 37.48 40.97Q37.48 40.1 38.05 39.54Q38.61 38.99 39.55 38.99H40.45Q41.38 38.99 41.93 39.53Q42.48 40.07 42.48 40.97Q42.48 41.84 41.91 42.39Q41.34 42.95 40.41 42.95Z'
 GLYPH[menu]='M15.61 35.3V32.93Q15.61 31.07 16.8 29.96Q18 28.85 19.95 28.85Q21.19 28.85 22 29.27Q22.8 29.69 23.36 30.29Q23.91 30.89 24.35 31.51Q24.79 32.12 25.23 32.53Q25.69 32.93 26.29 32.93Q26.86 32.93 27.14 32.59Q27.43 32.24 27.43 31.64V29.45H30.61V31.82Q30.61 33.65 29.42 34.78Q28.23 35.9 26.26 35.9Q25.02 35.9 24.21 35.48Q23.41 35.06 22.85 34.46Q22.3 33.86 21.86 33.25Q21.43 32.63 20.98 32.23Q20.52 31.82 19.93 31.82Q19.38 31.82 19.09 32.15Q18.79 32.48 18.79 33.11V35.3ZM40.17 47.15V43.19Q37.23 42.95 35.54 41.31Q33.84 39.68 33.81 37.07H37.56Q37.56 38.18 38.25 38.92Q38.94 39.65 40.17 39.89V33.53L39.63 33.38Q37.05 32.72 35.66 31.01Q34.27 29.3 34.27 26.87Q34.27 24.32 35.85 22.69Q37.44 21.05 40.17 20.81V16.85H42.03V20.78Q44.79 21.02 46.41 22.63Q48.03 24.23 48.06 26.78H44.31Q44.31 25.7 43.73 25.01Q43.14 24.32 42.03 24.11V30.17L43.02 30.44Q45.63 31.1 47.02 32.8Q48.39 34.49 48.39 36.98Q48.39 39.59 46.67 41.29Q44.94 42.98 42.03 43.22V47.15ZM42.03 39.92Q43.27 39.74 43.95 39.01Q44.64 38.27 44.64 37.13Q44.64 35.81 43.71 34.94Q42.78 34.07 41.16 33.98L42.03 32.84ZM40.17 31.31V24.11Q39.12 24.32 38.57 24.97Q38.02 25.61 38.02 26.66Q38.02 28.01 38.93 28.9Q39.84 29.78 41.49 29.84Z'
-NAMES[terminal]='utilities-terminal Alacritty alacritty org.xfce.terminal org.xfce.terminalemulator xfce4-terminal terminal'
-NAMES[browser]='firefox web-browser internet-web-browser org.xfce.webbrowser applications-internet'
-NAMES[folder]='org.xfce.thunar org.xfce.filemanager system-file-manager thunar Thunar file-manager'
+CONTEXT[terminal]='apps'
+CONTEXT[browser]='apps'
+CONTEXT[folder]='apps'
+CONTEXT[code]='apps'
+CONTEXT[music]='apps'
+CONTEXT[trash]='places'
+CONTEXT[settings]='apps'
+CONTEXT[monitor]='apps'
+CONTEXT[clock]='apps'
+CONTEXT[notes]='apps'
+CONTEXT[search]='apps'
+CONTEXT[menu]='apps'
+NAMES[terminal]='utilities-terminal Alacritty alacritty org.xfce.terminal org.xfce.terminalemulator xfce4-terminal terminal org.gnome.Terminal org.gnome.Console kitty foot'
+NAMES[browser]='firefox web-browser internet-web-browser org.xfce.webbrowser applications-internet chromium google-chrome brave-browser'
+NAMES[folder]='org.xfce.thunar org.xfce.filemanager system-file-manager thunar Thunar file-manager org.gnome.Nautilus nemo pcmanfm'
 NAMES[code]='code visual-studio-code com.visualstudio.code vscodium applications-development nvim'
 NAMES[music]='multimedia-audio-player audio-player spotify applications-multimedia org.xfce.parole parole'
 NAMES[trash]='user-trash user-trash-full org.xfce.trash'
-NAMES[settings]='org.xfce.settings.manager xfce4-settings-manager preferences-system preferences-desktop applications-system system-settings'
-NAMES[monitor]='org.xfce.taskmanager utilities-system-monitor xfce4-taskmanager htop btop timeshift'
+NAMES[settings]='org.xfce.settings.manager xfce4-settings-manager preferences-system preferences-desktop applications-system system-settings org.gnome.Settings'
+NAMES[monitor]='org.xfce.taskmanager utilities-system-monitor xfce4-taskmanager htop btop org.gnome.SystemMonitor'
 NAMES[clock]='org.xfce.panel.clock preferences-system-time clock xfce4-clock'
-NAMES[notes]='org.xfce.mousepad accessories-text-editor mousepad text-editor obsidian libreoffice-writer'
+NAMES[notes]='org.xfce.mousepad accessories-text-editor mousepad text-editor obsidian libreoffice-writer org.gnome.TextEditor gedit'
 NAMES[search]='org.xfce.appfinder system-search xfce4-appfinder'
 NAMES[menu]='start-here org.xfce.panel.applicationsmenu org.xfce.panel.whiskermenu xfce4-whiskermenu xfce4-panel-menu archlinux-logo distributor-logo-archlinux'
 
@@ -106,14 +158,16 @@ if [[ "$BG" != "none" || "$BORDER" != "none" ]]; then
   tile="<rect x=\"4\" y=\"4\" width=\"56\" height=\"56\" rx=\"12\" fill=\"$BG\"$stroke/>"
 fi
 
+previous="$(previous_theme)"
 rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
 mkdir -p "$THEME_DIR/scalable/apps" "$THEME_DIR/scalable/places"
+printf '%s\n' "$previous" > "$PREVIOUS_FILE"
 
-cat > "$THEME_DIR/index.theme" <<'THEME'
+cat > "$THEME_DIR/index.theme" <<THEME
 [Icon Theme]
-Name=ASCII
+Name=$THEME_NAME
 Comment=Monospace text icons
-Inherits=Papirus-Dark,Adwaita,hicolor
+Inherits=$FALLBACK_THEME,Adwaita,hicolor
 Directories=scalable/apps,scalable/places
 
 [scalable/apps]
@@ -133,11 +187,10 @@ THEME
 
 count=0
 for key in "${!GLYPH[@]}"; do
-  dir="apps"
-  [[ "$key" == "trash" ]] && dir="places"
   svg="<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\">$tile<path d=\"${GLYPH[$key]}\" fill=\"$FG\"/></svg>"
+  # shellcheck disable=SC2086 # NAMES holds a space-separated list
   for name in ${NAMES[$key]}; do
-    printf '%s\n' "$svg" > "$THEME_DIR/scalable/$dir/$name.svg"
+    printf '%s\n' "$svg" > "$THEME_DIR/scalable/${CONTEXT[$key]}/$name.svg"
     count=$((count + 1))
   done
 done
@@ -146,8 +199,11 @@ if command -v gtk-update-icon-cache >/dev/null; then
   gtk-update-icon-cache -f -t "$THEME_DIR" >/dev/null 2>&1 || true
 fi
 
-set_theme "Papirus-Dark"
-sleep 0.5
+# XFCE only reloads icons when the theme name changes, so switch away and back.
+if [[ "$(get_theme)" == "$THEME_NAME" ]]; then
+  set_theme "$previous"
+  sleep 0.5
+fi
 set_theme "$THEME_NAME"
 
 echo "installed $count icons to $THEME_DIR (text $FG, tile $BG, border $BORDER)"
