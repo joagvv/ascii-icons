@@ -4,7 +4,7 @@
 
 Monospace text icon theme for Linux.
 
-![preview](assets/preview.png)
+![preview](assets/preview.svg)
 
 </div>
 
@@ -30,17 +30,25 @@ Icons not covered by the theme are inherited from Papirus-Dark.
 ## Installation
 
 ```sh
-git clone https://github.com/YOUR-USERNAME/ascii-icons.git
+git clone https://github.com/joagvv/ascii-icons.git
 cd ascii-icons
 ./install.sh
 ```
 
 The theme is installed to `~/.local/share/icons/ASCII` and applied automatically on XFCE.
-On other desktops, select **ASCII** in the appearance settings.
+On other desktops, select **ASCII** in the appearance settings, or on GNOME:
+
+```sh
+gsettings set org.gnome.desktop.interface icon-theme ASCII
+```
+
+Running `./install.sh` again replaces the previous install, so it's also how you change colors.
+`./install.sh --uninstall` removes the theme and switches XFCE back to the icon theme that was active before.
 
 ### Dependencies
 
-- `papirus-icon-theme`
+- bash 4+
+- `papirus-icon-theme` (recommended, used for every icon this theme doesn't draw)
 - `gtk-update-icon-cache` (optional)
 
 ## Usage
@@ -64,21 +72,36 @@ Presets: `white`, `red`, `magenta`, `cyan`, `yellow`, `green`, `gray`, `black`.
 
 ## Building
 
-`install.sh` is generated from the files in `src/`.
+`install.sh` and `assets/preview.svg` are generated from `src/`. Don't edit them directly.
+
+```sh
+make          # rebuild install.sh and the preview
+make check    # bash -n and shellcheck
+tests/install.sh
+```
+
+Glyph outlines in `src/paths.json` only need regenerating when an icon's text changes.
+That step needs the font and fonttools:
 
 ```sh
 pip install fonttools brotli
 cp /path/to/JetBrainsMono-Bold.woff2 src/
-python src/generate_paths.py
-python src/build_installer.py
+make paths && make
 ```
 
-| File                     | Purpose                                  |
-| ------------------------ | ---------------------------------------- |
-| `src/generate_paths.py`  | Converts glyph text into SVG paths       |
-| `src/paths.json`         | Generated SVG paths                      |
-| `src/build_installer.py` | Maps paths to icon names                 |
-| `src/install.sh.in`      | Installer template                       |
+| File                     | Purpose                                         |
+| ------------------------ | ----------------------------------------------- |
+| `src/icons.py`           | Icon text, context and the icon names it covers |
+| `src/generate_paths.py`  | Converts icon text into SVG paths               |
+| `src/paths.json`         | Generated SVG paths                             |
+| `src/build_installer.py` | Fills the template with paths and names         |
+| `src/install.sh.in`      | Installer template                              |
+| `src/build_preview.py`   | Draws `assets/preview.svg`                      |
+
+### Adding an app
+
+Find the icon name the app asks for (the `Icon=` line in its `.desktop` file),
+add it to the matching entry in `src/icons.py` and run `make`.
 
 ## Credits
 
