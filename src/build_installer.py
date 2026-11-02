@@ -1,32 +1,36 @@
 import json
-import sys
 from pathlib import Path
 
-from icons import ICONS
+from catalog import build
 
 SRC = Path(__file__).parent
 ROOT = SRC.parent
-PATHS = SRC / "paths.json"
+GLYPHS = SRC / "glyphs.json"
 TEMPLATE = SRC / "install.sh.in"
 OUT = ROOT / "install.sh"
 
 
-def bash_array(name, values):
-    return "\n".join(f"{name}[{key}]='{value}'" for key, value in values.items())
-
-
 def main():
-    paths = json.loads(PATHS.read_text())
-    missing = ICONS.keys() - paths.keys()
-    if missing:
-        sys.exit(f"no path for {', '.join(sorted(missing))}; run generate_paths.py")
+    font = json.loads(GLYPHS.read_text())
+    glyphs = []
+    for char, glyph in font["chars"].items():
+        bounds = " ".join(str(v) for v in glyph["bounds"]) if glyph["bounds"] else "-"
+        glyphs.append(f"{ord(char)}\t{bounds}\t{glyph['path']}")
 
-    tables = "\n".join([
-        bash_array("GLYPH", {key: paths[key] for key in ICONS}),
-        bash_array("CONTEXT", {key: icon["context"] for key, icon in ICONS.items()}),
-        bash_array("NAMES", {key: " ".join(icon["names"]) for key, icon in ICONS.items()}),
-    ])
-    script = TEMPLATE.read_text().replace("@ICONS@", tables)
+    icons = []
+    for context, text, names in build():
+        missing = set(text) - set(font["chars"])
+        if missing:
+            raise SystemExit(f"no glyph for {''.join(sorted(missing))!r} in {text!r}")
+        icons.append(f"{context}\t{text}\t{' '.join(names)}")
+
+    script = (
+        TEMPLATE.read_text()
+        .replace("@GLYPHS@", "\n".join(glyphs))
+        .replace("@ICONS@", "\n".join(icons))
+        .replace("@UNITS_PER_EM@", str(font["unitsPerEm"]))
+        .replace("@ADVANCE@", str(font["advance"]))
+    )
     OUT.write_text(script)
     OUT.chmod(0o755)
 

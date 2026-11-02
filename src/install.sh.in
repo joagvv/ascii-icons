@@ -3,17 +3,20 @@
 set -euo pipefail
 
 THEME_NAME="ASCII"
-FALLBACK_THEME="Papirus-Dark"
-THEME_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/icons/$THEME_NAME"
+DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
+CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+THEME_DIR="$DATA_HOME/icons/$THEME_NAME"
 PREVIOUS_FILE="$THEME_DIR/.previous-theme"
 
 usage() {
   cat <<'USAGE'
-usage: install.sh [text] [tile] [border]
+usage: install.sh [--no-apply] [text] [tile] [border]
        install.sh --uninstall
 
   each color is a preset name, a hex value (#rrggbb) or "none"
   presets: white red magenta cyan yellow green gray black
+
+  --no-apply   install the theme without switching to it
 
   install.sh
   install.sh red
@@ -41,18 +44,167 @@ valid() {
   [[ "$1" == "none" || "$1" =~ ^#[0-9a-fA-F]{6}$ ]]
 }
 
-have_xfconf() {
-  command -v xfconf-query >/dev/null
+have() {
+  command -v "$1" >/dev/null
 }
 
+theme_exists() {
+  local dir
+  for dir in "$DATA_HOME/icons" "$HOME/.icons" /usr/local/share/icons /usr/share/icons; do
+    [[ -f "$dir/$1/index.theme" ]] && return 0
+  done
+  return 1
+}
+
+# ini_get FILE SECTION KEY
+ini_get() {
+  [[ -f "$1" ]] || return 0
+  awk -v section="[$2]" -v key="$3" '
+    $0 == section { on = 1; next }
+    /^\[/ { on = 0 }
+    on {
+      split($0, kv, "=")
+      gsub(/^[ \t]+|[ \t]+$/, "", kv[1])
+      if (kv[1] == key) { sub(/^[^=]*=[ \t]*/, ""); print; exit }
+    }' "$1"
+}
+
+# ini_set FILE SECTION KEY VALUE
+ini_set() {
+  mkdir -p "$(dirname "$1")"
+  [[ -f "$1" ]] || : > "$1"
+  awk -v section="[$2]" -v key="$3" -v value="$4" '
+    function put() { if (!done) print key "=" value; done = 1 }
+    $0 == section { print; on = 1; next }
+    /^\[/ { if (on) put(); on = 0 }
+    on && $0 ~ "^[ \t]*" key "[ \t]*=" { put(); next }
+    { print }
+    END { if (!done) { if (!on) print section; put() } }' "$1" > "$1.tmp"
+  mv "$1.tmp" "$1"
+}
+
+# Which settings store holds the icon theme for the running session.
+backend() {
+  local desktop
+  for desktop in $(echo "${XDG_CURRENT_DESKTOP:-${DESKTOP_SESSION:-}}" | tr '[:upper:]:' '[:lower:] '); do
+    case "$desktop" in
+      xfce)                     echo xfce; return ;;
+      kde|plasma)               echo kde; return ;;
+      lxqt)                     echo lxqt; return ;;
+      x-cinnamon|cinnamon)      echo cinnamon; return ;;
+      mate)                     echo mate; return ;;
+      gnome|ubuntu|unity|budgie*|pantheon|cosmic|deepin|pop) echo gnome; return ;;
+      ?*)                       echo generic; return ;;
+    esac
+  done
+  if have xfconf-query; then echo xfce; else echo generic; fi
+}
+
+kde_config() {
+  local tool
+  for tool in "$1"6 "$1"5; do
+    if have "$tool"; then
+      "$tool" --file kdeglobals --group Icons --key Theme "${@:2}" 2>/dev/null || true
+      return
+    fi
+  done
+}
+
+plasma_changeicons() {
+  local path
+  for path in "$(command -v plasma-changeicons 2>/dev/null)" \
+      /usr/libexec/plasma-changeicons /usr/lib/plasma-changeicons \
+      /usr/lib/*/libexec/plasma-changeicons /usr/lib/libexec/plasma-changeicons; do
+    if [[ -x "$path" ]]; then
+      "$path" "$1" >/dev/null 2>&1 || true
+      return 0
+    fi
+  done
+  return 1
+}
+
+gsettings_get() {
+  have gsettings || return 0
+  gsettings get "$1" icon-theme 2>/dev/null | tr -d "'" || true
+}
+
+gsettings_set() {
+  have gsettings || return 0
+  gsettings set "$1" icon-theme "$2" 2>/dev/null || true
+}
+
+GTK3_INI="$CONFIG_HOME/gtk-3.0/settings.ini"
+GTK4_INI="$CONFIG_HOME/gtk-4.0/settings.ini"
+
 get_theme() {
-  have_xfconf || return 0
-  xfconf-query -c xsettings -p /Net/IconThemeName 2>/dev/null || true
+  case "$(backend)" in
+    xfce)
+      have xfconf-query && xfconf-query -c xsettings -p /Net/IconThemeName 2>/dev/null || true
+      ;;
+    kde)      kde_config kreadconfig ;;
+    lxqt)     ini_get "$CONFIG_HOME/lxqt/lxqt.conf" General icon_theme ;;
+    cinnamon) gsettings_get org.cinnamon.desktop.interface ;;
+    mate)     gsettings_get org.mate.interface ;;
+    gnome)    gsettings_get org.gnome.desktop.interface ;;
+    generic)
+      local theme
+      theme="$(ini_get "$GTK3_INI" Settings gtk-icon-theme-name)"
+      [[ -n "$theme" ]] || theme="$(gsettings_get org.gnome.desktop.interface)"
+      echo "$theme"
+      ;;
+  esac
 }
 
 set_theme() {
-  have_xfconf || return 0
-  xfconf-query -c xsettings -p /Net/IconThemeName -s "$1" 2>/dev/null || true
+  local conf saved value old
+  case "$(backend)" in
+    xfce)
+      have xfconf-query || return 0
+      xfconf-query -c xsettings -p /Net/IconThemeName -s "$1" 2>/dev/null || true
+      ;;
+    kde)
+      if ! plasma_changeicons "$1"; then
+        kde_config kwriteconfig "$1"
+        have dbus-send && dbus-send --session --type=signal /KIconLoader \
+          org.kde.KIconLoader.iconChanged int32:0 2>/dev/null || true
+      fi
+      ;;
+    lxqt)     ini_set "$CONFIG_HOME/lxqt/lxqt.conf" General icon_theme "$1" ;;
+    cinnamon) gsettings_set org.cinnamon.desktop.interface "$1" ;;
+    mate)     gsettings_set org.mate.interface "$1" ;;
+    gnome)    gsettings_set org.gnome.desktop.interface "$1" ;;
+    generic)
+      # Window managers (Hyprland, Sway, i3, ...) leave this to GTK and Qt.
+      ini_set "$GTK3_INI" Settings gtk-icon-theme-name "$1"
+      ini_set "$GTK4_INI" Settings gtk-icon-theme-name "$1"
+      gsettings_set org.gnome.desktop.interface "$1"
+      # qt5ct and qt6ct keep their own setting, remembered next to the theme.
+      for conf in "$CONFIG_HOME/qt5ct/qt5ct.conf" "$CONFIG_HOME/qt6ct/qt6ct.conf"; do
+        [[ -f "$conf" ]] || continue
+        saved="$THEME_DIR/.previous-$(basename "$conf" .conf)"
+        value="$1"
+        if [[ "$1" == "$THEME_NAME" ]]; then
+          old="$(ini_get "$conf" Appearance icon_theme)"
+          if [[ -n "$old" && "$old" != "$THEME_NAME" ]]; then
+            printf '%s\n' "$old" > "$saved"
+          fi
+        elif [[ -f "$saved" ]]; then
+          value="$(cat "$saved")"
+        fi
+        ini_set "$conf" Appearance icon_theme "$value"
+      done
+      ;;
+  esac
+}
+
+default_theme() {
+  if theme_exists Papirus-Dark; then
+    echo Papirus-Dark
+  elif [[ "$(backend)" == kde ]]; then
+    echo breeze
+  else
+    echo Adwaita
+  fi
 }
 
 # The theme that was active before ASCII, so --uninstall can go back to it.
@@ -62,39 +214,47 @@ previous_theme() {
   if [[ -z "$theme" || "$theme" == "$THEME_NAME" ]]; then
     theme="$(cat "$PREVIOUS_FILE" 2>/dev/null || true)"
   fi
-  echo "${theme:-$FALLBACK_THEME}"
+  [[ -n "$theme" ]] || theme="$(default_theme)"
+  echo "$theme"
 }
 
-theme_exists() {
-  local dir
-  for dir in "${XDG_DATA_HOME:-$HOME/.local/share}/icons" "$HOME/.icons" /usr/local/share/icons /usr/share/icons; do
-    [[ -f "$dir/$1/index.theme" ]] && return 0
-  done
-  return 1
-}
+apply=1
+colors=()
+for arg in "$@"; do
+  case "$arg" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    --uninstall)
+      previous="$(previous_theme)"
+      set_theme "$previous"
+      rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
+      echo "removed $THEME_DIR"
+      exit 0
+      ;;
+    --no-apply)
+      apply=0
+      ;;
+    -*)
+      echo "unknown option: $arg" >&2
+      usage >&2
+      exit 1
+      ;;
+    *)
+      colors+=("$arg")
+      ;;
+  esac
+done
 
-case "${1:-}" in
-  -h|--help)
-    usage
-    exit 0
-    ;;
-  --uninstall)
-    previous="$(previous_theme)"
-    rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
-    set_theme "$previous"
-    echo "removed $THEME_DIR"
-    exit 0
-    ;;
-esac
-
-if (( $# > 3 )); then
+if (( ${#colors[@]} > 3 )); then
   usage >&2
   exit 1
 fi
 
-FG="$(color "${1:-white}")"
-BG="$(color "${2:-black}")"
-BORDER="$(color "${3:-#2c2c38}")"
+FG="$(color "${colors[0]:-white}")"
+BG="$(color "${colors[1]:-black}")"
+BORDER="$(color "${colors[2]:-#2c2c38}")"
 
 for c in "$FG" "$BG" "$BORDER"; do
   if ! valid "$c"; then
@@ -109,12 +269,24 @@ if [[ "$FG" == "none" ]]; then
   exit 1
 fi
 
-if ! theme_exists "$FALLBACK_THEME"; then
-  echo "warning: $FALLBACK_THEME not found, icons outside this theme will fall back to Adwaita" >&2
+if ! theme_exists Papirus-Dark; then
+  echo "warning: Papirus-Dark not found, icons outside this theme will come from Adwaita" >&2
 fi
 
-declare -A GLYPH CONTEXT NAMES
+# Outlines of each printable ASCII character in font units:
+# code, bounds (xmin ymin xmax ymax, or - for blank) and SVG path.
+glyphs() {
+  cat <<'GLYPHS'
+@GLYPHS@
+GLYPHS
+}
+
+# Theme context, text drawn on the icon and the icon names it replaces.
+icons() {
+  cat <<'ICONS'
 @ICONS@
+ICONS
+}
 
 tile=""
 if [[ "$BG" != "none" || "$BORDER" != "none" ]]; then
@@ -124,7 +296,9 @@ if [[ "$BG" != "none" || "$BORDER" != "none" ]]; then
 fi
 
 previous="$(previous_theme)"
-rm -rf "$THEME_DIR" "$HOME/.icons/$THEME_NAME"
+# Keep the remembered settings from an earlier install, replace the rest.
+rm -rf "$THEME_DIR/scalable" "$THEME_DIR/index.theme" "$THEME_DIR/icon-theme.cache" \
+  "$HOME/.icons/$THEME_NAME"
 mkdir -p "$THEME_DIR/scalable/apps" "$THEME_DIR/scalable/places"
 printf '%s\n' "$previous" > "$PREVIOUS_FILE"
 
@@ -132,7 +306,7 @@ cat > "$THEME_DIR/index.theme" <<THEME
 [Icon Theme]
 Name=$THEME_NAME
 Comment=Monospace text icons
-Inherits=$FALLBACK_THEME,Adwaita,hicolor
+Inherits=Papirus-Dark,breeze-dark,Adwaita,hicolor
 Directories=scalable/apps,scalable/places
 
 [scalable/apps]
@@ -150,25 +324,75 @@ Context=Places
 Type=Scalable
 THEME
 
-count=0
-for key in "${!GLYPH[@]}"; do
-  svg="<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\">$tile<path d=\"${GLYPH[$key]}\" fill=\"$FG\"/></svg>"
-  # shellcheck disable=SC2086 # NAMES holds a space-separated list
-  for name in ${NAMES[$key]}; do
-    printf '%s\n' "$svg" > "$THEME_DIR/scalable/${CONTEXT[$key]}/$name.svg"
-    count=$((count + 1))
-  done
-done
+# Lays the text out the same way for every icon: a font size by length,
+# centered on the outline bounds, then one path per character.
+count="$(awk -F '\t' -v dir="$THEME_DIR/scalable" -v fg="$FG" -v tile="$tile" \
+    -v upm=@UNITS_PER_EM@ -v advance=@ADVANCE@ '
+  function num(v) {
+    v = sprintf("%.3f", v)
+    sub(/0+$/, "", v)
+    sub(/\.$/, "", v)
+    return v == "-0" ? "0" : v
+  }
+  BEGIN {
+    for (i = 32; i < 127; i++) code[sprintf("%c", i)] = i
+    split("30 30 24 18 15", size, " ")
+  }
+  FNR == NR { bounds[$1] = $2; outline[$1] = $3; next }
+  {
+    text = $2
+    n = length(text)
+    scale = size[n > 5 ? 5 : n] / upm
+    first = 1
+    for (i = 1; i <= n; i++) {
+      c = code[substr(text, i, 1)]
+      if (bounds[c] == "-") continue
+      split(bounds[c], b, " ")
+      x = (i - 1) * advance
+      if (first || x + b[1] < x0) x0 = x + b[1]
+      if (first || b[2] < y0) y0 = b[2]
+      if (first || x + b[3] > x1) x1 = x + b[3]
+      if (first || b[4] > y1) y1 = b[4]
+      first = 0
+    }
+    cx = (x0 + x1) / 2
+    cy = (y0 + y1) / 2
+    paths = ""
+    for (i = 1; i <= n; i++) {
+      c = code[substr(text, i, 1)]
+      if (outline[c] == "") continue
+      paths = paths sprintf("<path transform=\"matrix(%s 0 0 %s %s %s)\" d=\"%s\"/>",
+        num(scale), num(-scale), num(32 + ((i - 1) * advance - cx) * scale),
+        num(32 + cy * scale), outline[c])
+    }
+    svg = "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\">" tile \
+      "<g fill=\"" fg "\">" paths "</g></svg>"
+    split($3, names, " ")
+    for (j in names) {
+      file = dir "/" $1 "/" names[j] ".svg"
+      print svg > file
+      close(file)
+      written++
+    }
+  }
+  END { print written + 0 }
+' <(glyphs) <(icons))"
 
-if command -v gtk-update-icon-cache >/dev/null; then
+if have gtk-update-icon-cache; then
   gtk-update-icon-cache -f -t "$THEME_DIR" >/dev/null 2>&1 || true
 fi
+rm -f "${XDG_CACHE_HOME:-$HOME/.cache}/icon-cache.kcache"
 
-# XFCE only reloads icons when the theme name changes, so switch away and back.
-if [[ "$(get_theme)" == "$THEME_NAME" ]]; then
-  set_theme "$previous"
-  sleep 0.5
+if (( apply )); then
+  # XFCE only reloads icons when the theme name changes, so switch away and back.
+  if [[ "$(backend)" == xfce && "$(get_theme)" == "$THEME_NAME" ]]; then
+    set_theme "$previous"
+    sleep 0.5
+  fi
+  set_theme "$THEME_NAME"
 fi
-set_theme "$THEME_NAME"
 
 echo "installed $count icons to $THEME_DIR (text $FG, tile $BG, border $BORDER)"
+if (( ! apply )); then
+  echo "select $THEME_NAME in your appearance settings to use it"
+fi

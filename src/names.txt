@@ -1,0 +1,3794 @@
+010editor com.sweetscape.ZeroOneZeroEditor
+0ad com.play0ad.zeroad lutris_0-ad
+0cc-famitracker
+140-game lutris_140 steam_icon_242820
+1cedt
+1cestart 1cv8 1cv8c
+1password appimagekit-1password
+2048-qt
+2064-read-only-memories lutris_read-only-memories steam_icon_330820
+2gis
+3D-Coat
+3depict
+4diac-ide org.eclipse.iot.fourdiac.Ide
+4digits
+4kslideshowmaker
+4kstogram
+4kvideodownloader
+4kvideotomp3
+4kyoutubetomp3
+4Pane 4PaneIcon48
+6180-the-moon lutris_6180-the-moon steam_icon_299660
+7-days-to-die lutris_7-days-to-die steam_icon_251570
+7kaa lutris_seven-kingdoms-ancient-adversaries steam_icon_450140
+8bitmmo lutris_8bitmmo steam_icon_250420
+8tracks
+9gag
+a-boy-and-his-blob lutris_a-boy-and-his-blob steam_icon_281200
+a-dance-of-fire-and-ice steam_icon_977950
+a-short-hike lutris_a-short-hike steam_icon_1055540
+a-story-about-my-uncle lutris_a-story-about-my-uncle steam_icon_278360
+a7800
+a7xpg
+aaaaxy appimagekit-aaaaxy appimagekit-io.github.divverent.aaaaxy io.github.divverent.aaaaxy
+aafm
+abbaye com.locomalito.abbayedesmorts
+abdownloadmanager ABDownloadManager
+abe
+abiword com.abisource.AbiWord openoffice4-writer
+abricotine Abricotine
+abrowser
+accerciser
+accessories-calculator calc deepin-calculator gcbalculator io.elementary.calculator io.liri.Calculator kcalc org.kde.kalk org.kde.kcalc xcalc xfce4-calculator-plugin
+accessories-camera camera-web io.elementary.camera
+accessories-character-map autokey gnome-character-map gucharmap indicator-keylock kcharselect
+accessories-dictionary aarddict artha com.github.lainsce.palaura dictionary flegita gnome-dictionary goldendict org.goldendict.GoldenDict org.xfce.Dictionary palaura xfce4-dict
+accessories-ebook-reader bookreader calibre calibre-gui com.calibre_ebook.calibre gnome-books lrfviewer org.gnome.Books
+accessories-notes basket bijiben deepin-note evolution-memos footnote gnome-note gnote noblenote org.gnome.bijiben org.gnome.Gnote org.gnome.Tomboy tomboy tomboy-ng xfce4-notes-plugin xpad
+accessories-safe
+accessories-screenshot-tool
+accessories-text-editor 1E64_notepad.0 bottles_notepad deepin-editor edile gnome-word io.liri.Text juffed kedit korg-todo kwrite leafpad medit notepad org.kde.kwrite package_editors preferences-composer text-editor wine-notepad wp xed xedit xfce-edit zim
+acestream
+acetoneiso Acetino2 furiusisomount
+acreloaded ca.victorz.acr.AssaultCubeReloaded
+acroread AdobeReader9 com.adobe.Reader
+actionaz actiona
+activitywatch
+ADLplug
+administration breeze-settings control-center2 drakconf gkdebconf gkdebconf-icon mateconf-editor mintsysadm paprefs redhat-server_settings redhat-tools
+AdobeAfterEffect
+AdobeAnimate
+AdobeAudition
+AdobeBridge FDE2_Bridge.0
+AdobeCharacterAnimator
+AdobeDimension
+AdobeDreamweaver
+AdobeEdgeAnimate
+AdobeEncore AdobeMediaEncore
+AdobeFirework
+AdobeFlashBuilder
+AdobeFresco
+AdobeFuse
+AdobeIllustrator
+AdobeIncopy
+AdobeIndesign
+AdobeLightroom
+AdobeLightroomClassic
+AdobeMediaEncoder
+AdobeMuse
+AdobePhotoshop photoshop
+AdobePrelude
+AdobePremierePro
+AdobePremiereRush
+AdobeSpeedgrade
+AdobeUpdate
+AdobeXD
+advanced-rest-client appimagekit-advanced-rest-client
+adventure-capitalist lutris_adventure-capitalist steam_icon_346900
+adventures-of-shuggy lutris_the-adventures-of-shuggy steam_icon_211440
+advert-block
+aegisub org.aegisub.Aegisub
+aeskulap
+afl kali-afl
+agave
+age-of-empires-2 steam_icon_221380
+agent
+agentdesktop
+agordejo
+aimp
+aimp-ac
+aimp-ate
+air adobe-air AdobeAIR
+aircrack-ng kali-aircrack-ng
+airstrike
+airtame-application com.airtame.Client
+airvpn
+airwave-manager
+akira com.github.akiraux.akira
+akonaditray akonadi
+akregator feedreader internet-feed-reader internet-news-reader org.gnome.FeedReader org.kde.akregator pan rss RSS_feeds rssnow rssowl
+akregator_empty
+Alacritty com.alacritty.Alacritty
+alan-wake lutris_alan-wake steam_icon_108710
+albert
+albion-online com.albiononline.AlbionOnline
+alc
+alexandra
+alien-isolation lutris_alien-isolation steam_icon_214490
+alien-swarm lutris_alien-swarm steam_icon_630
+alien-swarm-reactive-drop lutris_alien-swarm-reactive-drop steam_icon_563560
+alienarena alien-arena org.alienarena.alienarena
+alienblaster
+alienfx alienfx-gtk
+allegorithmic-Substance_Alchemist
+allegorithmic-Substance_B2M
+allegorithmic-Substance_Designer
+allegorithmic-Substance_Painter
+alligator org.kde.alligator
+alltomp3
+alltray
+allusion appimagekit-allusion
+almanah
+alterator
+altmediawriter
+altus appimagekit-altus
+Alva appimagekit-Alva
+amarok amarok-icon amarok2
+amazon-store amazon amazonclouddrive
+amd amd-ati amd-ddm-mx ccc-large ccc_large slimbookamdcontroller
+american-truck-simulator lutris_american-truck-simulator steam_icon_270880
+amnesia-a-machine-for-pigs lutris_amnesia-a-machine-for-pigs steam_icon_239200
+amnesia-rebirth lutris_amnesia-rebirth steam_icon_999220
+amnesia-the-dark-descent lutris_amnesia-the-dark-descent steam_icon_57300
+AmneziaVPN
+among-us lutris_among-us steam_icon_945360
+amsynth
+anatine Anatine
+anbox
+android-file-transfer appimagekit-android-file-transfer
+android-messages-desktop AndroidMessages appimagekit-android-messages-desktop
+android-sdk
+androidstudio android-studio com.google.AndroidStudio studio
+androidstudio-preview android-studio-beta android-studio-canary
+angrysearch
+angular-console
+anjuta
+anki net.ankiweb.Anki
+annas-quest lutris_annas-quest steam_icon_327220
+anoise
+another-redis-desktop-manager appimagekit-another-redis-desktop-manager
+ant-downloader appimagekit-ant-downloader
+antidote
+antigravity
+anydesk com.anydesk.Anydesk
+ao-app
+aoi
+apachedirectorystudio org.apache.directory.studio
+aperture-desk-job steam_icon_1902490
+apifox
+apk-editor-studio
+apk-icon-editor
+apktool kali-apktool
+apollo-studio
+app-outlet appimagekit-app-outlet
+app.bluebubbles.BlueBubbles
+app.devsuite.Manuals
+app.drey.EarTag
+app.drey.PaperPlane
+app.drey.Warp
+app.organicmaps.desktop
+app.riftshare.RiftShare
+appcode
+appimagekit-diffuse
+AppImageLauncher
+apple-music chrome-hblpgmjcnlmnencfjcjcjdajdhloioam-Default
+applets-screenshooter accessories-screenshot deepin-screenshot gnome-screenshot io.elementary.screenshot kscreengenie ksnapshot nwg-screenshot org.gnome.Screenshot org.xfce.screenshooter screengrab spectacle
+application-community
+application-default-icon 2402_msiexec.0 applets-template applications-system com.github.zren.commandoutput configurator cs-cat-prefs cs-general gnome-desktop-item-edit gnome-run gnome-system gnome-system-config org.xfce.genmon org.xfce.panel.cpugraph org.xfce.settings.editor org.xfce.taskmanager package_applications package_system preferences-autocompletion preferences-system preferences-system-session-services system-config-services utilities-system-monitor yast-misc yast-runlevel yast-system
+application-vnd.flatpak io.elementary.sideload org.flatpak.qtdemo
+application-x-iso9660-appimage AppImage appimagekit-AppImage
+application-x-renderdoc-capture
+application-x-zerosize filetypes
+applications-accessories
+applications-all applications-other gnome-applications org.xfce.panel.launcher yast-alternatives
+applications-development applications-engineering package_development
+applications-development-translation
+applications-development-web
+applications-education package_edutainment
+applications-education-mathematics
+applications-electronics
+applications-engineering
+applications-haskell
+applications-interfacedesign gtk3-widget-factory gtk4-widget-factory preferences-desktop-theme-applications style xfce-theme-manager
+applications-multimedia media-player-48 multimedia package_multimedia preferences-desktop-multimedia yast-checkmedia
+applications-office
+applications-other preferences-other
+applications-science atomix org.gnome.atomix
+applications-utilities
+applixware
+aptana aptana-studio
+aqemu aqemu-32x32
+aqualung
+ar.xjuan.Cambalache
+aranym appimagekit-aranym aranym-jit aranym-mmu
+archipelago appimagekit-archipelago
+arcolinux-hello distributor-logo-arcolinux start-here-arcolinux
+ardour Ardour-Ardour_6.0.0 Ardour-Ardour_6.5.0 Ardour-Ardour_8.0.0 ardour6 ardour7 ardour8 org.ardour.Ardour
+arduino arduino-icon-small arduino-ide cc.arduino.arduinoide
+ares dev.ares.ares
+argouml
+arianna org.kde.arianna
+ark 7z 7zip accessories-archiver archive-manager archivemanager deepin-compressor engrampa file-roller lxqt-archiver org.gnome.ArchiveManager org.gnome.FileRoller org.kde.ark p7zip utilities-file-archiver xar xarchiver xfp
+ark-game lutris_ark-survival-evolved steam_icon_346110
+armagetronad org.armagetronad.ArmagetronAdvanced
+armello lutris_armello steam_icon_290340
+armitage kali-armitage
+around
+artikulate org.kde.artikulate
+arts
+artsbuilder
+artscontrol
+asbru-cm
+asc-de onlyoffice-desktopeditors org.onlyoffice.desktopeditors
+asciidocfx
+asciiportal
+aseprite lutris_aseprite steam_icon_431730
+aspia_client
+aspia_console
+assaultcube net.cubers.assault.AssaultCube
+astah_community astah-community astahc
+astah_gsn
+astah_professional astah-pro
+astah_sysml
+astah_uml
+astah_viewer
+astromenace com.viewizard.AstroMenace
+asunder ca.littlesvr.asunder
+atari-vault lutris_atari-vault steam_icon_400020
+athens appimagekit-athens
+atlantik org.kde.atlantik
+atlantikdesigner
+atlauncher com.atlauncher.ATLauncher
+atom io.atom.Atom
+atom-beta
+atom-nightly
+atom-rpg lutris_atom-rpg steam_icon_552620
+atomic appimagekit-atomic
+atunes
+au.edu.uq.esys.escript
+audacious org.atheme.audacious
+audacity org.audacityteam.Audacity
+audacium appimagekit-audacium
+audience
+audio-recorder
+audiobook
+audiosurf lutris_audiosurf steam_icon_12900 steam_icon_12910
+audiosurf-2 lutris_audiosurf-2 steam_icon_235800 steam_icon_373960
+augur appimagekit-augur
+aurees
+auryo appimagekit-auryo
+authpass app.authpass.AuthPass
+authy com.authy.Authy
+autoremesher appimagekit-autoremesher
+avidemux avidemux_icon org.avidemux.Avidemux
+avimetaedit net.mediaarea.AVIMetaEdit
+avocado appimagekit-avocado
+avocode avocode-app-icon com.avocode.Avocode
+avogadro-icon
+avogadro2 org.openchemistry.Avogadro2
+awesomebump
+awgg
+ayatana-settings
+azardi
+azote
+azpainter appimagekit-azpainter
+azuredatastudio com.azuredatastudio
+baba-is-you lutris_baba-is-you steam_icon_736260
+babe
+backdoor-factory kali-backdoor-factory
+badland lutris_badland-game-of-the-year-edition steam_icon_269670
+BadlionClient
+baidunetdisk com.baidu.NetDisk
+baiji-manga-viewer appimagekit-baiji-manga-viewer
+baka-mplayer
+baldis-basics lutris_baldis-basics-in-education-and-learning lutris_baldis-basics-plus steam_icon_1275890
+BambooTracker
+bambustudio
+bandcamp
+bareftp yast-tftp-server
+barony lutris_barony steam_icon_371970
+barotrauma steam_icon_602960
+barrier com.github.debauchee.barrier
+bashtop
+basilisk2 gsplus net.cebix.basilisk
+basingstoke lutris_basingstoke steam_icon_336940
+bastion lutris_bastion steam_icon_107100
+battery battery-full-charging xfce4-battery-plugin
+battleblock-theater lutris_battleblock-theater steam_icon_238460
+bauh
+bazecor appimagekit-bazecor
+bbc solstice-bbc-bbc
+bcompare
+beamng-drive lutris_beamngdrive steam_icon_284160
+beast
+beat-hazard lutris_beat-hazard steam_icon_49600 steam_icon_49610
+beat-hazard-2 lutris_beat-hazard-2 steam_icon_618740
+beat-saber lutris_beat-saber steam_icon_620980
+becalm steam_icon_999830
+beekeeper-studio appimagekit-beekeeper-studio io.beekeeperstudio.Studio
+beeper beepertexts
+beholder lutris_beholder steam_icon_475550
+beholder-2 lutris_beholder-2 steam_icon_761620
+bendy-and-the-ink-machine lutris_bendy-and-the-ink-machine steam_icon_622650
+beneath-a-steel-sky bass lutris_beneath-a-steel-sky steam_icon_1368340
+besiege lutris_besiege steam_icon_346010
+bespoke_icon
+betaflight-configurator io.github.betaflight.BetaflightConfigurator
+betterbird eu.betterbird.Betterbird
+beyond-a-steel-sky lutris_beyond-a-steel-sky steam_icon_1146310
+beyondallreason appimagekit-info.beyondallreason.bar info.beyondallreason.bar
+bforartists
+bibletime info.bibletime.BibleTime
+big-finish-downloader uk.et1.big-finish-downloader
+biglybt com.biglybt.BiglyBT
+billard-gl de.billardgl.Billardgl
+binance
+binaryninja binary-ninja BinaryNinja
+bingwall
+bioshock-infinite lutris_bioshock-infinite steam_icon_8870
+birdfont
+birdie
+bisq network.bisq.Bisq
+bitcoin bitcoin-qt bitcoin128 digital-assets fr.fgrabenstaetter.DigitalAssets org.bitcoincore.bitcoin-qt
+bitmap2component org.kicad.KiCad.bitmap2component
+bitshares2-light appimagekit-bitshares2-light
+bitwarden appimagekit-bitwarden com.bitwarden.desktop
+bitwig-studio com.bitwig.BitwigStudio
+bizhawk
+black-desert steam_icon_582660
+black-mesa lutris_black-mesa steam_icon_362890
+Black_Chocobo appimagekit-Black_Chocobo
+blackmagic-Fusion8
+blackmagic-Fusion9
+blackmagicraw-player
+blackmagicraw-speedtest
+blastem com.retrodev.blastem
+blender Blender lutris_blender org.blender.Blender steam_icon_365670
+bless com.github.afrantzis.Bless
+blinken org.kde.blinken
+blobAndConquer
+blobby de.blobbyvolley.BlobbyVolley2
+bloboats
+blobwars blobwarsAttrition
+blockbench net.blockbench.Blockbench
+blockout net.blockout.BlockOutII
+blogilo kblogger
+bloomrpc appimagekit-bloomrpc
+bluefish mate-panel-fish nl.openoffice.bluefish
+bluegriffon
+bluej org.bluej.BlueJ
+bluejeans
+bluemail net.blix.BlueMail
+blueman-device
+blush-blush lutris_blush-blush steam_icon_777130
+boinc boinc-manager edu.berkeley.BOINC
+bomber org.kde.bomber
+bomi
+bookworm com.github.babluboy.bookworm
+boomaga
+boostnote
+bootstrap-studio bstudio
+borderlands lutris_borderlands steam_icon_729040 steam_icon_8980
+borderlands-2 lutris_borderlands-2 steam_icon_49520
+borderlands-the-pre-sequel lutris_borderlands-the-pre-sequel steam_icon_261640
+boswars
+bovo org.kde.bovo
+box
+boxy-svg com.boxy_svg.BoxySVG
+bpython
+bpytop
+brackets
+brackets-electron appimagekit-brackets-electron
+braindump
+brave brave-browser brave-desktop com.brave.Browser
+brave-browser-dev brave-browser-beta
+brave-browser-nightly brave-origin-nightly
+bridge-constructor lutris_bridge-constructor steam_icon_250460
+bridge-constructor-medieval lutris_bridge-constructor-medieval steam_icon_319850
+bridge-constructor-playground lutris_bridge-constructor-playground steam_icon_279990
+bridge-constructor-portal lutris_bridge-constructor-portal steam_icon_684410
+bridge-constructor-stunts steam_icon_419080
+broforce lutris_broforce steam_icon_274190
+broken-age lutris_broken-age steam_icon_232790
+broken-sword lutris_broken-sword-1-shadow-of-the-templars-directors-cu steam_icon_57640
+brosix com.brosix.Brosix
+browser360-beta
+bsnes dev.bsnes.bsnes
+btop
+btrfs-assistant
+btsync-gui
+bubblemail
+bugdom bugdom-desktopicon io.jor.bugdom
+buho
+builder org.gnome.Builder
+buka appimagekit-buka Buka
+bulky
+bum
+burp burpsuite BurpSuiteCommunity kali-burpsuite
+buttercup-desktop
+bwfmetaedit net.mediaarea.BWFMetaEdit
+byobu
+bzflag org.bzflag.BZFlag
+ca.andyholmes.Valent
+ca.edestcroix.Recordbox
+ca.hamaluik.Timecop
+cache
+cacher appimagekit-cacher
+cadence
+caffeine
+caja-actions fma-config-tool nautilus-actions
+calf
+calibre-ebook-edit com.calibre_ebook.calibre.ebook-edit
+calibre-viewer com.calibre_ebook.calibre.ebook-viewer
+call-of-duty lutris_call-of-duty steam_icon_2620
+call-of-duty-2 lutris_call-of-duty-2 steam_icon_2630
+cantata dog.unix.cantata.Cantata io.github.Pithos pithos Pithos sonata
+cantor org.kde.cantor
+caption
+cardo
+carla studio.kx.carla
+carla-control
+castle-crashers lutris_castle-crashers steam_icon_204360
+cataclysm-dda
+catarina
+catfish org.xfce.catfish spacefm-find
+catia
+cats-are-liquid steam_icon_498330
+cave-story com.gitlab.coringao.cavestory-nx lutris_cave-story steam_icon_200900
+caveexpress-icon
+cavepacker-icon
+cawbird
+cc3d cc3d_128x128_logo
+cdbaby
+cdogs-sdl io.github.cxong.cdogs-sdl
+celeste lutris_celeste steam_icon_504230
+celestia
+cemu Cemu info.cemu.Cemu
+cen64-qt
+cerebro
+cervisia
+cewl kali-cewl
+ch.x29a.playitslowly playitslowly
+charles-proxy
+checkbox checkbox-touch
+checkra1n
+cheese camorama kamerka org.gnome.Cheese
+cherrytree net.giuspen.cherrytree
+chess chessx dreamchess net.sourceforge.Chessx pychess xboard
+chiaki appimagekit-chiaki re.chiaki.Chiaki
+child-of-light lutris_child-of-light steam_icon_256290
+chirp
+chkrootkit kali-chkrootkit
+chocolate-doom org.chocolate_doom.ChocolateDoom
+chocolate-doom-setup
+choqok org.kde.choqok
+christmas-tree
+chrome-app-list app-launcher preferences-tweaks-slingshot
+chrome-ieailfmhaghpphfffooibmlghaeopach-Default brave-ieailfmhaghpphfffooibmlghaeopach-Default
+chrome-remote-desktop brave-cmkncekebbebpfilplodngbpllndjkfo-Default chrome-cmkncekebbebpfilplodngbpllndjkfo-Default
+chrome-store
+chromium-app-list
+chromium-browser chromium chromium-browser-privacy chromium-freeworld io.github.ungoogled_software.ungoogled_chromium org.chromium.Chromium ungoogled-chromium-browser
+chromium-dev
+ciano com.github.robertsanseries.ciano
+cider Cider sh.cider.Cider
+cine-encoder
+cinelerra cin cinelerra-cv cinelerra-gg cinelerra-hv
+cinema4d
+cinnamon-virtual-keyboard org.xfce.panel.xkb
+cinny in.cinny.Cinny
+cisco-anyconnect
+cities-skylines lutris_cities-skylines steam_icon_255710
+cities-skylines-2 lutris_cities-skylines-II steam_icon_949230
+citra org.citra_emu.citra
+citrix-receiver
+civilization-beyond-earth lutris_sid-meiers-civilization-beyond-earth steam_icon_65980
+civilization5 lutris_sid-meiers-civilization-v steam_icon_8930
+civilization6 lutris_sid-meiers-civilization-vi steam_icon_289070
+ckb-next
+clamav clamtk com.gitlab.davem.ClamTk
+classic-racers steam_icon_1037480
+claudia
+claudia-launcher
+clawsker
+clementine org.clementine_player.Clementine
+clickup-desktop appimagekit-clickup-desktop
+clight
+clion com.jetbrains.CLion
+clipgrab appimagekit-clipgrab
+clockify
+clustertruck lutris_clustertruck steam_icon_397950
+CMakeSetup cmake cmake-gui CMakeSetup32
+cmyktool
+cockatrice io.github.Cockatrice.cockatrice
+cockos-reaper fm.reaper.Reaper
+code-oss com.visualstudio.code-oss com.visualstudio.code.oss
+codeblocks org.codeblocks.codeblocks
+codelite
+codes.nora.gDiceRoller
+cointop com.github.miguelmota.Cointop
+colobot appimagekit-colobot info.colobot.Colobot
+colon appimagekit-colon
+colorhug
+colorhug-backlight
+colorhug-ccmx
+colorhug-flash
+colorhug-refresh
+colorpicker appimagekit-colorpicker
+colortone lutris_colortone steam_icon_375320
+com.adrienplazas.Metronome gtick
+com.amazon.Workspaces
+com.beakerbrowser.Beaker appimagekit-beaker-browser beaker beaker-browser
+com.belmoussaoui.Decoder
+com.belmoussaoui.Obfuscate
+com.belmoussaoui.ReadItLater
+com.bitstower.Markets
+com.bixense.PasswordCalculator licensequick
+com.bladecoder.adventure-editor
+com.chatterino.chatterino chatterino
+com.dhsdevelopments.Climaxima
+com.eduke32.EDuke32 eduke32
+com.endlessm.HatchPreviewer
+com.endlessm.photos
+com.endlessnetwork.aqueducts
+com.endlessnetwork.dragonsapprentice
+com.endlessnetwork.fablemaker
+com.endlessnetwork.frogsquash
+com.feaneron.Boatswain
+com.frac_tion.teleport
+com.github.ADBeveridge.Raider
+com.github.aggalex.wineglass io.github.aggalex.Wineglass
+com.github.aharotias2.parapara
+com.github.aimproxy.dotfonts
+com.github.alainm23.byte
+com.github.alainm23.planner
+com.github.alcadica.develop
+com.github.alcinnz.odysseus
+com.github.alecaddd.sequeler
+com.github.aleksandar-stefanovic.urmsimulator
+com.github.alexhuntley.Plots plots
+com.github.allen-b1.news
+com.github.alonsoenrique.quotes
+com.github.amikha1lov.RecApp
+com.github.appadeia.Taigo
+com.github.arshubham.cipher
+com.github.artemanufrij.findfileconflicts
+com.github.artemanufrij.graphui
+com.github.artemanufrij.hashit
+com.github.artemanufrij.metronome
+com.github.artemanufrij.playmymusic
+com.github.artemanufrij.playmyvideos
+com.github.artemanufrij.regextester
+com.github.artemanufrij.showmypictures
+com.github.artemanufrij.translit
+com.github.artemanufrij.webpin
+com.github.avojak.iridium
+com.github.babluboy.nutty
+com.github.bartzaalberg.alias
+com.github.bartzaalberg.bookmark-manager
+com.github.bartzaalberg.lottery
+com.github.bartzaalberg.php-tester
+com.github.bartzaalberg.snaptastic
+com.github.basjam.valacompiler
+com.github.bcedu.museic
+com.github.bcedu.shutdownscheduler
+com.github.bcedu.valasimplehttpserver
+com.github.birros.WebArchives
+com.github.bleakgrey.tootle
+com.github.bleakgrey.transporter
+com.github.Bleuzen.FFaudioConverter
+com.github.bluesabre.darkbar
+com.github.calo001.fondo
+com.github.candiedoperation.ordne
+com.github.cassidyjames.clairvoyant
+com.github.cassidyjames.dippi
+com.github.cassidyjames.ephemeral
+com.github.cassidyjames.ideogram
+com.github.cassidyjames.palette org.gnome.design.Palette
+com.github.cassidyjames.principles
+com.github.chasinglogic.tardis
+com.github.childishgiant.mixer
+com.github.cjfloss.envelope
+com.github.coralynnmay.goodvibesapp
+com.github.coslyk.MoonPlayer appimagekit-com.github.coslyk.MoonPlayer
+com.github.cryptowyrm.copypastegrab
+com.github.dahenson.agenda
+com.github.dail8859.NotepadNext NotepadNext
+com.github.danrabbit.harvey
+com.github.danrabbit.lookbook
+com.github.danrabbit.nimbus
+com.github.davidmhewitt.clipped
+com.github.davidmhewitt.torrential
+com.github.dbhowell.peeq
+com.github.diegoivanme.plano
+com.github.djaler.formatter
+com.github.donadigo.appeditor
+com.github.donadigo.eddy
+com.github.efdos.mupengui
+com.github.elfenware.badger
+com.github.elfenware.obliviate
+com.github.eudaldgr.elements
+com.github.fabiocolacio.marker
+com.github.finefindus.eyedropper
+com.github.gabutakut.gabutdm
+com.github.gi_lom.dialect app.drey.Dialect
+com.github.gijsgoudzwaard.image-optimizer
+com.github.GradienceTeam.Gradience
+com.github.hannesschulze.optimizer
+com.github.harisvsulaiman.pushy
+com.github.hezral.inspektor
+com.github.hugolabe.Wike
+com.github.huluti.Coulr
+com.github.huluti.Curtail
+com.github.HypatiaProject.hypatia
+com.github.jeremypw.gnonograms
+com.github.jeremyvaartjes.comgen
+com.github.jmoerman.go-for-it de.manuel_kehl.go-for-it go-for-it
+com.github.jms55.Sandbox
+com.github.johnfactotum.Foliate
+com.github.johnfactotum.QuickLookup
+com.github.joseexposito.touche
+com.github.junrrein.PDFSlicer
+com.github.keyilan.swatches
+com.github.kjlaw89.archetype
+com.github.kjlaw89.webwatcher
+com.github.kmal-kenneth.monilet
+com.github.kmwallio.thiefmd
+com.github.lachhebo.Gabtag
+com.github.lafydev.animage
+com.github.lainsce.aesop
+com.github.lainsce.beemy
+com.github.lainsce.coin
+com.github.lainsce.timetable
+com.github.lainsce.yishu
+com.github.libresprite.LibreSprite libresprite
+com.github.liferooter.textpieces
+com.github.linuxhubit.catfacts
+com.github.linuxhubit.gitscover
+com.github.linuxhubit.ppaextender
+com.github.linuxhubit.shouldidoit
+com.github.louis77.tuner
+com.github.manexim.insomnia
+com.github.manexim.typewriter
+com.github.maoschanz.drawing
+com.github.maoschanz.DynamicWallpaperEditor
+com.github.marbetschar.time-limit
+com.github.matfantinel.moneta
+com.github.mdh34.hackup
+com.github.mdh34.quickdocs
+com.github.mirkobrombin.football
+com.github.mohelm97.screenrecorder
+com.github.mubitosh.qrshare
+com.github.muriloventuroso.easyssh
+com.github.muriloventuroso.givemelyrics
+com.github.naaando.lyrics
+com.github.neithern.g4music
+com.github.nick92.tranqil tranquil
+com.github.padjis.ghistory
+com.github.paolostivanin.OTPClient
+com.github.parnold-x.timer
+com.github.peteruithoven.resizer
+com.github.phase1geo.annotator
+com.github.phase1geo.minder
+com.github.phase1geo.outliner
+com.github.philip-scott.notes-up com.github.philip_scott.notes-up
+com.github.philip-scott.spice-up com.github.philip_scott.spice-up
+com.github.philip-scott.wallpaperize
+com.github.plugarut.pwned-checker
+com.github.plugarut.wingpanel-monitor
+com.github.qarmin.czkawka
+com.github.rafostar.Clapper
+com.github.rajkumaar23.badgie
+com.github.rickybas.date-countdown
+com.github.rkoesters.xkcd-gtk
+com.github.robertsanseries.karim
+com.github.ronnydo.wammer
+com.github.ryonakano.konbucase
+com.github.ryonakano.louper
+com.github.sdv43.whaler
+com.github.sgpthomas.hourglass
+com.github.sixpounder.GameOfLife
+com.github.spheras.desktopfolder
+com.github.stsdc.monitor
+com.github.subhadeepjasu.enigma
+com.github.subhadeepjasu.pebbles
+com.github.taiko2k.avvie
+com.github.tchx84.Flatseal
+com.github.thejambi.dayjournal
+com.github.thejambi.psnotes
+com.github.themix_project.Oomox
+com.github.tkashkin.boiler
+com.github.tkashkin.gamehub
+com.github.torikulhabib.mindi
+com.github.torikulhabib.nino
+com.github.treagod.spectator
+com.github.unrud.RemoteTouchpad
+com.github.unrud.VideoDownloader
+com.github.weclaw1.ImageRoll
+com.github.zelikos.rannum
+com.github.zocker_160.SyncThingy
+com.gitlab.bitseater.meteo io.elementary.meteo
+com.gitlab.cunidev.Gestures
+com.gitlab.miridyan.Mt
+com.gitlab.newsflash
+com.gitlab.nvlgit.Balss
+com.gluonhq.SceneBuilder
+com.hunterwittenborn.Celeste
+com.inventwithpython.flippy
+com.jonathankang.Weibird
+com.katawa_shoujo.KatawaShoujo katawa-shoujo lutris_katawa-shoujo
+com.krillbite.ThePlan lutris_the-plan steam_icon_250600
+com.lakoliu.Furtherance
+com.leinardi.gwe
+com.lettier.movie-monad
+com.mitchellh.ghostty
+com.moddb.TotalChaos
+com.naps2.Naps2
+com.neatdecisions.Detwinner
+com.rafaelmardojai.Blanket
+com.rafaelmardojai.SharePreview
+com.rafaelmardojai.WebfontKitGenerator
+com.raggesilver.BlackBox
+com.ranfdev.Geopard
+com.rtosta.zapzap
+com.scoutshonour.Digital
+com.scoutshonour.dtipbijays
+com.shatteredpixel.shatteredpixeldungeon
+com.steamgriddb.SGDBoop
+com.system76.Popsicle
+com.szibele.e-juice-calc
+com.ticktick.TickTick ticktick
+com.ulduzsoft.Birdtray
+com.usebottles.bottles
+commix kali-commix
+company-of-heroes-2 lutris_company-of-heroes-2 steam_icon_231430
+compiz ccsm simple-ccsm
+compton
+computerjanitor bleachbit gcleaner org.bleachbit.BleachBit preferences-system-privacy-housekeeping shredder ubuntu-cleaner
+comsol
+confclerk at.priv.toastfreeware.ConfClerk
+conky appimagekit-conky-logomark-violet conky-logomark-violet
+conky-manager
+conky-manager2
+connectagram org.gottcode.Connectagram
+construo
+contact-editor
+converseen net.fasterland.converseen
+convertall-icon
+cool-retro-term appimagekit-cool-retro-term
+copyq com.github.hluk.copyq
+corebird
+corectrl
+corelvector brave-ljcdbnjegamehjigdeiajddkhpihajpk-Default chrome-ljcdbnjegamehjigdeiajddkhpihajpk-Default
+cosmigo-pro-motion-icon
+coypu
+cozy com.github.geigi.cozy
+cozydrive appimagekit-cozydrive
+cpod appimagekit-cpod
+cpu-x io.github.thetumultuousunicornofdarkness.cpu-x
+crab-game lutris_crab-game steam_icon_1782210
+crack-attack
+CraftStudio
+crashplan
+crawl org.develz.Crawl
+crayon-physics-deluxe lutris_crayon-physics-deluxe steam_icon_26900
+credentials-preferences goa-panel
+cromite
+cronopete_preferences
+cronopete_restore
+crossover cxmenu-cxoffice-0-crossover deepin-crossover
+crossstudio
+crow-translate io.crow_translate.CrowTranslate
+crunchyroll
+crusader-kings-2 lutris_crusader-kings-ii steam_icon_203770
+crush-crush lutris_crush-crush steam_icon_459820
+crypt-of-the-necrodancer lutris_crypt-of-the-necrodancer steam_icon_247080
+cryptomator appimagekit-org.cryptomator.Cryptomator org.cryptomator.Cryptomator
+cryptr appimagekit-cryptr
+cs lutris_counter-strike steam_icon_10
+cs-actions
+cs-applets cairo-dock
+cs-desktop deepin-show-desktop org.xfce.panel.showdesktop org.xfce.xfdesktop preferences-desktop-wallpaper show-desktop user-desktop
+cs-login lightdm-gtk-greeter-settings lightdm-settings liteautologin mdmflexiserver mdmsetup tdmconfig
+cs-nightlight
+cs-overview preferences-desktop-gestures-screenedges
+cs-panel kcmkicker mate-panel minimizeall org.xfce.panel tint2 tint2conf xfce4-panel
+cscz lutris_counter-strike-condition-zero lutris_counter-strike-condition-zero-deleted-scenes steam_icon_100 steam_icon_80
+csgo csgo_linux64 lutris_counter-strike-global-offensive steam_icon_730
+css lutris_counter-strike-source steam_icon_240
+CubicSDR
+cudatext-512 io.github.cudatext.CudaText-Qt io.github.cudatext.CudaText-Qt5
+cumulonimbus com.github.z.Cumulonimbus
+cuphead lutris_cuphead steam_icon_268910
+cups cs-printer dde-printer kjobviewer openoffice4-printeradmin preferences-devices-printer printer printer1 printersandfax_q4os_startmenu printmgr system-config-printer yast-printer
+cura-icon appimagekit-cura-icon com.ultimaker.cura
+curlew
+cursor co.anysphere.cursor Cursor
+custom-toolbox
+cutecom blueman-serial com.gitlab.cutecom.cutecom kminicom
+cutegram
+cutemarked io.github.cloose.CuteMarkEd
+cutemaze org.gottcode.CuteMaze
+cutentr
+cutepeaks appimagekit-cutepeaks io.github.labsquare.CutePeaks
+cutter appimagekit-cutter re.rizin.cutter
+cuttlefish
+cuyo
+cvpcb
+cyan appimagekit-Cyan Cyan
+cyberpunk-2077 lutris_cyberpunk-2077 steam_icon_1091500
+CycligentGitTool cycligent cycligent-icon
+cz.pervoj.valdo-gtk
+d-feet
+d-tracker
+danganronpa lutris_danganronpa-trigger-happy-havoc steam_icon_413410
+dangerous-golf steam_icon_405500
+darktable org.darktable.Darktable
+darwinia lutris_darwinia steam_icon_1500
+dash-qt
+dassault-systemes.draftsight draftsight
+datagrip com.jetbrains.DataGrip
+datamodeler
+dataspell com.jetbrains.DataSpell com.jetbrains.dataspell jetbrains-dataspell
+datastudio
+datovka org.cznic.Datovka
+davinci-panels DV_Panels
+davmail org.davmail.DavMail
+day-of-the-tentacle-remastered lutris_day-of-the-tentacle-remastered steam_icon_388210
+dbeaver dbeaver-ee io.dbeaver.DBeaverCommunity
+dconf-editor ca.desrt.dconf-editor
+ddaynormandy
+dde-introduction
+de.gunibert.Hackgregator
+de.haeckerfelix.Fragments
+de.haeckerfelix.Shortwave
+de.rwth_aachen.ient.YUView appimagekit-de.rwth_aachen.ient.YUView IENT-YUView-64
+de.schmidhuberj.Flare
+de.schmidhuberj.tubefeeder tubefeeder
+de.unifreiburg.ellipticcurve
+dead-cells lutris_dead-cells steam_icon_588650
+dead-island lutris_dead-island-definitive-edition lutris_dead-island-riptide-definitive-edition steam_icon_383150 steam_icon_383180
+dead-or-alive-6 lutris_dead-or-alive-6 steam_icon_838380
+deadbeef
+deepin-cloud-print-configurator deepin-cloudprint-config-helper printer-driver-deepin-cloud-print
+deepin-cloud-scan-config-helper
+deepin-draw
+deepin-feedback io.elementary.feedback preferences-desktop-feedback
+deepin-launcher
+deepin-manual
+deepin-movie
+deepin-remote-assistance
+deepin-repair-tools
+deepin-toggle-desktop
+deepin-voice-note
+deezer dev.aunetx.deezer lash
+defcon lutris_defcon steam_icon_1520
+deflemask
+deja-dup org.gnome.DejaDup
+delir appimagekit-delir
+deltachat appimagekit-deltachat-desktop chat.delta.desktop deltachat-desktop
+deltarune lutris_deltarune steam_icon_1671210 steam_icon_1690940
+deluge org.deluge_torrent.deluge
+denemo org.denemo.Denemo
+deskreen appimagekit-deskreen
+desktop-environment-gnome awf gnome-about-logo gnome-logo-icon gnome-logo-icon-transparent gnome_apps gtk-info gtkconfig kde-gtk-config kpk-desktop-gnome org.gnome.ChromeGnomeShell preferences-gtk-config
+desktop-environment-kde about_kde kde kde-logo start-here-kde
+desktop-environment-lxqt lxqt lxqt-about
+desktop-environment-tde go kicker tde
+desktop-environment-unity
+desktop-environment-xfce distributor-logo-xubuntu kpk-desktop-xfce org.xfce.about org.xfce.panel.whiskermenu start-here-xfce xfce4-logo xfce4-whiskermenu xfce4_xicon
+desktop-profiler org.xfce.PanelProfiles q4os-swprofiler
+desmume DeSmuME org.desmume.DeSmuME
+desura
+dev.alextren.Spot
+dev.atoft.Reactions
+dev.boxi.Boxi
+dev.Cogitri.Health
+dev.edfloreshz.Done
+dev.geopjr.Collision
+dev.mufeed.Wordbook
+dev.tchx84.Portfolio
+dev.vlinkz.NixosConfEditor
+dev.vlinkz.NixSoftwareCenter
+devassistant
+devdocs brave-ahiigpfcghkbjfcibpojancebdfjmoop-Default chrome-ahiigpfcghkbjfcibpojancebdfjmoop-Default deepin.com.wechat.devtools
+devhelp kali-docs org.gnome.Devhelp
+devhub appimagekit-devhub
+deviantart solstice-deviantart-deviantart
+devilutionx org.diasurgical.DevilutionX
+devpod sh.loft.devpod
+dia org.gnome.Dia
+Diablo
+diablo-2 opendiablo2
+Dicomizer
+digikam org.kde.digikam
+digitallyimported
+dillo
+ding
+dino im.dino.Dino
+diodon claw clipit clipit-trayicon clipman clipse-gui glipper glippy gpaste kali-reporting-tools-trans klipper parcellite qlipper xclipboard xfce4-clipman-plugin
+dirt-rally lutris_dirt-rally steam_icon_310560
+dirt4 lutris_dirt-4 steam_icon_421020
+discord com.discordapp.Discord discord-bin discord-ptb gtkcord solstice-discord-discord
+discord-canary com.discordapp.DiscordCanary
+discord-development abaddon
+disk-burner asounder audex brasero iso-image-burn k3b org.gnome.Brasero org.xfce.xfburn ripperx stock_xfburn xfburn
+disk-usage-analyzer diskmonitor drive-harddisk-usb gdmap_icon gsmartcontrol kdf kdiskfree kwikdisk mate-disk-usage-analyzer org.kde.kdf preferences-smart-status QDiskInfo qdiskinfo xfce-mount
+disk-utility blivet-gui deepin-diskmanager disk-manager kcmpartitions ntfs-config yast-disk
+display.im6 display-im6.Q16 display-im6.q16
+dissenter-browser
+distributor-logo-absolute
+distributor-logo-academix
+distributor-logo-aix
+distributor-logo-alpine io.github.paledega.alpine-rootfs
+distributor-logo-alt-linux alt-distro-logo altlinux
+distributor-logo-android kbox
+distributor-logo-antix
+distributor-logo-archbang
+distributor-logo-archlabs
+distributor-logo-archlinux kalu start-here-archlinux
+distributor-logo-archman
+distributor-logo-artix
+distributor-logo-aryalinux
+distributor-logo-backbox
+distributor-logo-blackarch
+distributor-logo-bodhi-linux
+distributor-logo-bunsenlabs
+distributor-logo-calculate-linux
+distributor-logo-condres
+distributor-logo-debian configure-debian debian-logo debian-plymouth-manager debian-swirl deepin-deb-installer gdeb gdebi gnome-debian start-here-debian
+distributor-logo-deepin
+distributor-logo-devuan
+distributor-logo-dragonflybsd
+distributor-logo-endeavouros endeavouros endeavouros-icon
+distributor-logo-fedora fedora-release-notes start-here-fedora
+distributor-logo-freebsd
+distributor-logo-freedos
+distributor-logo-ghostbsd
+distributor-logo-hyperbola start-here-hyperbola
+distributor-logo-kali-linux kali-panel-menu
+distributor-logo-kaos start-here-kaos
+distributor-logo-knoppix
+distributor-logo-korora start-here-korora
+distributor-logo-linux-lite liteicon
+distributor-logo-linux-mint mintsources-mint mintwelcome start-here-linux-mint
+distributor-logo-lubuntu start-here-lubuntu
+distributor-logo-lxle
+distributor-logo-mac
+distributor-logo-madlinux
+distributor-logo-manjaro manjaro manjaro-welcome start-here-manjaro
+distributor-logo-midnightbsd
+distributor-logo-ms-dos
+distributor-logo-mx
+distributor-logo-netbsd
+distributor-logo-netrunner
+distributor-logo-nixos nix-snowflake
+distributor-logo-openbsd
+distributor-logo-openmandriva
+distributor-logo-opensuse start-here-opensuse SUSEgreeter yast-release-notes yast-vendor
+distributor-logo-parrot
+distributor-logo-pclinuxos
+distributor-logo-peppermint start-here-peppermint
+distributor-logo-pisilinux
+distributor-logo-pop-os pop-os pop-os-logo-icon pop_os start-here-pop-os
+distributor-logo-puppy-linux
+distributor-logo-pureos
+distributor-logo-raspbian org.raspberrypi.rpi-imager remote-raspberry rpi rpi-imager sense_emu_gui
+distributor-logo-rhel redhat redhat-linux rhel
+distributor-logo-rosa
+distributor-logo-salentos
+distributor-logo-simply
+distributor-logo-smartos
+distributor-logo-solus
+distributor-logo-steamos
+distributor-logo-trueos
+distributor-logo-tuxedo-os
+distributor-logo-ubuntu classicmenu-indicator start-here-ubuntu ubuntu-logo-icon
+distributor-logo-ubuntu-budgie
+distributor-logo-ubuntu-mate ubuntu-mate
+distributor-logo-ubuntu-studio
+distributor-logo-ultimate-edition
+distributor-logo-vanilla-os io.github.vanilla-os.FirstSetup
+distributor-logo-void
+distributor-logo-voyager
+distributor-logo-windows uos-windesk
+distributor-logo-zorin
+djv
+dk.tangramgames.mrrescue
+dmanager appimagekit-dmanager
+dmd-doc
+dnfdragora
+dockbarx
+docker-desktop
+dockstation appimagekit-dockstation
+document-viewer atril deepin-reader epdfview gnome-pdf indicator-privacy kpdf mupdf mx-viewer org.pwmt.zathura postscript-viewer x-pdf xpdf xreader yagf zathura
+dods lutris_day-of-defeat-source steam_icon_30 steam_icon_300
+doki-doki-literature-club lutris_doki-doki-literature-club steam_icon_698780
+doki-doki-literature-club-plus steam_icon_1388880
+doki-doki-mod-manager appimagekit-doki-doki-mod-manager
+dolphin-emu org.DolphinEmu.dolphin-emu
+dont-starve lutris_dont-starve steam_icon_219740
+dont-starve-together lutris_dont-starve-together steam_icon_322330
+dooble
+doom freedm io.github.freedoom.FreeDM steam_icon_379720
+doom-eternal lutris_doom-eternal steam_icon_782330
+doom3 dhewm3 lutris_doom-3 org.dhewm3.Dhewm3 steam_icon_9050
+doomseeker
+door-kickers lutris_door-kickers steam_icon_248610
+dopamine appimagekit-dopamine
+dosbox com.dosbox.DOSBox
+dosbox-ece
+dosbox-staging io.github.dosbox-staging org.dosbox-staging.dosbox-staging
+dosbox-x com.dosbox_x.DOSBox-X
+dota-underlords lutris_dota-underlords steam_icon_1046930
+dota2 lutris_dota-2 steam_icon_570
+dotcover
+dotmemory
+dotpeek
+dottrace
+double-action-boogaloo lutris_double-action-boogaloo steam_icon_317360
+doublecmd
+downline appimagekit-downline
+downloader-arrow rexloader uos-downloadmanager
+dragon-ball-online-global
+dragon-ball-xenoverse steam_icon_323470
+dragonframe4
+dragonplayer
+draw.io appimagekit-draw.io com.jgraph.drawio.desktop drawio
+drawpile appimagekit-drawpile net.drawpile.drawpile
+driconf driconf-icon
+drill-search-gtk drill-search
+drive-removable-media device-notifier
+droidcam Droidcam
+dropbox caja-dropbox com.dropbox.Client kdepim-dropbox
+drweb-gui
+ds9
+dsda-doom
+dse
+Dstroy2 appimagekit-Dstroy2
+duckduckgo
+duckstation appimagekit-duckstation-qt appimagekit-duckstation-sdl duckstation-qt duckstation-sdl org.duckstation.DuckStation
+dukto
+duolingo brave-jneocipojkkahfcibhjaiilegofacenn-Default chrome-jneocipojkkahfcibhjaiilegofacenn-Default ro.go.hmlendea.DL-Desktop
+dupeguru dgse_logo_128
+duplicati
+dusk lutris_dusk steam_icon_519860
+duskplayer appimagekit-duskplayer
+dust3d appimagekit-dust3d org.dust3d.dust3d
+dvanalyzer net.mediaarea.DVAnalyzer
+dvdisaster
+dying-light lutris_dying-light steam_icon_239140
+eagle
+ease
+easy-ebook-viewer
+easyeda
+easymp3gain qtgain
+easystroke
+easytag EasyTAG_icon org.gnome.EasyTAG
+eBook-speaker
+echomixer
+echonest
+eclipse org.eclipse.Java org.eclipse.Javascript
+eclipse-cdt
+eco lutris_eco steam_icon_382310
+edb-debugger edb io.github.eteran.edb-debugger kali-edb-debugger
+edex-ui appimagekit-edex-ui
+edge-game lutris_edge steam_icon_38740
+edu.stanford.Almond
+eekboard
+eeschema gnome-oregano oregano org.kicad.KiCad.eeschema
+eiciel mate-eiciel
+eid-viewer
+eiskaltdcpp
+ekiga
+electorrent appimagekit-electorrent
+electrip net.sourceforge.electrip.Electrip
+electron electron22 electron23 electron24 electron25 electron27 electron31 electron32 electron33 electron34 electron35 electron36 electron37 io.atom.electron.BaseApp
+electron-cash appimagekit-electron-cash
+electron-mail com.github.vladimiry.ElectronMail
+electrum org.electrum.electrum
+electrum-axe appimagekit-electrum-axe
+electrum-ltc
+element-desktop element Element element-desktop-bin im.riot.Riot io.element.Element
+element-desktop-nightly element-nightly
+element4l lutris_element4l steam_icon_235820
+elisa org.kde.elisa
+elixir
+emacs appimagekit-emacs deepin-emacs emacs-nox emacs-snapshot gnome-emacs org.gnu.emacs xemacs
+emby-server media.emby.EmbyServer media.emby.EmbyTheater
+emerald-theme-manager-icon emerald-theme-manager
+emily-is-away lutris_emily-is-away steam_icon_417860
+emily-is-away-too lutris_emily-is-away-too steam_icon_523780
+empathy org.gnome.Empathy
+emulationstation
+emule amule amulegui kamule
+encryptpad appimagekit-encryptpad
+Encryptr encryptr
+endless-sky io.github.endless_sky.endless_sky lutris_endless-sky steam_icon_404410
+endless-zone lutris_endless-zone steam_icon_1368450
+engauge-digitizer io.github.markummitchell.Engauge_Digitizer
+enhanced_browsing
+enjoy-music-player
+enpass io.enpass.Enpass
+ensembles com.github.subhadeepjasu.ensembles
+entangle org.entangle_photo.Manager
+ente
+enteauth ente_auth io.ente.auth
+enter-the-gungeon lutris_enter-the-gungeon steam_icon_311690
+enve appimagekit-enve io.github.maurycyliebner.enve
+envy24control
+eog org.gnome.eog
+epic-games 09BE_EpicGamesLauncher.0 ED2E_EpicGamesLauncher.0 lutris_epic-games-store
+epiphany-game
+epsonscan2 escan2_app net.epson.epsonscan2
+epsxe pcsxr pcsxr-icon psx
+eqonomize
+eric eric6
+ericWeb ericWeb6
+estmob-sendanywhere SendAnywhere
+etcher appimagekit-balena-etcher-electron balena-etcher balena-etcher-electron etcher-electron
+eternallands org.pjbroad.EternallandsClient
+etherape
+ethereumwallet
+etherwall
+etl com.etlegacy.ETLegacy
+etr
+ettercap kali-ettercap
+eu.scarpetta.PDFMixTool
+eu.scarpetta.QtWAW
+eureka
+euro-truck-simulator-2 lutris_euro-truck-simulator-2 steam_icon_227300
+europa-universalis-IV lutris_europa-universalis-iv steam_icon_236850
+evelauncher
+everdo
+evernote evernote-client everpad nixnote
+eversion lutris_eversion steam_icon_33680
+evince org.gnome.Evince
+evnc
+evolution evolution-mail org.gnome.Evolution
+evtest-qt
+exaile org.exaile.Exaile
+excalidraw
+exmplayer
+exodus io.exodus.Exodus
+expandrive appimagekit-expandrive
+exploit-db kali-exploitdb
+extraterm
+exult
+f1-2015 lutris_f1-2015 steam_icon_286570
+f1-2017 lutris_f1-2017 steam_icon_515220
+f3d io.github.f3d_app.f3d
+facebook brave-kippjfofjhjlffjecoapiogbkgbpmgej-Default chrome-kippjfofjhjlffjecoapiogbkgbpmgej-Default facebook-facebook.com facebookresource goa-account-facebook solstice-facebook-facebook unity-webapps-facebook
+factor
+factorio lutris_factorio steam_icon_427520
+FAHControl
+falkon org.kde.falkon
+fall-guys lutris_fall-guys steam_icon_1097150
+FamiStudio org.famistudio.FamiStudio
+famitracker
+far2l
+fasttracker2
+fbmessenger appimagekit-caprine caprine Caprine com.sindresorhus.Caprine FacebookMessenger-facebook.com messengerfordesktop solstice-facebook-facebook-messenger
+fbreader FBReader
+fceux ca._0ldsk00l.Nestopia fceu nestopia
+fcitx-sogoupinyin
+feather org.featherwallet.Feather
+feathernotes
+featherpad
+feedindicator
+feh
+feishin org.jeffvli.feishin
+ferdium org.ferdium.Ferdium
+fern-wifi-cracker kali-fern-wifi-cracker
+fez lutris_fez steam_icon_224760
+ff-password-exporter appimagekit-ff-password-exporter
+ffado hi64-apps-ffado
+ffmpeg
+ffmulticonverter
+fheroes2 io.github.ihhub.Fheroes2
+fi.skyjake.Lagrange
+figma figma-linux io.github.Figma_Linux.figma_linux
+fiji
+filebot net.filebot.FileBot
+filelight org.kde.filelight
+filen filendesktop
+filezilla org.filezillaproject.Filezilla
+filmulator-gui appimagekit-filmulator-gui filmulator-gui64 org.filmulator.Filmulator
+filter preferences-desktop-filter
+firefox firefox-beta firefox-bin firefox-esr firefox-icon firefox-mozilla-build org.mozilla.Firefox org.mozilla.firefox
+firefox-developer-edition firefox-devedition
+firefox-nightly
+firejail-ui
+firetools
+firewall-config fwbuilder network-firewall yast-firewall
+firewatch lutris_firewatch steam_icon_383870
+fish
+five-or-more org.gnome.five-or-more
+flacon com.github.Flacon
+flamerobin
+flameshot org.flameshot.Flameshot
+flare org.flarerpg.Flare
+flareget
+flash adobe-flashplayer AdobeFlash adobeflashplugin com.adobe.Flash-Player-Projector flash-player-properties flashplayer flashplayerproperties
+FlashCS6
+flashforge com.flashforge.FlashPrint
+flickr goa-account-flickr
+flightgear org.flightgear.FlightGear
+floating-point lutris_floating-point steam_icon_302380
+florence
+flow calligraflow
+flowblade io.github.jliljebl.Flowblade
+fluajho
+fluent-reader appimagekit-fluent-reader me.hyliu.fluentreader
+fluid
+fluxgui
+flycast org.flycast.Flycast
+fman
+fmit io.github.gillesdegottex.FMIT
+focuswriter org.gottcode.FocusWriter
+fofix fretsonfire net.sourceforge.fretsonfire
+folder folder_doc_q4os_startmenu org.xfce.panel.directorymenu
+fontbase appimagekit-fontbase
+fontforge appimagekit-org.fontforge.FontForge org.fontforge.FontForge
+fontmatrix com.github.fontmatrix.Fontmatrix
+fontypython
+foobillardplus dk.sunsite.foobillard
+foobnix
+foot
+football net.sourceforge.TuxFootball steam_icon_378120
+for-the-king lutris_for-the-king steam_icon_527230
+forager lutris_forager steam_icon_751780
+forkgram
+forticlient
+forticlientsslvpn
+forza-horizon-5 steam_icon_1551360
+four-in-a-row org.gnome.Four-in-a-row
+foursquare goa-account-foursquare
+foxit-reader foxitreader FoxitReader
+fr.romainvigier.MetadataCleaner
+fr.romainvigier.zap
+fran-bow lutris_fran-bow steam_icon_362680
+franz appimagekit-franz com.meetfranz.Franz
+freac appimagekit-org.freac.freac org.freac.freac
+freecad freecad-daily org.freecad.FreeCAD org.freecadweb.FreeCAD
+freeciv-client org.freeciv.gtk322 org.freeciv.qt org.freeciv.sdl2
+freeciv-server
+freedesktop
+freedoom1 io.github.Freedoom-Phase-1 io.github.freedoom.Phase1
+freedoom2 io.github.Freedoom-Phase-2 io.github.freedoom.Phase2
+freedownloadmanager fdm org.freedownloadmanager.Manager
+freedroid
+freedroidrpg
+freefilesync org.freefilesync.FreeFileSync
+freegish
+freeoffice-planmaker application-x-pml18 application-x-pml18free
+freeoffice-presentations application-x-prl18 application-x-prl18free
+freeoffice-textmaker application-x-tml18 application-x-tml18free
+freeorion
+freeplane org.freeplane.App
+freetennis org.icculus.tennix tennix
+Freeter appimagekit-Freeter
+FreeTexturePacker appimagekit-FreeTexturePacker
+freetube freetube-bin io.freetubeapp.FreeTube
+freezer appimagekit-freezer
+frescobaldi org.frescobaldi.Frescobaldi
+friture appimagekit-friture
+fritzing fritzing_icon org.fritzing.Fritzing
+frogatto com.frogatto.Frogatto
+frogr org.gnome.frogr
+frostwire
+frozen-bubble org.frozen_bubble.frozen-bubble
+fs-uae-arcade
+fs-uae-launcher fs-uae net.fsuae.FS-UAE
+fslint_icon
+fspy appimagekit-fspy
+ftb-app
+ftl-faster-than-light lutris_ftl-faster-than-light steam_icon_212680
+full-throttle-remastered lutris_full-throttle-remastered steam_icon_228360
+funkin lutris_friday-night-funkin
+fuse fbzx fuse-emulator net.sf.fuse_emulator net.sourceforge.fuse_emulator.Fuse
+fusion-icon
+fwupd org.freedesktop.fwupd
+fyi.zoey.Boop-GTK
+gahshomar org.gahshomar.Gahshomar
+gajim org.gajim.Gajim
+galculator
+galternatives
+gambas3
+gamejolt
+GameMakerStudio2
+GammaRay
+gammastep
+gaphor org.gaphor.Gaphor
+gargoyle-house io.github.garglk.Gargoyle kfm_home
+garrysmod lutris_garrys-mod steam_icon_4000
+gaupol io.otsaloma.gaupol
+gb-studio dev.gbstudio.gb-studio
+gbrainy org.gnome.gbrainy
+gcolor3 nl.hjdskes.gcolor3
+gcompris com.endlessnetwork.missilemath gcompris-qt org.kde.gcompris
+gcompris-edit
+gconf-editor gconfeditor preferences-desktop-accessibility-zoom
+gcstar
+gda-browser-5.0
+gda-control-center
+gddccontrol
+gdevilspie
+gdlauncher appimagekit-gdlauncher gdlauncher-appimage gdlauncher-bin io.gdevs.GDLauncher
+gdm-xnest gdm-setup gdmsetup gnome-window-manager gnome-wm kcmkwm kwin twin
+geany org.geany.Geany
+gear-up lutris_gear-up steam_icon_214420
+gedit gedit-icon gedit-logo org.gnome.gedit xfw
+geforcenow brave-egmafekfmcnknbdlbfbhafbllplmjlhn-Default chrome-egmafekfmcnknbdlbfbhafbllplmjlhn-Default com.nvidia.geforcenow geforcenow-nativefier io.github.hmlendea.geforcenow-electron
+gelemental
+gemini calligragemini
+gens
+gens-gs org.srb2.SRB2 srb2
+genymotion genymotion-bin
+genymotion-player
+geogebra Geogebra geogebra-classic org.geogebra.GeoGebra
+geonkick
+geotranz geotrans
+gerbera
+gerbview org.kicad.KiCad.gerbview
+gespeaker
+gfie_icon
+gftp
+ghex org.gnome.GHex
+ghidra org.ghidra_sre.Ghidra
+ghostwriter io.github.wereturtle.ghostwriter org.kde.ghostwriter
+gifcurry appimagekit-gifcurry com.lettier.gifcurry
+gifup com.github.bharatkalluri.gifup
+giggle
+gimp org.gimp.GIMP
+gish lutris_gish steam_icon_9500
+gisto appimagekit-gisto
+git com.github.git_cola.git-cola git-cola git-dag git-gui
+gitahead
+gitblade
+giteye GitEye
+gitg org.gnome.gitg
+github
+github-desktop appimagekit-github-desktop io.github.shiftey.Desktop
+gitify appimagekit-gitify
+gitkraken app com.axosoft.GitKraken GitKraken
+gitlab
+gitqlient appimagekit-gitqlient
+gitter Gitter im.gitter.Gitter
+gittyup com.github.Murmele.Gittyup
+gksu kali-social-engineering-trans user-admin
+glabels-3.0 glabels org.gnome.glabels-3
+glade glade-3 org.gnome.Glade
+gladish
+glob2-icon glob2-icon-48x48
+glyphr-studio-desktop appimagekit-glyphr-studio-desktop
+gmail appimagekit-gmail-desktop brave-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default checkgmail chrome-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default gmail-desktop GMail-mail.google.com Gmail-mail.google.com gmail-notify-icon gmail-plasmoid gmailwatcher gnome-gmail solstice-google-gmail unity-webapps-gmail web-google-gmail
+gmail-offline web-google-gmail-offline
+gmic_qt
+gmtpicon
+gnac
+gngeo
+gnome-2048 org.gnome.TwentyFortyEight
+gnome-appfolders-manager
+gnome-boxes org.gnome.Boxes
+gnome-break-timer org.gnome.BreakTimer
+gnome-calculator org.gnome.Calculator
+gnome-characters org.gnome.Characters
+gnome-chess gnome-glchess org.gnome.Chess
+gnome-color-chooser colorgrab com.github.ronnydo.colorpicker deepin-picker gcolor gcolor2 gpick kcolorchooser org.kde.plasma.colorpicker pick-colour-picker
+gnome-commander mucommander
+gnome-contacts deepin-contacts org.deepin.contacts org.gnome.Contacts
+gnome-do gnome-do-panel
+gnome-firmware firmware-manager org.gnome.Firmware
+gnome-klotski org.gnome.Klotski
+gnome-layout-switcher
+gnome-logs deepin-log-viewer litesystemreport org.gnome.Logs qjournalctl
+gnome-mahjongg org.gnome.Mahjongg
+gnome-mastermind
+gnome-mines org.gnome.Mines
+gnome-mplayer
+gnome-mpv io.github.celluloid_player.Celluloid mplayer
+gnome-nibbles gnibbles gnome-gnibbles org.gnome.Nibbles
+gnome-pie
+gnome-power-statistics mate-power-statistics nl.brixit.powersupply org.gnome.PowerStats
+gnome-ppp
+gnome-robots org.gnome.Robots
+gnome-schedule time-admin
+gnome-subtitles
+gnome-sudoku org.gnome.Sudoku
+gnome-taquin fifteenpuzzle org.gnome.Taquin
+gnome-tetravex gnome-tetraves org.gnome.Tetravex
+gnome-todo com.github.zren.todolist org.gnome.Todo
+gnome-tweak-tool org.gnome.tweaks org.xfce.xfwm4-tweaks preferences-desktop-tweaks tweaks-app
+gnome-twitch com.vinszent.GnomeTwitch streamlink-twitch-gui
+gnome-twofactorauth com.belmoussaoui.Authenticator
+gnome-video-arcade
+gns3
+gnubg
+gnumeric gnome-gnumeric openoffice4-calc org.gnumeric.Gnumeric
+gnvim
+goa-account-ubuntusso
+godot godot-mono lutris_godot-engine org.godotengine.Godot org.godotengine.Godot3 steam_icon_404790
+gogland
+goland com.jetbrains.GoLand
+golly
+goobox media-import-audio-cd
+goodvibes io.gitlab.Goodvibes
+google goa-account-google
+google-agenda
+google-chat brave-mdpkiolbdkhdjpekfbkbmhigcaggjagi-Default chrome-mdpkiolbdkhdjpekfbkbmhigcaggjagi-Default google-chat-linux
+google-chrome com.google.Chrome google-chrome2 googlechrome
+google-chrome-beta
+google-chrome-unstable com.google.ChromeDev
+google-contacts brave-pmcngklofgngifnoceehmchjlildnhkj-Default chrome-pmcngklofgngifnoceehmchjlildnhkj-Default
+google-docs
+google-drive brave-aghbiahbpaijignceidepookljebhfak-Default chrome-aghbiahbpaijignceidepookljebhfak-Default googledrive grive kdepim-googledrive overgrive unity-scope-gdrive web-google-drive
+google-earth-pro com.google.EarthPro google-earth googleearth
+google-maps brave-mnhkaebcjjhencmpkapnbdaogjamfbcj-Default chrome-mnhkaebcjjhencmpkapnbdaogjamfbcj-Default solstice-google-maps
+google-meet brave-kjgfgldnnfoeklkmfkjfagphfepbbdan-Default chrome-kjgfgldnnfoeklkmfkjfagphfepbbdan-Default
+google-photos brave-ncmjhecbjeaamljdfahankockkkdmedg-Default chrome-ncmjhecbjeaamljdfahankockkkdmedg-Default solstice-google-photos
+google-play anbox-com-android-vending
+google-play-music-desktop-player com.googleplaymusicdesktopplayer.GPMDP gpmdp
+google-slides
+google-tasks-desktop appimagekit-google-tasks-desktop
+google-translate
+google-webdesigner
+gootool
+goterminal
+gottet org.gottcode.Gottet
+goverlay
+goxel io.github.guillaumechereau.Goxel
+gp
+GP6-icon guitarpro6
+gpa
+gpaint
+gparted
+gpdftext
+GPG-Key4
+gpk-log
+gpk-prefs
+gpodder mygpo org.gpodder.gpodder
+gpredict-icon net.oz9aec.Gpredict
+gpsd-logo
+gpu-screen-recorder com.dec05eba.gpu_screen_recorder
+GPU_Viewer io.github.arunsivaramanneo.GPUViewer
+gpxviewer gpx-viewer nl.sarine.gpx-viewer
+gqrx appimagekit-gqrx kali-gqrx
+graebert-gmbh.ares-commander
+grafx2 com.chez.GrafX2
+gram app.liten.Gram
+gramps org.gramps_project.Gramps
+gramwallet
+granatier clanbomber kali-exploitation-tools-trans org.kde.granatier
+granule
+grapejuice net.brinkervii.grapejuice
+grapejuice-roblox-player CE93_RobloxPlayerLauncher.0 io.github.vinegarhq.Vinegar.player net.brinkervii.grapejuice.robloxplayer
+grapejuice-roblox-studio 631F_RobloxStudioLauncherBeta.0 io.github.vinegarhq.Vinegar.studio net.brinkervii.grapejuice.robloxstudio
+grass org.osgeo.grass
+green-recorder
+greenfoot org.greenfoot.Greenfoot
+gretl
+grid-autosport lutris_grid-autosport steam_icon_255220
+gridplayer com.vzhd1701.gridplayer
+grim-fandango-remastered lutris_grim-fandango-remastered steam_icon_316790
+groove
+groovy
+grsync
+grub-customizer
+gshutdown
+gst com.leinardi.gst
+gst-debug-viewer org.freedesktop.GstDebugViewer
+gta-3 lutris_grand-theft-auto-iii re3 steam_icon_12100
+gta-5 lutris_grand-theft-auto-v steam_icon_271590
+gta-vice-city lutris_grand-theft-auto-vice-city revc steam_icon_12110
+gthumb org.gnome.gThumb
+gtimelog org.gtimelog.GTimeLog
+gtk-theme-config
+gtk3-demo gtk4-demo
+gtkhash org.gtkhash.gtkhash
+gtklick
+gtkorphan
+gtkpod multimedia-player
+gtkterm
+gtkwave io.github.gtkwave.GTKWave
+gtranscribe
+guake guake-indicator
+guake-prefs
+gufw apparmor_view_profile cs-firewall deepin-defender draksec-mdk network-firewall preferences-certificates preferences-system-firewall yast-apparmor
+guilded gg.guilded.Guilded
+guiscrcpy appimagekit-guiscrcpy in.srev.guiscrcpy
+guitar appimagekit-guitar
+guitarix guitarix2 gx_head org.guitarix.Guitarix
+gummi app.gummi.gummi
+guvcview
+gweled
+gwenview org.kde.gwenview
+gzdoom org.zdoom.GZDoom
+hacknet lutris_hacknet steam_icon_365450
+haguichi com.github.ztefn.haguichi
+hakuneko-desktop io.github.hakuneko.HakuNeko
+half-life lutris_half-life steam_icon_280 steam_icon_70
+half-life-alyx lutris_half-life-alyx steam_icon_546560
+half-life-blue-shift lutris_half-life-blue-shift steam_icon_130
+half-life-deathmatch lutris_half-life-deathmatch-source steam_icon_360 steam_icon_40
+half-life-opposing-force lutris_half-life-opposing-force steam_icon_50
+half-life2 lutris_half-life-2 steam_icon_220 steam_icon_380 steam_icon_420
+half-life2-deathmatch lutris_half-life-2-deathmatch steam_icon_320
+half-life2-lost-coast lutris_half-life-2-lost-coast steam_icon_340
+hamster hamster-applet hamster-indicator hamster-time-tracker org.gnome.Hamster org.gnome.Hamster.GUI
+harbour-pure-maps io.github.rinigus.PureMaps
+hardinfo2
+harmonoid
+harmony
+haroopad
+haruna org.kde.haruna sc-apps-haruna
+hashit
+hatari org.tuxfamily.hatari
+hb-icon fr.handbrake.ghb
+hdajackretask
+hdspconf
+hdspmixer
+headset co.headsetapp.headset
+heaptrack
+hedgewars org.hedgewars.Hedgewars
+helix com.helix_editor.Helix
+helltaker lutris_helltaker steam_icon_1289310
+helm
+help-browser chmsee-icon debian-reference help help_index kchmviewer system-help xchm-48 xfce-unknown xfce_unknown
+heroesofnewerth hon honicon_128x128
+heroic appimagekit-heroic com.heroicgameslauncher.hgl
+hexalate org.gottcode.Hexalate
+hexchat io.github.Hexchat
+hidemy.name
+higan
+hipchat hipchat4
+hiri
+hitori org.gnome.Hitori
+hivelytracker
+hollow-knight lutris_hollow-knight steam_icon_367520
+homebank fr.free.Homebank
+hook lutris_hook steam_icon_367580
+hoppscotch
+horizon-chase-turbo lutris_horizon-chase-turbo steam_icon_389140
+horizon-client
+hotspot appimagekit-hotspot
+houdini
+hp-logo hp-toolbox hp_logo hplip hplj1020_icon
+htop
+httrack
+hub
+hubstaff
+hubstaff-black
+hubstaff-color
+hubstaff-gray
+hubstaff-green
+hubstaff-red
+hulu
+hw-probe appimagekit-hw-probe org.linux_hardware.hw-probe
+hwinfo cs-details dialog-information gnome-info gnome-status hwbrowser indicator-applet ktip liteinfo mate-indicator-applet stock_view-details xfce-system-info xfce4-indicator-plugin
+hwloc
+hydrogen h2-icon org.hydrogenmusic.Hydrogen
+hyper appimagekit-hyper
+hyperspace
+hypnospace-outlaw lutris_hypnospace-outlaw steam_icon_844590
+hypnotix
+i-nex
+i2pd website.i2pd.i2pd
+iaito-o org.radare.iaito
+ib-tws
+ibus ibus-engine ibus-setup ibus-setup-chewing
+ibus-anthy
+ibus-bopomofo
+ibus-keyboard input-keyboard org.xfce.settings.keyboard preferences-desktop-keyboard
+ibus-pinyin chinese
+ibus-setup-hangul
+ibus-typing-booster
+icarus
+ice
+ice-store
+icecat
+icedove icedove-uxp
+iceweasel iceweasel-uxp
+icloud chrome-agedgfbdadefbodjkkkcpihgcmibpcff-Default chrome-ddfcbhajfcbadieedchpomhocpkhgeke-Default
+icloud-photos chrome-cigolahoahpkfmhoomckiodabnlfdhpp-Default
+icon-requests
+icon_gentoo_small
+iconoclasts steam_icon_393520
+icq icq_protocol licq
+idevice
+idjc
+ieee1394
+igdm
+ignuit
+ILSpy avaloniailspy
+im.bernard.Nostalgia
+im.fluffychat.Fluffychat fluffychat
+im.srain.Srain
+imhex net.werwolv.ImHex
+Impactor
+imperator-rome lutris_imperator-rome steam_icon_859580
+in.bharatkalluri.shortcircuit
+incredipede lutris_incredipede steam_icon_230150
+indicator-cpufreq application-x-firmware mate-cpu-frequency-applet xfce4-cpufreq-plugin
+indivisible lutris_indivisible steam_icon_421170
+infector uk.co.mangobrain.Infector
+infinifactory lutris_infinifactory steam_icon_300570
+info.febvre.Komikku
+inkscape inkscape-logo org.inkscape.Inkscape
+inky com.inklestudios.Inky
+inode-symlink preferences-desktop-filetype-association
+input-tablet cs-tablet preferences-desktop-tablet
+insomnia rest.insomnia.Insomnia
+insomnia-designer
+instagram brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default chrome-akpamiohjfcnimfljfndmaldlcfphjmp-Default msedge-akpamiohjfcnimfljfndmaldlcfphjmp-Default ramme
+insurgency lutris_insurgency steam_icon_222880
+insync
+intel
+intellij com.jetbrains.IntelliJ-IDEA-Ultimate idea idea-ultimate intellij-idea intellij-idea-ue-bundled-jre intellij-idea-ultimate intellij-idea-ultimate-edition intellij_idea
+intellij-idea-ce com.jetbrains.IntelliJ-IDEA-Community idea-community intellij-idea-community
+internet-chat kde-telepathy smuxi smuxi-frontend-gnome
+internet-mail claws-mail deepin-mail email geary instantbird io.elementary.mail kmail kube-mail mail-client mailnag org.claws_mail.Claws-Mail org.gnome.Geary org.xfce.mailreader preferences-mail sylpheed unity-mail xfce-mail xfce-newmail xfmail yast-mail
+internet-web-browser 7596_iexplore.0 81F5_winebrowser.0 applications-internet applications-webbrowsers browser cqcb.plasma.webslice deepin-browser ECB7_iexplore.0 FB4C_iexplore.0 galeon gnome-internet org.deepin.browser org.xfce.webbrowser preferences-web-browser-identification preferences-web-browser-shortcuts redhat-web-browser uosbrowser-cn web-browser webbrowser-app www-browser yast-inetd
+internxt-drive appimagekit-internxt-drive
+invesalius appimagekit-invesalius br.gov.cti.invesalius
+io.ark.Desktop appimagekit-ark-desktop-wallet ark-desktop-wallet
+io.bassi.Amberol
+io.botfather.Botfather
+io.conduktor.Conduktor
+io.elementary.appcenter
+io.elementary.code
+io.elementary.monitor
+io.elementary.tasks
+io.github.achetagames.epic_asset_manager
+io.github.cges30901.hmtimer
+io.github.diegoivanme.flowtime
+io.github.dvlv.boxbuddyrs
+io.github.ezQuake
+io.github.flattool.Warehouse
+io.github.htkhiem.Euphonica
+io.github.ImEditor
+io.github.jeffshee.Hidamari
+io.github.lainsce.Colorway
+io.github.lainsce.Countdown
+io.github.lainsce.DotMatrix
+io.github.lainsce.Emulsion
+io.github.lainsce.Khronos
+io.github.lainsce.Notejot
+io.github.lainsce.Quilter
+io.github.leonardschardijn.Chirurgien
+io.github.mightycreak.Diffuse diffuse
+io.github.mki1967.mki3dgame
+io.github.mpobaschnig.Vaults
+io.github.nokse22.minitext
+io.github.OpenToonz
+io.github.parnassius.SysDVR-Qt
+io.github.purplehorrorrus.Meridius
+io.github.quodlibet.ExFalso exfalso
+io.github.realmazharhussain.GdmSettings
+io.github.seadve.Kooha
+io.github.seadve.Mousai
+io.github.swanux.hbud
+io.github.tfuxu.Halftone
+io.github.trytonvanmeer.DungeonJournal
+io.github.vegad.vnotes
+io.github.vinegarhq.Vinegar org.vinegarhq.Vinegar
+io.github.Youda008.DoomRunner
+io.gitlab.caveman250.headlines headlines
+io.gitlab.hamadmarri.gamma
+io.gitlab.idevecore.Pomodoro
+io.gitlab.leesonwai.Sums
+io.missioncenter.MissionCenter
+io.posidon.Paper
+io.sam.Boards
+io.seamly.seamly2d appimagekit-seamly2d
+iortcw com.github.iortcw.iortcw
+ipscan
+ipython ipython3
+ir.imansalmani.IPlan
+irc-chat relay weechat
+irccloud-desktop appimagekit-irccloud-desktop com.irccloud.desktop irccloud
+iridium-browser
+iron_product_logo
+ishiiruka
+isomaster iso-customizer
+it.mijorus.gearlever
+it.mijorus.smile
+itch
+itmages
+iwgtk
+JabRef org.jabref.jabref
+jabref JabRef-bin-icon JabRef-icon
+jack_mixer
+jackpatch
+jadx com.github.skylot.jadx jadx-gui
+jamendo
+jamesdsp me.timschneeberger.jdsp4linux me.timschneeberger.jdsp4linux.pulse
+jami jami-gnome net.jami.Jami
+jamovi org.jamovi.jamovi
+jamulus io.jamulus.Jamulus
+jango
+jasp org.jaspstats.JASP
+java applications-java java-1.8.0 java-1.8.0-openjdk java-11-openjdk java-20-openjdk java-21-openjdk java-22-openjdk java-24-openjdk java-25-openjdk java-jdk java-openjdk java11-jdk java11-openjdk java17-openjdk java18-openjdk java19-openjdk java20-openjdk java21-openjdk java24-openjdk java25-openjdk javaws openjdk-11 openjdk-17 openjdk-18 openjdk-19 openjdk-20 openjdk-21 openjdk-22 openjdk-24 openjdk-8 oracle-javaws oracle_java8 sun-java sun-java-jdk8 sun-java-jre8 sun-java32-jdk8 sun-javaws-jdk8 sun-javaws-jre8 sun-javaws32-jdk8 sun-jcontrol-jdk8 sun-jcontrol-jre8 sun-jcontrol32-jdk8
+JavaFXSceneBuilder2.0
+javasnoop kali-javasnoop
+jazzradio
+jblue
+jclic cat.xtec.clic.JClic.jclic
+jclicauthor cat.xtec.clic.JClic.jclicauthor
+jclicreports
+jd-gui io.github.java_decompiler.jd-gui kali-jd-gui
+jdeveloper jdev_icon
+jdownloader org.jdownloader.JDownloader
+Jellyamp appimagekit-Jellyamp
+jellyfin com.github.iwalton3.jellyfin-media-player com.github.iwalton3.jellyfin-mpv-shim jellyfin-desktop org.jellyfin.JellyfinDesktop org.jellyfin.JellyfinServer
+jetbrains-toolbox
+JForex
+jgray
+jgreen
+jitsi appimagekit-jitsi-meet jitsi-meet jitsi-meet-desktop org.jitsi.jitsi-meet
+jmonkeyengine jmonkeyplatform
+jockey cs-cat-hardware cs-drivers ddm deepin-devicemanager deepin-graphics-driver-manager driver-manager glxinfo gnome-device-manager gtk-lshw harddrake hardinfo jockey-kde kali-macchanger kcmpci lshw macchanger mintdrivers org.freedesktop.GlxInfo
+john com.openwall.John kali-john
+johnny kali-johnny
+joplin appimagekit-joplin joplin-desktop net.cozic.joplin_desktop org.joplinapp.joplin
+josm org.openstreetmap.josm
+journey-of-a-roach lutris_journey-of-a-roach steam_icon_255300
+jpexs-decompiler com.jpexs.decompiler.flash ffdec
+jprofiler
+jred
+JRomManager com.github.optyfr.JRomManager
+jubler appimagekit-jubler
+juci
+juk audio-player deepin-music gmusicbrowser gnome-audio gstreamer-properties guayadeque org.gmusicbrowser.gmusicbrowser org.kde.juk
+julia juliabackend
+junior_install_icon appimagekit-junior_install_icon
+jupyter jupyterlab-desktop notebook org.jupyter.JupyterLab
+jyellow
+k4dirstat
+k9-copy devede devedeng dvd95 dvd9548 k9copy media-optical-copy
+kaddressbook addressbook cs-user-accounts office-addressbook
+kadu
+kaffeine org.kde.kaffeine xplayer
+kahla appimagekit-kahla
+kaidan im.kaidan.kaidan
+kairo lutris_kairo steam_icon_233230
+kajongg
+KakaoTalk E51E_KakaoTalk.0
+kakoune
+kaku appimagekit-kaku
+kalarm alarm-clock stock_alarm
+kalgebra org.kde.kalgebra
+kali-dbpwaudit
+kali-forensics-trans
+kali-jad jad
+kali-menu kali-forums kali-tools kali-www
+kali-set setoolkit
+kali-undercover kali-sniffing-spoofing-trans
+kali-unix-privesc-check unix-privesc-check
+kalzium org.kde.kalzium
+kame-editor
+kamoso org.kde.kamoso
+kanagram org.kde.kanagram
+kanatest
+kapman org.kde.kapman pacman
+kapow org.gottcode.Kapow
+kapptemplate
+karbon calligrakarbon
+kasteroids maelstrom org.libsdl.Maelstrom
+kate kate2 org.kde.kate
+katomic atomix-icon org.kde.katomic
+kawaii-player
+kawanime appimagekit-kawanime
+kbackup
+kbibtex org.kde.kbibtex
+kblackbox org.kde.kblackbox
+kblocks org.kde.kblocks
+kbounce org.kde.kbounce
+kbreakout lbreakout2 org.kde.kbreakout
+kbruch org.kde.kbruch
+kcachegrind org.kde.kcachegrind
+kcmdevices
+kcmdf
+kcmmemory kali-hardware-hacking-trans
+kdbg
+kde-frameworks
+kdeconnect com.github.bajoja.indicator-kdeconnect org.gnome.Shell.Extensions.GSConnect preferences-kde-connect
+kdenlive org.kde.kdenlive
+kdesvn tdesvn
+kdevelop customdesktopmenu org.kde.kdevelop tdevelop
+kdiamond org.kde.kdiamond
+kdiff3
+kdiskmark io.github.jonmagon.kdiskmark
+kdocker
+kdots
+keduca
+keep brave-eilembjdkfgodjkcjnpgpaenohkicgjd-Default chrome-eilembjdkfgodjkcjnpgpaenohkicgjd-Default google-keep
+keepass keepass2
+keepassx keepassx2
+keepassxc appimagekit-org.keepassxc.KeePassXC org.keepassxc.KeePassXC
+keeweb
+kega-fusion com.carpeludum.KegaFusion
+kerbal-space-program lutris_kerbal-space-program steam_icon_220200
+keurocalc mate-invest-applet
+kexi calligrakexi
+keybase
+keymon key-mon
+keysmith org.kde.keysmith
+kfloppy
+kfoldersync
+kfouleggs
+kfourinline org.kde.kfourinline
+kgeography org.kde.kgeography
+kget org.kde.kget
+kghostview
+kgoldrunner org.kde.kgoldrunner
+kgraphviewer org.kde.kgraphviewer
+khangman org.kde.khangman
+khotkeys
+kicad org.kicad.KiCad
+kid3 kid3-qt org.kde.kid3
+kig org.kde.kig
+kigo gnome-gnect org.kde.kigo
+kiki-the-nano-bot
+kile org.kde.kile
+killbots org.kde.killbots
+killing-floor lutris_killing-floor steam_icon_1250
+kimagemapeditor org.kde.kimagemapeditor
+kindd
+king-phisher-icon
+kipi-dngconverter
+kipi-expoblending
+kipi-logo colors gnome-paint kcoloredit kipi mypaint org.mypaint.MyPaint
+kipi-panorama hugin net.sourceforge.Hugin panini Panini ptbatcher
+kiriki org.kde.kiriki
+kitematic
+kiten org.kde.kiten
+KittehPlayer appimagekit-KittehPlayer
+kitty appimagekit-kitty
+kiwix-desktop org.kiwix.desktop
+kjots org.kde.kjots
+kjumpingcube gnome-tali opencubicplayer org.gnome.Tali org.kde.kjumpingcube package_games_board tali
+klatexformula
+klavaro net.sourceforge.Klavaro
+klayout de.klayout.KLayout
+kleopatra org.kde.kleopatra
+klickety org.kde.klickety
+klines gnome-glines org.kde.klines
+klystrack
+kmahjongg org.kde.kmahjongg
+kmenuedit alacarte classicmenu-indicator-light distributor-logo drakmenustyle gnome-gmenu gnome-menu gnome-settings-ui-behavior gtg mate-panel-window-menu menu-editor mozo mx-menu-editor org.xfce.panel.applicationsmenu page.codeberg.libre_menu_editor.LibreMenuEditor q4_findmenu xfce4-menueditor xfce4-panel-menu xfdesktop-menu
+kmines org.kde.kmines
+kmix alsamixergui com.saivert.pwvucontrol epulse gnome-alsamixer-icon gnome-mixer gnome-volume-control indicator-sound-switcher mx-system-sounds org.pulseaudio.pavucontrol pasystray pavucontrol pnmixer preferences-desktop-text-to-speech wxlame xfce4-mixer xfce4-pulseaudio-plugin
+kmouth
+kmplayer org.kde.kmplayer
+kmplot org.kde.kmplot
+kmymoney org.kde.kmymoney
+knavalbattle org.kde.knavalbattle
+knemo applications-webapps cs-network dhcpcd gnome-nettool gnome-nettools gnome-network-properties gnome-networktool internet-archive kali-web-application-trans knetattach knetwalk mate-netspeed-applet mate-network-properties mx-broadcom-manager network-defaultroute org.kde.knetwalk package_network q4_findweb repository xfce4-netload-plugin yast-host yast-network_services yast-nis yast-ntp-client yast-proxy
+knights 3dchess org.kde.knights
+knights-game steam_icon_476240
+knowte appimagekit-knowte
+koala
+KoboDeluxe chromium-bsu kobo-icon kobodeluxe kobodl net.olofson.KoboDeluxe net.sourceforge.chromium-bsu
+kodelife
+kodi tv.kodi.Kodi
+kolf lutris_golf-with-your-friends org.kde.kolf steam_icon_431240
+kollision org.kde.kollision
+kolourpaint org.kde.kolourpaint
+komodo komodo-ide
+komodo-edit
+komorebi
+komorebi-wallpaper-creator
+kompare org.kde.kompare
+konqueror rekonq
+konquest intergalacticfm org.kde.konquest
+kontact org.kde.kontact
+kontact-import-wizard ktnef
+kontena-lens
+konversation org.kde.konversation
+koodo-reader io.github.troyeguo.koodo-reader
+kopete kde-im-log-viewer kopete2 telepathy-kde yast-messages
+kopia-ui io.kopia.KopiaUI
+korganizer agenda calligraplan calligraplanner calligraplanwork com.github.georgekap1an.chores evolution-tasks gnome-planner plan planner planwork
+kotatogram io.github.kotatogram
+kpatience ace gnome-aisleriot gnome-hearts kpat lutris_kpatience org.gnome.Aisleriot org.kde.kpat package_games_card
+kphotoalbum deepin-camera ephoto gtkam-camera org.kde.kphotoalbum org.postmarketos.Megapixels showfoto unity-lens-photos
+kpicosim
+kpovmodeler
+krdc org.kde.krdc org.virt_manager.virt-viewer virt-viewer yast-remote
+krecipes
+kregexpeditor
+krename gprename org.kde.krename
+kreversi org.kde.kreversi
+krfb gnome-user-share litenetworkshares preferences-system-network-sharing preferences-system-sharing yast-ldap-server yast-nfs yast-samba-client yast-samba-server
+krita calligrakrita calligrakrita2 lutris_krita-gemini org.kde.krita steam_icon_280680
+kronometer gnome-pomodoro org.gnome.Sysprof org.kde.kronometer sysprof sysprof-icon xfce4-stopwatch-plugin xfce4-time-out-plugin
+kruler gnome-screenruler org.kde.kruler screenruler screenruler-icon screenruler-icon-32x32
+krusader_root krusader_red
+krusader_user krusader_blue
+ksame
+kshisen org.kde.kshisen
+ksirk org.kde.ksirk
+ksnakeduel org.kde.ksnakeduel
+ksnip appimagekit-ksnip org.ksnip.ksnip
+kspaceduel
+ksquares org.kde.ksquares
+kstars org.kde.kstars
+ksudoku com.github.parnold-x.sudoku org.kde.ksudoku
+kteatime org.kde.kteatime
+ktechlab
+kthememgr
+ktikz
+ktimer alarm-timer xfce4-timer xfce4-timer-plugin
+ktimetracker org.kde.ktimetracker
+ktorrent org.kde.ktorrent
+ktuberling org.kde.ktuberling
+kturtle drgeo org.kde.kturtle
+kube
+kubeplayer
+kubrick gnubik org.kde.kubrick
+kuiviewer org.kde.kuiviewer
+kup
+kupfer
+kuro appimagekit-kuro
+kvantum
+kvirc net.kvirc.KVIrc
+kwalletmanager org.kde.kwalletmanager5
+kwave
+kwordquiz gnome-activity-journal org.kde.kwordquiz
+kxstitch org.kde.kxstitch
+l3afpad
+l4d steam_icon_500
+l4d2 lutris_left-4-dead-2 steam_icon_550
+laborejo
+labplot labplot2 LabPlot2 org.kde.labplot2
+labwc_tweaks
+labyrinth com.github.labyrinth_team.labyrinth
+ladi-player
+ladi-system-log
+laditools
+laigter appimagekit-laigter io.itch.azagaya.Laigter
+lampa
+LanguageTool
+lapce dev.lapce.lapce
+lara-croft-and-the-temple-of-osiris lutris_lara-croft-and-the-temple-of-osiris steam_icon_289690
+lastfm goa-account-lastfm last-fm lastfm-audioscrobbler lastfm-valut lastfm-www.last.fm
+latexila gnome-latex org.gnome.gnome-latex
+latte-dock
+laverna
+lazarus
+lazpaint
+lbry io.lbry.lbry-app
+ldview gnome-ldraw io.github.tcobbs.LDView
+league-of-legends com.leagueoflegends.Client
+ledger-live-desktop appimagekit-ledger-live-desktop
+leocad appimagekit-leocad org.leocad.LeoCAD
+leonflix appimagekit-leonflix
+lftp lftp-icon
+libation
+libinput-gestures cs-gestures input-touchscreen preferences-desktop-gestures-touch preferences-desktop-touchscreen
+librecad org.librecad.librecad
+libreoffice-base libreoffice7.3-base libreoffice7.4-base libreoffice7.5-base libreoffice7.6-base org.libreoffice.LibreOffice.base
+libreoffice-calc libreoffice7.3-calc libreoffice7.4-calc libreoffice7.5-calc libreoffice7.6-calc org.libreoffice.LibreOffice.calc
+libreoffice-chart libreoffice7.3-chart libreoffice7.4-chart libreoffice7.5-chart libreoffice7.6-chart org.libreoffice.LibreOffice.chart
+libreoffice-draw libreoffice7.3-draw libreoffice7.4-draw libreoffice7.5-draw libreoffice7.6-draw org.libreoffice.LibreOffice.draw
+libreoffice-impress libreoffice7.3-impress libreoffice7.4-impress libreoffice7.5-impress libreoffice7.6-impress org.libreoffice.LibreOffice.impress
+libreoffice-main libreoffice libreoffice-startcenter libreoffice7.3-main libreoffice7.3-startcenter libreoffice7.4-main libreoffice7.4-startcenter libreoffice7.5-main libreoffice7.5-startcenter libreoffice7.6-main libreoffice7.6-startcenter org.libreoffice.LibreOffice.startcenter
+libreoffice-math libreoffice7.3-math libreoffice7.4-math libreoffice7.5-math libreoffice7.6-math org.libreoffice.LibreOffice.math
+libreoffice-writer libreoffice7.3-writer libreoffice7.4-writer libreoffice7.5-writer libreoffice7.6-writer org.libreoffice.LibreOffice.writer
+librewolf appimagekit-librewolf io.gitlab.LibreWolf io.gitlab.librewolf-community
+life-is-strange lutris_life-is-strange steam_icon_319630
+lifeograph net.sourceforge.Lifeograph
+liferea net.sourceforge.liferea
+lightcord appimagekit-Lightcord Lightcord
+lightsoff gnome-lightsoff org.gnome.LightsOff
+lightworks
+lightzone
+limbo lutris_limbo steam_icon_48000
+linconnect linconnect-server
+linphone
+linuxdcpp com.pypyrev.linuxdcpp
+liquidwar liquidwar6
+liri io.liri.BaseApp
+listen.moe-desktop-app appimagekit-listen.moe-desktop-app listen-moe-desktop
+lite
+litecoin-qt
+liteide
+litesoundsloc
+litetweaks
+liteupgrade
+little-inferno lutris_little-inferno steam_icon_221260
+littleweeb appimagekit-littleweeb
+live-usb-kernel-updater
+livepatch
+lives
+livewallpaper
+livewallpaper-config
+lmms io.lmms.LMMS
+localsend_app localsend org.localsend.localsend_app
+loginized
+logisim-icon com.github.reds.LogisimEvolution logisim-icon-128
+logseq com.logseq.Logseq
+lollypop org.gnome.Lollypop
+lookit
+losslesscut no.mifi.losslesscut
+love appimagekit-love
+lovely-planet lutris_lovely-planet steam_icon_298600
+lovely-planet-2 steam_icon_1019590
+lovely-planet-arcade steam_icon_436000
+lovers-in-a-dangerous-spacetime lutris_lovers-in-a-dangerous-spacetime steam_icon_252110
+lplayer
+lskat gnome-freecell org.kde.lskat
+lsp-plugins
+ltris net.sourceforge.lgames.LTris
+luakit
+lucidchart
+luckyBackup
+lugaru io.gitlab.osslugaru.Lugaru rabbitvcs rabbitvcs-small
+luminance-hdr net.sourceforge.qtpfsgui.LuminanceHDR
+lunacy com.icons8.Lunacy
+lunarclient appimagekit-lunarclient com.lunarclient.LunarClient lunar-client
+lutris net.lutris.Lutris
+lvim
+lyne lutris_lyne steam_icon_266010
+lynx links links_32x32.xpm
+lyrebird
+lyricfier
+LyricsFinder
+lyx
+lzdoom
+machinarium lutris_machinarium steam_icon_40700 steam_icon_40710
+magicka-2 lutris_magicka-2 steam_icon_238370
+magictree kali-magictree
+magnatune
+mail.ru-cloud
+mailspring com.getmailspring.Mailspring
+makagiga appimagekit-makagiga
+makehuman makehuman_bg
+makemkv com.makemkv.MakeMKV
+maltego kali-maltego
+mame gmameui org.mamedev.MAME
+manaplus org.manaplus.ManaPlus
+mandelbulber2 appimagekit-mandelbulber2 com.github.buddhi1980.mandelbulber2
+mangareader com.georgefb.mangareader
+manjaro-architect
+manjaro-settings-manager
+manuskript ch.theologeek.Manuskript
+manyverse se.manyver.Manyverse
+maple
+maps gnome-maps gpxsee org.gnome.Maps qlandkartegt qmapshack QMapShack
+maps-alt
+marble org.kde.marble
+marknoto
+markpado
+marktext com.github.marktext.marktext
+marsshooter net.sourceforge.mars-game
+massif-visualizer org.kde.massif-visualizer
+masterpassword-gui
+masterpdfeditor master-pdf-editor masterpdfeditor4 masterpdfeditor5 net.codeindustry.MasterPDFEditor
+mat
+mate mate-desktop mate-logo
+mate-inhibit-applet
+mate-panel-drawer kdisknav kfm
+mate-panel-separator org.xfce.panel.separator
+material-maker io.github.RodZill4.Material-Maker
+mathematica wolfram-mathematica
+matlab matlab-desktop
+mattermost com.mattermost.Desktop mattermost-desktop mattermost-desktop-bin
+MAX
+maxima io.github.wxmaxima_developers.wxMaxima maxima-icon maxima-new net.sourceforge.maxima wxmaxima
+maxthon-browser
+maya
+mc MidnightCommander
+mcomix mcomix3 net.sourceforge.mcomix
+mcpelauncher-ui-qt io.mrarm.mcpelauncher
+me.dusansimic.DynamicWallpaper
+media-downloader
+mediaconch appimagekit-mediaconch net.mediaarea.MediaConch
+MediaElch appimagekit-MediaElch
+mediaget
+MediaHuman
+mediawriter org.fedoraproject.MediaWriter
+mednafen
+mednaffe com.github.AmatCoder.mednaffe
+mega nz.mega.MEGAsync
+megabasterd com.tonikelope.MegaBasterd
+megaglest org.megaglest.MegaGlest
+megazeux
+meld org.gnome.meld org.gnome.Meld
+mellowplayer appimagekit-mellowplayer com.gitlab.ColinDuquesnoy.MellowPlayer
+melvor-idle lutris_melvor-idle steam_icon_1267910
+memento appimagekit-memento io.github.ripose_jp.Memento
+mendeley-desktop com.elsevier.MendeleyDesktop mendeleydesktop
+menulibre org.bluesabre.MenuLibre org.xfce.panel.windowmenu
+meow
+mesen MesenIcon
+MesenSIcon Mesen-S
+meshlab appimagekit-meshlab net.meshlab.MeshLab
+mess
+metasploit kali-metasploit-framework metasploit-framework
+meterbridge meterbridge32x32
+methane
+metro-2033-redux lutris_metro-2033-redux steam_icon_286690
+metro-last-light-redux lutris_metro-last-light-redux steam_icon_287390
+metronome
+mgba io.mgba.mGBA
+mhwaveedit
+micro io.github.zyedidia.micro
+microscope imagej1
+microsoft goa-account-microsoft goa-account-msn
+microsoft-365 brave-ocdlmjhbenodhlknglojajgokahchlkk-Default brave-onhfoihkhodaeblmangmjjgfpfehnlkm-Default chrome-ocdlmjhbenodhlknglojajgokahchlkk-Default chrome-onhfoihkhodaeblmangmjjgfpfehnlkm-Default msedge-ocdlmjhbenodhlknglojajgokahchlkk-Default msedge-onhfoihkhodaeblmangmjjgfpfehnlkm-Default
+microsoft-edge com.microsoft.Edge
+microsoft-edge-beta
+microsoft-edge-dev
+midori org.midori_browser.Midori
+midterm app.midterm.MidtermDesktop appimagekit-midterm
+mihomo-party
+miktex-console
+mikutter appimagekit-mikutter
+milkytracker org.milkytracker.MilkyTracker
+min
+mindustry com.github.Anuken.Mindustry lutris_mindustry Mindustry steam_icon_1127400
+minecraft ch.tlaun.TL com.mojang.Minecraft com.thebrokenrail.MCPIReborn legacylauncher lutris_minecraft minecraft-launcher minecraft-pi ru.turikhay.tlauncher
+minetest lutris_minetest minetest-icon net.minetest.Minetest
+minetime appimagekit-minetime
+minicraft+
+minigalaxy io.github.sharkwouter.Minigalaxy
+minitube org.tordini.flavio.Minitube
+mint-dev-settings
+mintnanny
+mintsources-additional deepin-download downloader
+mintsources-foreign
+mintsources-maintenance
+mintsources-ppa
+mintupload
+minuet org.kde.minuet
+miro miro-guide-source
+mist
+mixcloud
+mixxx mixxx-icon mixxx_icon org.mixxx.Mixxx
+mkusb
+mkvinfo mediainfo net.mediaarea.MediaInfo
+mkvmergeGUI mkv-gui mkvmerge mkvtoolnix-gui org.bunkus.mkvtoolnix-gui
+ml.prevete.Daty
+mlgui
+mlterm mlterm-icon-24colors-1
+mnemosyne
+mntray
+modelio
+modelsim
+modem-manager-gui
+moderndeck appimagekit-moderndeck
+moe-era steam_icon_1159660
+mog
+molotov
+monero monero-gui org.getmonero.Monero
+money-manager-ex com.github.brandonlujan.exchange mmex org.moneymanagerex.MMEX
+moneydance
+mongodb-compass com.mongodb.Compass mongodb-compass-community
+mono mono-runtime mono-runtime-common monodoc
+monochroma lutris_monochroma steam_icon_265830
+monodevelop
+moonlight appimagekit-moonlight com.moonlight_stream.Moonlight
+moonlighter lutris_moonlighter Moonlighter steam_icon_606150
+morgen
+morpheus
+mosaic appimagekit-mosaic com.github.fries1234.ncsa-mosaic
+moserial org.gnome.moserial
+MotionBox
+motrix appimagekit-motrix net.agalwood.Motrix
+mouse-actions mouse-actions-gui
+mousepad org.xfce.mousepad
+movmetaedit net.mediaarea.MOVMetaEdit
+mozc mozc-setup
+mp3splt-gtk
+mpc-qt
+mpd org.xfce.xfmp
+mpdevil org.mpdevil.mpdevil
+mps
+mpv io.mpv.Mpv mpv-icon-8bit-64x64
+mpvz
+mpz
+mrboom
+ms-excel solstice-microsoft-365-excel
+ms-office microsoft-office-online solstice-microsoft-365
+ms-onedrive brave-abnfpfhjmipcnaibcolbacfhgfcmjjbn-Default chrome-abnfpfhjmipcnaibcolbacfhgfcmjjbn-Default
+ms-onenote io.gitlab.o20.onenote p3x-onenote solstice-microsoft-365-onenote
+ms-outlook brave-eigpmdhekjlgjgcppnanaanbdmnlnagl-Default brave-faolnafnngnfdaknnbpnkhgohbobgegn-Default chrome-eigpmdhekjlgjgcppnanaanbdmnlnagl-Default chrome-faolnafnngnfdaknnbpnkhgohbobgegn-Default io.github.mahmoudbahaa.outlook_for_linux outlook-for-linux solstice-microsoft-outlook
+ms-powerpoint solstice-microsoft-365-powerpoint
+ms-word io.gitlab.o20.word solstice-microsoft-365-word
+msfpc kali-msfpc
+mstdn
+mtpaint
+mtvmusic
+mu.codewith.editor mu-editor
+muck steam_icon_1625450
+mullvad-browser net.mullvad.MullvadBrowser
+mullvad-vpn
+multimc
+multimedia-audio-player alsaplayer deepin-music-player io.elementary.music lxmusic preferences-desktop-multimedia xmms2
+multimedia-photo-manager com.github.vikdevelop.photopea_app org.gnome.Shotwell org.kde.pix pix shotwell
+multimedia-photo-viewer de.swsnr.pictureoftheday deepin-album deepin-image-viewer eom geeqie gpicview image-viewer io.elementary.photos lximage lximage-qt org.geeqie.Geeqie org.photoqt.PhotoQt photoqt viewnior xviewer
+multimedia-video-player deepin-media-player io.elementary.videos rosamp video-player xmms
+multiwinia lutris_multiwinia steam_icon_1530
+mumble info.mumble.Mumble
+muon
+mupen64plus-qt m64py mupen64plus
+muse-dash lutris_muse-dash steam_icon_774171
+museeks appimagekit-museeks
+museeq
+musescore appimagekit-mscore-portable mscore mscore-portable Musescore org.musescore.MuseScore
+musicbrainz
+musikcube
+musique gmpc itunes
+musixmatch com.musixmatch.Musixmatch
+mutt gnome-balsa gnome-balsa2
+mx-alerts
+mx-boot-options
+mx-bootrepair mx-boot-repair
+mx-cleanup
+mx-codecs
+mx-conky
+mx-datetime
+mx-live-usb-maker
+mx-network-assistant
+mx-packageinstaller
+mx-qsi
+mx-repo-manager
+mx-select-sound alsa-tools
+mx-snapshot
+mx-tools
+mx-tweak
+mx-updater
+mx-user
+mx-welcome
+mynotes cs-desklets gnome-sticky-notes-applet indicator-stickynotes knotes mate-sticky-notes-applet org.xfce.notes org.xfce.panel.notes sticky-notes
+myrulib
+myspace
+mysql-workbench
+mystiq appimagekit-mystiq
+mytourbook
+naev lutris_naev org.naev.Naev steam_icon_598530
+narcissu-1st-2nd lutris_narcissu-1st-2nd steam_icon_264380
+nasc com.github.parnold-x.nasc com.github.parnold_x.nasc
+natron fr.natron.Natron
+nautilus
+nautilus-alt
+navalbattle
+naver-whale
+navicat
+navicat-postgresql
+navit
+nbteditor
+nbtexplorer com.jaquadro.NBTExplorer
+ncrack kali-ncrack
+ndisgtk
+ndm
+negibox appimagekit-negibox
+nekopara lutris_nekopara-vol-0 lutris_nekopara-vol-1 lutris_nekopara-vol-2 lutris_nekopara-vol-3 lutris_nekopara-vol-4 steam_icon_1406990 steam_icon_333600 steam_icon_385800 steam_icon_420110 steam_icon_602520 steam_icon_899970
+nemiver
+nerolinux
+nerolinuxexpress
+net.bartkessels.getit
+net.baseart.Glide
+net.christianbeier.Gromit-MPX
+net.daase.journable
+net.danigm.loop
+net.danigm.timetrack
+net.davidotek.pupgui2 protonup-qt
+net.imput.helium helium
+net.kirgroup.confy
+net.kuribo64.melonDS
+net.meijn.onvifviewer
+net.natesales.Aviator
+net.pioneerspacesim.Pioneer
+net.retrodeck.retrodeck
+net.runelite.RuneLite RuneLite runelite runelite-launcher
+net.sapples.LiveCaptions
+net.sf.VICE
+net.sourceforge.Fillets
+net.sourceforge.Teo
+netbeans netbeans-beta org.apache.netbeans
+netease-cloud-music com.netease.CloudMusic
+netease-cloud-music-gtk com.github.gmg137.netease-cloud-music-gtk
+netflix netflix-desktop solstice-netflix-netflix
+nethack
+netradiant
+netsniff-ng kali-netsniff-ng
+netsurf org.netsurf_browser.NetSurf
+network_local
+neverball org.neverball.Neverball
+neverputt
+newbreeze
+nextcloud com.nextcloud.desktopclient.nextcloud goa-account-owncloud Nextcloud
+nexuiz com.alientrap.nexuiz-classic
+nfoview io.otsaloma.nfoview
+nheko im.nheko.Nheko io.github.NhekoReborn.Nheko
+nicotine-plus org.nicotine_plus.Nicotine
+night-in-the-woods lutris_night-in-the-woods steam_icon_481510
+nighthawk appimagekit-nighthawk
+nightsky lutris_nightsky steam_icon_99700
+nihilumbra lutris_nihilumbra steam_icon_252670
+nikto kali-nikto
+Nim
+nip2
+nishang kali-nishang
+nitrogen
+nitroshare
+nixnote2
+nl.g4d.Girens
+nmap kali-nmap org.nmap.Zenmap yast-iscsi-client zenmap
+nnn
+no-mans-sky lutris_no-mans-sky steam_icon_275850
+no-more-room-in-hell lutris_no-more-room-in-hell steam_icon_224260
+node-red-icon
+noisetorch
+noiz2sa com.abagames.noiz2sa
+NoMachine-icon
+nomacs org.nomacs.ImageLounge
+nootka net.sf.nootka
+normcap com.github.dynobo.normcap
+northgard steam_icon_466560
+nos-tv brave-pnghkaloolpocgfpndmjfbhpjffdmdii-Default chrome-pnghkaloolpocgfpndmjfbhpjffdmdii-Default
+noson io.github.janbar.noson
+nostlan appimagekit-nostlan
+notable appimagekit-notable
+notepadqq com.notepadqq.Notepadqq
+Notesnook appimagekit-notesnook com.notesnook.Notesnook
+notion brave-cnmnfnkedfekfidgojcdmndbcipagogc-Default chrome-cnmnfnkedfekfidgojcdmndbcipagogc-Default Notion
+novprog org.gottcode.NovProg
+nozbe Nozbe
+np2
+nsight
+nsm-legacy-gui
+nsm-proxy
+nuclear appimagekit-nuclear org.js.nuclear.Nuclear
+null_team-48
+nulloy
+numptyphysics io.thp.numptyphysics
+nutstore com.jianguoyun.Nutstore
+nutty
+nvidia bumblebee com.bxabi.bumblebee-indicator nvidia-310-settings nvidia-current-settings nvidia-current-updates-settings nvidia-ddm-mx nvidia-drivers-settings nvidia-settings nvidia-x-server-setting nvidia-x-server-settings
+Nvidiux
+nvim io.neovim.nvim nvim-gtk nvim-qt org.daa.NeovimGtk pynvim
+nvtop
+nvvp
+nwg-clipman
+nwg-icon-picker
+nwg-panel
+nwg-readme-browser
+nwg-shell
+nwg-shell-config
+nym-vpn-app net.nymtech.NymVPN
+nz.scuttlebutt.Patchwork
+obconf-qt
+obdautodoctor
+obs com.obsproject.Studio
+obsidian appimagekit-obsidian md.obsidian.Obsidian
+ocaml
+ocenaudio
+ocrfeeder gimagereader io.github.manisandro.gImageReader org.gnome.OCRFeeder
+ocsstore
+octave org.octave.Octave qtoctave
+octodad-dadliest-catch lutris_octodad-dadliest-catch steam_icon_224480
+octopi
+odio appimagekit-odio
+offensive-security
+office-address-book x-office-address-book
+office-calendar calendar california config-date date dayfolder dde-calendar deepin-calendar evolution-calendar gnome-calendar io.elementary.calendar konsolekalendar net.sourceforge.osmo office-date orage org.gnome.Calendar org.xfce.orage osmo preferences-calendar-and-tasks solstice-microsoft-outlook-calendar xfcalendar ximian-evolution-calendar
+okteta jeex org.kde.okteta org.wxhexeditor.wxHexEditor wxHexEditor
+okular org.kde.okular
+olivia
+ollydbg kali-ollydbg
+olympus
+omnetpp
+omnishell
+onboard
+onionshare80 org.onionshare.OnionShare
+Onivim2
+oolite
+openage
+openarena io.github.ec_.Quake3e.OpenArena openarena128 ws.openarena.OpenArena
+OpenAudible
+openbazaar2 openbazaar2client
+openblok
+openboard ch.openboard.OpenBoard OpenBoard
+openboardview
+openbox
+openbve
+openclonk org.openclonk.OpenClonk
+opencomic
+opengl kcmopengl
+openhardwaremonitor
+OpenLieroX net.sourceforge.OpenLieroX
+openlp
+openmw org.openmw.OpenMW
+openmw-cs org.openmw.OpenMW.OpenCS
+openoffice4-base office-database
+openoffice4-calc
+openoffice4-draw
+openoffice4-impress
+openoffice4-main openoffice4-startcenter
+openoffice4-math
+openoffice4-writer
+openra-cnc net.openra.OpenRA-cnc
+openra-d2k net.openra.OpenRA-d2k
+openra-ra net.openra.OpenRA
+openrct2 io.openrct2.OpenRCT2
+openrgb appimagekit-OpenRGB OpenRGB org.openrgb.OpenRGB
+openscad org.openscad.OpenSCAD
+openshot openshot-qt org.openshot.OpenShot
+opensnitch-ui
+openspades jp.yvt.OpenSpades
+openttd openttd-jgrpp org.openttd.OpenTTD steam_icon_1536610
+opentyrian com.github.opentyrian.OpenTyrian
+openvpn qopenvpn
+openxcom appimagekit-openxcom
+opera com.opera.Opera
+opera-beta
+opera-developer
+ophcrack kali-ophcrack
+opl3_bank_editor
+opn2_bank_editor
+OPNplug
+org.codeberg.som.Tracks
+org.coolercontrol.CoolerControl
+org.coolero.Coolero
+org.cubocore.CoreRenamer
+org.cvfosammmm.Setzer
+org.emilien.Password
+org.emilien.SpaceLaunch
+org.es_de.emulationstation-de
+org.eu.encom.spectral
+org.fdroid.Repomaker
+org.flozz.yoga-image-optimizer
+org.fn2006.PollyMC
+org.fooyin.fooyin
+org.freedesktop.adriconf
+org.freedesktop.Bustle
+org.freedesktop.Piper
+org.freedesktop.Tuhi
+org.gabmus.gfeeds org.gabmus.gnome-feeds
+org.gabmus.giara
+org.gabmus.hydrapaper
+org.gabmus.mdwriter
+org.gabmus.notorious
+org.gabmus.whatip
+org.gnode.NixView
+org.gnome.Adwaita1.Demo
+org.gnome.baobab baobab
+org.gnome.Calls
+org.gnome.Connections
+org.gnome.Console
+org.gnome.Crosswords org.gnome.Crosswords.Editor
+org.gnome.Decibels
+org.gnome.design.AppIconPreview
+org.gnome.design.BannerViewer
+org.gnome.design.Contrast
+org.gnome.design.Emblem
+org.gnome.design.IconLibrary
+org.gnome.design.Lorem
+org.gnome.design.SymbolicPreview
+org.gnome.design.Typography
+org.gnome.design.VectorSlicer
+org.gnome.dfeet
+org.gnome.Dictionary
+org.gnome.DiskUtility gnome-disks matepalimpsest palimpsest
+org.gnome.dspy
+org.gnome.Eolie
+org.gnome.Epiphany
+org.gnome.Epiphany.Canary
+org.gnome.Extensions org.gnome.Shell.Extensions
+org.gnome.font-viewer
+org.gnome.FontManager
+org.gnome.FontViewer
+org.gnome.Fractal
+org.gnome.gitlab.Cowsay
+org.gnome.gitlab.ilhooq.Bookup
+org.gnome.gitlab.somas.Apostrophe
+org.gnome.gitlab.YaLTeR.Identity
+org.gnome.gitlab.YaLTeR.VideoTrimmer
+org.gnome.GTG
+org.gnome.Gtranslator
+org.gnome.Keysign
+org.gnome.Loupe
+org.gnome.Music gnome-music
+org.gnome.NetworkDisplays
+org.gnome.Notes
+org.gnome.OfficeRunner kali-maintaining-access-trans
+org.gnome.Papers
+org.gnome.Passbook
+org.gnome.PasswordSafe org.gnome.World.Secrets
+org.gnome.Photos
+org.gnome.Pinpoint
+org.gnome.Podcasts
+org.gnome.Ptyxis
+org.gnome.Reversi
+org.gnome.Settings org.buddiesofbudgie.Settings
+org.gnome.Shell.CaptivePortal
+org.gnome.Showtime
+org.gnome.SimpleScan
+org.gnome.Snapshot
+org.gnome.Social
+org.gnome.Software
+org.gnome.Solanum
+org.gnome.SoundRecorder
+org.gnome.Tau
+org.gnome.TextEditor
+org.gnome.Totem
+org.gnome.Tour
+org.gnome.Usage
+org.gnome.World.Citations
+org.gnome.World.Highscore
+org.gnome.World.Iotas org.gnome.gitlab.cheywood.Iotas
+org.gnome.World.PikaBackup
+org.gnunet.Messenger
+org.gtk.Demo4
+org.gtk.WidgetFactory4
+org.gustavoperedo.FontDownloader
+org.homelinuxserver.vance.biblereader-symbolic net.lugsole.bible_gui
+org.horizon_eda.HorizonEDA
+org.kde.audiotube
+org.kde.dolphin
+org.kde.Ikona
+org.kde.kalendar
+org.kde.karp
+org.kde.kasts kasts
+org.kde.kontrast
+org.kde.kwatchgnupg
+org.kde.marknote
+org.kde.merkuro.calendar
+org.kde.merkuro.contact
+org.kde.merkuro.mail
+org.kde.neochat
+org.librepcb.LibrePCB
+org.nickvision.tagger
+org.nickvision.tubeconverter
+org.nongnu.lingot
+org.olivevideoeditor.Olive appimagekit-org.olivevideoeditor.Olive
+org.openkj.OpenKJ
+org.opensuse.opensuse_welcome
+org.pipewire.Helvum
+org.polymc.PolyMC
+org.prismlauncher.PrismLauncher
+org.processing.processingide computer-runprocesscatcher
+org.pwsafe.pwsafe pwsafe
+org.rnd2.cpupower_gui
+org.srb2.SRB2Kart srb2kart
+org.tabos.banking
+org.tabos.maxcontrol
+org.tabos.twofun
+org.ubuntubudgie.budgiewpreviews
+org.ubuntubudgie.quickchar
+org.ubuntubudgie.shuffler-control
+org.ubuntubudgie.wallstreet-control
+org.vinegarhq.Vinegar.player
+org.vinegarhq.Vinegar.studio
+org.wezfurlong.wezterm appimagekit-org.wezfurlong.wezterm
+org.xfce.Gigolo gtk-network org.xfce.gigolo
+org.xfce.terminal-settings
+org.xfce.volman drive-removable-media-usb
+osmscout-server io.github.rinigus.OSMScoutServer package_games_strategy
+ostinato
+osu osu-lazer sh.ppy.osu
+Othman com.github.ojubaorg.Othman
+otter-browser
+outlast lutris_outlast steam_icon_238320
+outwiker net.jenyay.Outwiker
+overcooked lutris_overcooked steam_icon_448510
+overcooked2 lutris_overcooked-2 steam_icon_728880
+overwatch lutris_overwatch steam_icon_2357570
+owncloud
+oxygen-not-included lutris_oxygen-not-included steam_icon_457140
+pac
+package_games_arcade
+packet-tracer
+pacseek
+page.codeberg.foreverxml.Random
+page.tesk.Refine
+pairs
+palapeli org.kde.palapeli
+palemoon
+papagayong appimagekit-papagayong
+paperwork work.openpaper.Paperwork
+papirus-folders-gui
+paraview org.paraview.ParaView
+parlatype org.parlatype.Parlatype
+parley org.kde.parley
+parole org.xfce.parole
+parsec com.parsecgaming.parsec
+partitionmanager
+password-manager badge-small gnome-encfs-manager info.olasagasti.revelation kali-password-attacks-trans keyring-manager mintsources-keys org.altlinux.userpasswd password passwordmanager passwords revelation stock_keyring
+patchage
+patroneo
+payday2 lutris_payday-2 steam_icon_218620 steam_icon_450660 steam_icon_468410 steam_icon_487210
+pcbcalculator gnome-genius org.gnome.Genius org.kicad.KiCad.pcbcalculator
+pcbnew org.kicad.KiCad.pcbnew
+pcloud appimagekit-pcloud
+PCSX2 appimagekit-PCSX2 net.pcsx2.PCSX2 pcsx2
+pd info.puredata.Pd-extended pd-extended
+pdfarranger com.github.jeromerobert.pdfarranger
+pdfchain net.sourceforge.pdfchain
+pdfeditor pdfmod
+pdfsam
+pdfstudio pdfstudio18 pdfstudio2019 pdfstudio8
+peazip io.github.peazip.PeaZip
+peek com.uploadedlobster.peek
+peerunity
+peg-e org.gottcode.Peg-E
+pegasus-fe org.pegasus_frontend.Pegasus
+pekka-kana-2 net.pistegamez.PekkaKana2
+pencil
+pencil2d org.pencil2d.Pencil2D
+penumbra-black-plague lutris_penumbra-black-plague steam_icon_22120
+penumbra-necrologue lutris_penumbra-necrologue steam_icon_346290
+penumbra-overture lutris_penumbra-overture penumbra-overture-hib steam_icon_22180
+penumbra-requiem lutris_penumbra-requiem steam_icon_22140
+performous
+persepolis com.github.persepolisdm.persepolis
+persona-4-golden lutris_persona-4-golden steam_icon_1113000
+peruse
+pgadmin pgadmin3 pgAdmin4 pgadmin4
+pgmodeler
+phantompeer
+phasmophobia steam_icon_739630
+phatch
+phatch-inspector
+phd2
+phoenix-emu-project-logo
+phoenix-wright-ace-attorney-trilogy lutris_phoenix-wright-ace-attorney-trilogy-123 steam_icon_787480
+phoronix-test-suite
+photocollage io.github.adrienverge.PhotoCollage
+photofilmstrip
+photoflare io.photoflare.photoflare
+photogimp
+photolayoutseditor
+photopea
+phototonic xfi
+phpmyadmin
+phpstorm com.jetbrains.PhpStorm
+pia-manager pia
+picard org.musicbrainz.Picard
+pico-8
+pico8 lexaloffle-pico8
+picom
+picturama appimagekit-picturama
+pidgin im.pidgin.Pidgin
+pillars-of-eternity lutris_pillars-of-eternity steam_icon_291650 steam_icon_344550 steam_icon_373340 steam_icon_373740
+pinball
+pince PINCE
+pingus pingus-icon
+pinta com.github.PintaProject.Pinta
+pioneer_install_icon appimagekit-pioneer_install_icon
+pipal kali-pipal
+pitivi org.pitivi.Pitivi
+piwigo
+pixel-piracy steam_icon_264140
+pixelitor io.sourceforge.Pixelitor
+pixelorama com.orama_interactive.Pixelorama
+pixeluvo
+pixiewps kali-pixiewps
+pizarra
+pkgbrowser
+plague-inc-evolved lutris_plague-inc-evolved steam_icon_246620
+planetary-annihilation-titans lutris_planetary-annihilation-titans steam_icon_386070
+plank
+plasma nepomuk plasmashell preferences-desktop-plasma start-here-kde-plasma
+plasma-media-center
+plasma-search krunner
+plasmadiscover
+plasmafox
+plasmagik applications-featured cs-desktop-effects desktop-effects gnome-settings-default-applications keditbookmarks org.xfce.xfwm4-tweaks package_favorite package_favourite preferences-desktop-effects preferences-tweaks-anim yast-high_availability
+plasmavault
+Play appimagekit-Play org.purei.Play play
+playonlinux com.playonlinux.PlayOnLinux4 org.phoenicis.playonlinux playonlinux4
+plex-htpc tv.plex.PlexHTPC
+plexamp appimagekit-plexamp com.plexamp.Plexamp
+plexhometheater plex plex-desktop plex-media-player plexmediamanager plexmediaplayer plexmediaserver tv.plex.PlexDesktop
+pling-store appimagekit-pling-store
+pm.mirko.Atoms
+pm.mirko.Twitz
+pocket goa-account-pocket
+pocketcasts appimagekit-pocket-casts-linux pocket-casts pocket-casts-linux tech.feliciano.pocket-casts
+podcast library-podcast
+poddr appimagekit-poddr
+podman-desktop io.podman_desktop.PodmanDesktop
+poedit net.poedit.Poedit
+poezio io.poez.Poezio
+pokerth
+pokete com.github.lxgr_linux.pokete
+polari org.gnome.Polari
+polo
+polychromatic
+polychromatic-controller
+polyphone com.polyphone_soundfonts.polyphone
+pomodoneapp
+pop-cosmic-applications
+pop-cosmic-launcher
+pop-cosmic-workspaces
+pop-shop
+popcorn-time butter popcorntime popcorntime-ru
+popout3d com.github.PopoutApps.popout3d
+portal lutris_portal steam_icon_2012840 steam_icon_400
+portal-prelude steam_icon_2410180
+portal-reloaded steam_icon_1255980
+portal-revolution steam_icon_601360
+portal-stories-mel lutris_portal-stories-mel steam_icon_317400
+portal2 lutris_portal-2 steam_icon_620
+portfolio info.portfolio_performance.PortfolioPerformance portfolio-performance-bin
+portmaster
+portproton ru.linux_gaming.PortProton
+postal lutris_postal steam_icon_232770
+postal-2 lutris_postal-2 steam_icon_223470
+postal-redux lutris_postal-redux steam_icon_401680
+PosteRazor posterazor
+postman com.getpostman.Postman
+postr
+powder-player
+poweriso-gui com.poweriso.PowerISO
+powermanga
+powersploit kali-powersploit
+pppoeconf
+ppsspp org.ppsspp.PPSSPP
+praat
+pragha io.github.pragha_music_player.pragha
+prboom-plus
+preferences
+preferences-desktop xfce4-settings
+preferences-desktop-accessibility access accessibility accessibility-directory accessibility_section ax-applet cs-universal-access mate-ax-applet orca org.xfce.settings.accessibility
+preferences-desktop-activities
+preferences-desktop-animations nwg-look
+preferences-desktop-color application-vnd.iccprofile applications-graphics cs-cat-appearance cs-color gnome-color-manager gnome-settings-theme org.gnome.ColorViewer org.xfce.settings.color package_graphics preferences-color preferences-desktop-display-color unity-color-panel xfce-ui xfce4-color-settings xfce4-ui
+preferences-desktop-cursors preferences-desktop-accessibility-pointing
+preferences-desktop-default-applications cs-default-applications org.xfce.settings.default-applications preferences-desktop-applications
+preferences-desktop-display cs-display cs-screen disper display display-capplet gnome-display-properties grandr gsd-xrandr mate-preferences-desktop-display network.cycles.wdisplays nwg-displays org.xfce.settings.display randr resapplet system-config-display unity-display-panel xfce4-display XrendrMixer
+preferences-desktop-emoticons amor ksmiletris package_toys
+preferences-desktop-font applications-fonts cs-fonts deepin-font-installer deepin-font-manager fonts gnome-settings-font kfontview preferences-desktop-font-installer yast-x11
+preferences-desktop-gaming antimicro appimagekit-sc-controller applications-games deepin-game-center input-gamepad input-joystick io.github.antimicrox.antimicrox jstest-gtk org.gnome.Games package_games qjoypad sc-controller
+preferences-desktop-icons com.github.santileortiz.iconoscope cs-themes gtk3-icon-browser icons iconthemes org.xfce.xfdashboard xfdashboard
+preferences-desktop-keyboard cs-keyboard fcitx fcitx-setting fcitx_ubuntukylin gnome-settings-accessibility-keyboard gnome-settings-accessibility-technologies kimtoy ktouch org.fcitx.Fcitx5 org.kde.ktouch org.xfce.settings.keyboard system-config-keyboard yast-keyboard
+preferences-desktop-keyboard-shortcuts cs-input-method eu.blumenstingl.martin.keystateplasmoid gnome-settings-keybinding gnome-settings-keybindings im-chooser key_bindings mintlocale-im
+preferences-desktop-locale applications-education-language com.github.rapidfingers.translator config-language cs-language cs-region deepin-translator gnome-translate klettres locale lokalize nwg-shell-translate org.kde.klettres org.kde.lokalize system-config-language translator yast-language
+preferences-desktop-navigation
+preferences-desktop-notification-bell bell liteupdatesnotify mate-panel-notification-area
+preferences-desktop-online-accounts cs-online-accounts gnome-online-accounts-gtk preferences-mail-accounts preferences-online-accounts unity-online-accounts
+preferences-desktop-peripherals com.whitemagicsoftware.kmcaster cs-mouse gnome-mouse gnome-mouse-properties gnome-settings-mouse input-mouse kmousetool org.xfce.settings.mouse preferences-desktop-mouse xfce-mouse
+preferences-desktop-personal avatar-default mugshot
+preferences-desktop-remote-desktop gnome-rdp gnome-remote-desktop preferences-system-network-remote uos-remote-assistance vinagre
+preferences-desktop-screensaver kscreensaver org.xfce.ScreenSaver screensaver tdescreensaver xscreensaver
+preferences-desktop-theme klassy-settings kpersonalizer litedesktop lookswitcher org.xfce.settings.appearance preferences-desktop-theme-global preferences-theme
+preferences-desktop-theme-windowdecorations
+preferences-desktop-thunderbolt cs-thunderbolt thunderbolt
+preferences-desktop-user-password cryptfolder-indicator cryptkeeper gnupg kali-vuln-assessment-trans kgpg pinentry yast-kerberos
+preferences-desktop-wallpaper background cs-backgrounds daily-wallpaper gnome-desktop-config gnome-settings-background preferences-wallpaper xfce4-backdrop
+preferences-management-service
+preferences-plugin com.mattjakeman.ExtensionManager cs-extensions gnome-shell-extension-prefs yast-addon
+preferences-system-bluetooth blueman blueradio blueradio-48 bluetooth bluetooth-48 bluetooth-radio bluetoothradio bt-logo cs-bluetooth preferences-bluetooth
+preferences-system-brightness-lock brightness brightness-systray brightnesssettings com.github.panosx2.brightness display-brightness mate-brightness-applet
+preferences-system-login cs-startup-programs gmrun launch mate-desktop-item-edit mate-panel-launcher mate-session-properties org.xfce.panel.launcher preferences-desktop-launch-feedback preferences-system-session preferences-tweaks-cerbere session-properties yast-bootloader
+preferences-system-network kali-p0f proxy q4_netcon tdenetworkmanager yast-device-tree yast-lan
+preferences-system-network-connection
+preferences-system-network-proxy
+preferences-system-network-share-windows
+preferences-system-notifications cs-notifications help-faq knotify mate-notification-properties notifyconf org.xfce.notification plugin-notification preferences-desktop-notification preferences-desktop-notifications xfce4-notifyd
+preferences-system-notifications-rtl
+preferences-system-parental-controls org.freedesktop.MalcontentControl
+preferences-system-power cs-power gnome-power-manager mate-power-manager org.xfce.powermanager preferences-system-power-management preferences-web-browser-cache unity-power-panel utilities-energy-monitor xfce4-power-manager-settings xfpm-ac-adapter
+preferences-system-privacy cs-privacy ssh-askpass-gnome yast-security
+preferences-system-search 5961_Defunct_x86.0 baloo edit-find gnome-hideseek gnome-search-tool gnome-searchtool gnome-tracker kali-info-gathering-trans kappfinder kfind kmag mx-findshares org.kde.kfind org.xfce.appfinder preferences-desktop-baloo preferences-desktop-search tracker xfce4-appfinder xmag
+preferences-system-services kali-system-services-trans yast-services-manager yast-sysconfig
+preferences-system-splash ksplash xfce4-splash
+preferences-system-time accessories-clock appointment cairo-clock clock cs-date-time cuckoo gnome-clocks gnome-set-time hourglass mate-panel-clock mx-clocky mx-timeset-gui-icon orage_globaltime org.gnome.clocks org.kde.kclock org.xfce.orage.globaltime org.xfce.panel.clock stock_alarm system-config-date time time-admin timeset-gui-icon unity-datetime-panel xclock xfce-schedule xfce4-clock yast-timezone
+preferences-system-windows beryl-settings cs-windows gnome-windows mate-panel-window-list metacity obconf org.xfce.panel.tasklist org.xfce.panel.windowmenu org.xfce.xfwm4 preferences-system-windows-actions preferences-tweaks-shadows simple-ccsm window-duplicate window_list wmtweaks
+preferences-system-windows-move cs-tiling deepin-multitasking-view multitasking-view preferences-system-tabbox preferences-system-windows-effect-flipswitch
+preferences-ubuntu-panel
+preferences-web-browser-cookies cookie gourmet
+premid appimagekit-premid
+prepros
+prey
+prison-architect lutris_prison-architect steam_icon_233450
+pritunl_client_electron
+prjm16-transparent net.sourceforge.projectM
+project-zomboid lutris_project-zomboid steam_icon_108600
+projecteur
+projectM
+pronterface
+protege edu.stanford.protege
+proton-mail
+proton-pass me.proton.Pass
+proton-vpn-logo com.protonvpn.www protonvpn-logo
+protonmail-bridge ch.protonmail.protonmail-bridge ProtonMail_Bridge
+protonmail-desktop appimagekit-protonmail-desktop-unofficial protonmail-desktop-unofficial
+protonmail-import-export-app ch.protonmail.protonmail-import-export-app
+protonplus com.vysp3r.ProtonPlus
+PrusaSlicer com.prusa3d.PrusaSlicer prusa-slicer
+psi
+psi-plus
+pspp org.gnu.pspp
+puddletag net.puddletag.puddletag
+pulsar dev.pulsar_edit.Pulsar
+pulse-sms appimagekit-pulse-sms
+pulseeffects com.github.wwmm.easyeffects com.github.wwmm.pulseeffects easyeffects
+pulseUi
+pulseview
+pumpa
+punes io.github.punesemu.puNES
+pureref
+pushbullet-indicator pb-for-desktop yadpush
+putty uk.org.greenend.chiark.sgtatham.putty
+pycharm com.jetbrains.PyCharm-Professional pycharm-education pycharm-professional pycharmedu
+pycharm-community com.jetbrains.PyCharm-Community
+PyCrust
+pyhoca_x2go-logo-ubuntu
+pymol org.pymol.PyMOL
+pynocchio
+pyrenamer
+python idle idle3 pycad python3.10 python3.11 python3.8 python3.9
+python-faraday kali-python-faraday
+pyzologo org.pyzo.pyzo
+q4oslogo distributor-logo-q4os-m1 distributor-logo-q4os1 kmenu
+q4wine ua.org.brezblock.q4wine
+qalculate io.github.Qalculate io.github.Qalculate.qalculate-qt qalculate-qt
+qasmixer
+qbittorrent org.qbittorrent.qBittorrent
+qbrowser
+qcalcfilehash
+qchdman
+qctools net.mediaarea.QCTools
+qdirstat
+qelectrotech org.qelectrotech.QElectroTech
+qemu qemu-system-aarch64 qemu-system-arm qemu-system-i386 qemu-system-x86_64 qemu-system-x86_64-spice
+qgis org.qgis.qgis
+qgo cgoban cgoban_32x32 gnome-iagno gnugo gnugo48 iagno
+qimgv
+qjackctl org.rncbc.qjackctl
+qmc2-arcade
+qmmp com.ylsoftware.qmmp.Qmmp
+QMPlay2 appimagekit-QMPlay2 io.github.zaps166.QMPlay2
+qnapi appimagekit-qnapi io.github.qnapi qnapi-48
+qomp
+QOwnNotes org.qownnotes.QOwnNotes
+qpdfview
+qphotorec
+qprompt com.cuperino.qprompt
+qqmusic com.qq.QQmusic
+qreator
+qsampler
+qsynth org.rncbc.qsynth
+qt qt5-logo QtIcon qtlogo
+qtassistant assistant assistant-qt5 assistant-qt6 assistant5 QtProject-assistant
+QtAV
+qtconfig qt5ct qt6ct qtconfig-qt5
+qtcreator io.qt.QtCreator qt-creator qtcreator_logo_32 qtcreatorubuntu QtProject-qtcreator QtProject-qtcreator-qt5 ubuntu-qtcreator
+qtdbusviewer io.qt.qdbusviewer qdbusviewer qdbusviewer-qt5 qdbusviewer5 QtProject-qdbusviewer
+qtdesigner designer designer-qt5 designer5 io.qt.Designer QtProject-designer
+qtemu
+qtfm
+qtikz
+qtlinguist io.qt.Linguist linguist linguist-qt5 linguist5 QtProject-linguist
+qtodotxt
+qtpass-icon
+qtqr
+qtractor org.rncbc.qtractor
+qtscrcpy
+qtwebflix
+quadrapassel gnome-quadrapassel org.gnome.Quadrapassel
+quake etqw quake1
+quake2
+quake3
+quake3-team-arena
+quake4
+quanta
+quassel org.quassel_irc.QuasselClient
+quaternion com.github.quaternion
+qubic steam_icon_509000
+quickaccess com.georgefb.quickaccess
+quickgui_512
+quickhash
+quimup quimup64
+quiterss
+quodlibet io.github.quodlibet.QuodLibet
+qupzilla
+qutebrowser org.qutebrowser.qutebrowser
+qutim
+qv2ray appimagekit-qv2ray com.github.Qv2ray
+qv4l2
+qvge
+qvidcap
+qview com.interversehq.qView
+qwinff fjt winff
+racket-logo drracket org.racket_lang.Racket plt
+racket-slideshow
+radeon-profile
+radicle-upstream appimagekit-radicle-upstream
+radiotray eradio girl glrp gnome-internet-radio-locator gnomeradio gnuradio-grc gradio kdoubanfm kradio kradio4 krudio library-internet-radio
+radiotunes
+rakarrack
+rambox appimagekit-rambox hamsket rambox-os ramboxpro
+rancher-desktop
+rapid-photo-downloader
+rapidsvn
+rare io.github.dummerle.rare Rare
+raven-reader appimagekit-raven-reader
+rawtherapee com.rawtherapee.RawTherapee
+razercommander xyz.z3ntu.razergenie
+rclone-browser appimagekit-rclone-browser
+rclonetray appimagekit-rclonetray
+rdm
+re.fossplant.songrec com.github.marinm.songrec
+re.sonny.Commit
+re.sonny.Junction
+re.sonny.OhMySVG
+re.sonny.Tangram
+reactotron
+realtimesync
+recipes org.gnome.Recipes
+recoll
+recstudio kali-recstudio
+reddit brave-lgnggepjiihbfdbedefdhcffnmhcahbm-Default chrome-lgnggepjiihbfdbedefdhcffnmhcahbm-Default reddit-is-a-dead-bird solstice-reddit-reddit
+redeclipse lutris_red-eclipse net.redeclipse.RedEclipse steam_icon_967460
+redirection steam_icon_305760
+redisinsight com.redis.RedisInsight
+reditr
+rednotebook app.rednotebook.RedNotebook
+redream
+redriver2 io.github.opendriver2.Redriver2
+redshift redshift-gtk
+referencer
+regedit
+regexxer
+reicast
+reigns lutris_reigns steam_icon_474750
+remarkable
+rememberthemilk
+remmina org.remmina.Remmina
+remnote
+RenameMyTVSeries
+renderdoc qrenderdoc
+renoise
+renpy
+renpy-demo
+repl.it
+rescuetime RescueTime rescuetime-mx
+resharper
+resharpercpp
+residualvm
+resolve davinci-resolve DV_Resolve
+responder kali-responder
+restic restatic
+retext me.mitya57.ReText
+retroarch appimagekit-retroarch com.libretro.RetroArch org.libretro.RetroArch steam_icon_1118310
+retropie SkraperUI
+retroshare appimagekit-retroshare cc.retroshare.retroshare-gui
+revolt org.perezdecastro.Revolt
+revolt-desktop chat.revolt.RevoltDesktop
+rhythmbox org.gnome.Rhythmbox org.gnome.Rhythmbox3
+Ri-li net.sourceforge.Ri-li
+ricochet-game lutris_ricochet steam_icon_60
+rider com.jetbrains.Rider
+rigs-of-rods lutris_rigs-of-rods rigsofrods ror RoR
+rimworld lutris_rimworld steam_icon_294100
+riot-web riot
+Ripcord_Icon appimagekit-Ripcord_Icon fm.cancel.Ripcord
+rise-to-ruins steam_icon_328080
+ristretto org.xfce.ristretto
+rivals-of-aether lutris_rivals-of-aether steam_icon_383980
+rkward
+rlogo_icon
+rmg com.github.Rosalie241.RMG
+rnote com.github.flxzt.rnote
+roam-research
+robo3t
+robocraft lutris_robocraft steam_icon_301520
+roccat net.sourceforge.roccat.roccat-tools
+rochard lutris_rochard steam_icon_107800
+rocket-league lutris_rocket-league steam_icon_252950
+rocketchat chat.rocket.RocketChat rocketchat-desktop
+rockradio
+rocksndiamonds org.artsoft.rocksndiamonds
+rocs org.kde.rocs
+rog-control-center
+rogue-legacy lutris_rogue-legacy steam_icon_241600
+rolled-out steam_icon_873270
+rosegarden com.rosegardenmusic.rosegarden
+rpcs3 appimagekit-rpcs3 net.rpcs3.RPCS3
+rpg-maker-mv lutris_rpg-maker-mv steam_icon_363890
+rquickshare r-quick-share
+rrootage com.abagames.rRootage
+rs.ruffle.Ruffle ruffle
+rsibreak
+rssguard io.github.martinrotter.rssguard io.github.martinrotter.rssguardlite
+rstudio
+rto-proxy
+rtt-rlinux
+rtt-rstudio
+ru.linux_gaming.PortProtonQt
+rubymine com.jetbrains.RubyMine
+runescape com.jagex.RuneScape
+rust lutris_rust steam_icon_252490
+rustdesk
+rustrover com.jetbrains.RustRover jetbrains-rustrover
+rvgl re-volt
+rygel
+ryujinx org.ryujinx.Ryujinx
+sabnzbdplus org.sabnzbd.sabnzbd
+safeeyes io.github.slgobinath.SafeEyes
+sage-notebook
+sakura-dungeon lutris_sakura-dungeon steam_icon_407330
+sakura-spirit lutris_sakura-spirit steam_icon_313740
+sanctum-2 lutris_sanctum-2 steam_icon_210770
+satisfactory lutris_satisfactory steam_icon_526870
+sauerbraten org.sauerbraten.Sauerbraten
+sayonara com.sayonara_player.Sayonara
+sc_ide
+scania-truck-driving-simulator lutris_scania-truck-driving-simulator steam_icon_258760
+scans2pdf com.github.unrud.djpdf
+scantailor com.github._4lex4.ScanTailor-Advanced org.scantailor.ScanTailor ScanTailor
+scenarist
+schism schism-icon-128
+Sci48M org.scintilla.SciTE
+scid io.github.benini.scid
+scidavis net.sourceforge.scidavis
+scilab org.scilab.Scilab
+scim-setup
+scinotes
+scout-app
+scratch edu.mit.Scratch scratch-desktop scratch2
+screencloud
+scribus net.scribus.Scribus scribus-ng scribus-trunk
+scsi kcmscsi
+scummvm org.scummvm.ScummVM
+sdl_instead
+sdrangel org.sdrangel.SDRangel sdrangel_icon
+seafile com.seafile.Client seafile-client seafile-client-qt5
+seahorse org.gnome.seahorse.Application seahorse-preferences
+seamonkey seamonkey-mozilla-build
+searchmonkey
+securecrt securecrt_64
+security-high
+security-low preferences-security-firewall
+security-medium
+selene
+selinux setroubleshoot_icon
+semaphor
+sengi appimagekit-sengi
+sentinel
+sepolicy system-config-selinux
+servez appimagekit-servez
+serviio
+servo
+session-desktop appimagekit-session-desktop
+sftpclient
+sfxr-qt
+sgt-launcher
+shadow appimagekit-shadow
+shadow-beta appimagekit-shadow-beta appimagekit-shadow-preprod shadow-preprod
+shadow-dev appimagekit-shadow-dev appimagekit-shadow-testing shadow-testing
+shadow-tactics lutris_shadow-tactics-blades-of-the-shogun steam_icon_418240
+shadowsocks-qt5 org.shadowsocks.qt5client
+shadps4 net.shadps4.shadPS4 shadPS4
+shadwen lutris_shadwen steam_icon_425210
+sharik appimagekit-sharik
+SheepShaver
+sheepy-a-short-adventure lutris_sheepy-a-short-adventure steam_icon_1568400
+sheets calligrasheets
+shellnoob kali-shellnoob
+shotcut org.shotcut.Shotcut
+showtime
+shutter
+shutter-encoder
+sideka id.sideka.App
+sidekick-browser
+sigil com.sigil_ebook.Sigil
+signal-desktop org.signal.Signal signal-desktop-beta
+silksong steam_icon_1030300
+simon
+simple-image-reducer
+simplenote com.simplenote.Simplenote
+simplescreenrecorder byzanz com.github.artemanufrij.screencast deepin-screen-recorder gtk-recordmydesktop istanbul kali-recordmydesktop kazam record-desktop recordmydesktop xvidcap
+simsu org.gottcode.Simsu
+simutrans lutris_simutrans steam_icon_434520
+singular Singular
+sioyek com.github.ahrm.sioyek sioyek-icon-linux
+sirikali
+sk1
+sk1-color-picker
+skanlite com.hamrick.VueScan deepin-scanner gscan2pdf org.kde.skanlite vuescan xsane yast-scanner
+skanpage org.kde.skanpage
+skrooge gnucash gnucash-icon org.gnucash.GnuCash org.kde.skrooge
+skullgirls lutris_skullgirls steam_icon_245170
+skydrive
+skype com.skype.Client ms-skype skypeforlinux solstice-skype-web
+skyrim-script-extender lutris_skyrim-script-extender-64-skse64 steam_icon_365720
+slack com.slack.Slack
+slade net.mancubus.SLADE
+slay-the-spire lutris_slay-the-spire steam_icon_646570
+slic3r
+slimbookbattery
+slime-rancher lutris_slime-rancher steam_icon_433340
+slimjet
+slingscold
+slingshot com.github.ryanakca.slingshot
+sm.puri.Chatty
+sm.puri.Stream
+smartsim
+smbx13
+smc lutris_secret-maryo-chronicles
+smilla smilla-enlarger smillaenlarger
+smokinguns
+smplayer appimagekit-smplayer info.smplayer.SMPlayer
+smw sm64ex SM64nightly sm64plus SuperMario64
+smw-leveledit
+smw-worldedit
+snes9x com.snes9x.Snes9x
+so.libdb.gtkcord4
+soapui org.soapui.SoapUI
+sofastats
+software-properties cs-software-properties mintsources pk-package-sources software-sources x-system-software-sources
+software-store deepin-app-store deepin-appstore deepin-software-center dk.yumex.Yumex gnome-software litesoftware lubuntu-software-center mintinstall muondiscover software software-center software-manager software-properties-mint softwarecenter softwarecenter-debian softwarecenter-ubuntu swcentre ubuntu-kylin-software-center ubuntusoftware yast-software yast-sw_source yumex yumex-dnf
+solaar io.github.pwr_solaar.solaar
+solarus
+solarus-launcher org.solarus_games.solarus.Launcher
+solarus-quest-editor
+solfege
+soma lutris_soma steam_icon_282140
+somafm
+somiibo appimagekit-somiibo
+songkick
+sonic-mania lutris_sonic-mania steam_icon_584400
+sonic-pi net.sonic_pi.SonicPi
+sonic-visualiser
+sonobus net.sonobus.SonoBus
+soulseek
+sound-juicer org.gnome.SoundJuicer
+sound-recorder com.github.ryonakano.reco deepin-voice-recorder krec org.kde.krecorder
+soundcloud brave-eikjhbkpemdappjfcmdeeeamdpkgabmk-Default chrome-eikjhbkpemdappjfcmdeeeamdpkgabmk-Default solstice-soundcloud-soundcloud
+soundkonverter oggconvert org.soundconverter.SoundConverter soundconverter
+soundnode
+soundux io.github.Soundux
+soundwire
+space-engineers lutris_space-engineers steam_icon_244850
+space-pirates-and-zombies lutris_space-pirates-and-zombies steam_icon_107200
+space.fips.Fips
+spacefm
+spacemacs
+spaceview
+sparkleshare org.sparkleshare.SparkleShare
+sparklogosmall
+Sparrow
+spec-ops-the-line lutris_spec-ops-the-line steam_icon_50300
+speed-dreams org.speed_dreams.SpeedDreams
+speedcrunch org.speedcrunch.SpeedCrunch
+spek
+spflashtool
+spideroak SpiderOak
+SpiderOakONE
+sportstracker
+spotify-client com.spotify.Client solstice-spotify-spotify spotify
+spotify-qt
+spring-tool-suite
+spyder org.spyder_ide.spyder spyder3
+sqldeveloper oracle-sqldeveloper
+sqlitebrowser kali-database-assessment-trans org.sqlitebrowser.sqlitebrowser sqliteman
+squeak
+sr-editor
+ssdeep kali-ssdeep
+st
+stacer appimagekit-stacer Stacer
+stack
+stage calligrastage
+standard-notes appimagekit-standard-notes notes org.standardnotes.standardnotes
+starbound lutris_starbound steam_icon_211820
+stardew-valley lutris_stardew-valley steam_icon_413150
+stardict
+stargus
+StartWine
+staruml
+stata statalogo_14 statalogo_16
+steadyflow
+stealth-bastard-deluxe lutris_stealth-bastard-deluxe steam_icon_209190
+steam com.valvesoftware.Steam steam-icon steam-launcher steampowered
+steam-rom-manager com.steamgriddb.steam-rom-manager
+steam_icon_341800
+steam_icon_553850
+steamdeck-gaming-return
+steamlink com.valvesoftware.SteamLink
+steamvr steam_icon_250820
+stella io.github.stella_emu.Stella
+stellaris lutris_stellaris steam_icon_281990
+stellarium org.stellarium.Stellarium
+step
+stepmania-ssc com.stepmania.StepMania
+sticky
+stock_xfburn-burn-cd dvdstyler
+stoken-gui
+strawberry org.strawberrymusicplayer.strawberry
+streamtuner streamtuner2
+stremio com.stremio.Stremio smartcode-stremio
+stretchly appimagekit-stretchly net.hovancik.Stretchly
+stride
+studio-3t Studio-3T
+stuntrally org.tuxfamily.StuntRally
+suanPan io.github.tlcfem.suanPan
+subdownloader
+sublime-merge com.sublimemerge.App
+sublime-text com.sublimetext.three sublime-text-2 sublime-text-3 sublime_text
+subsonic
+substance appimagekit-substance
+subsurface-icon org.subsurface_divelog.Subsurface
+subtitlecomposer org.kde.subtitlecomposer
+subtitleeditor
+sunflower
+sunvox
+super-hexagon lutris_super-hexagon steam_icon_221640
+superkaramba
+supermeatboy lutris_super-meat-boy steam_icon_40800
+superpaper appimagekit-superpaper
+superproductivity
+SuperSlicer
+supertux appimagekit-supertux2 org.supertux.SuperTux-Milestone1 org.supertuxproject.SuperTux steam_icon_1572920 supertux2
+supertuxkart net.supertuxkart.SuperTuxKart
+surfshark
+surviving-mars lutris_surviving-mars steam_icon_464920
+sven-co-op lutris_sven-co-op steam_icon_225840
+svgcleaner
+svp-manager4
+sw4stm32
+swatchbooker
+sweeper
+sweethome3d com.sweethome3d.Sweethome3d
+sweethome3d-furniture-editor
+sweethome3d-textures-editor
+swell-foop gnome-samegnome gnome-swell-foop org.gnome.SwellFoop
+sxiv
+SymbolEditor org.kde.SymbolEditor symboleditor
+synapse
+synaptic
+syncplay
+syncthing-gtk io.github.martchus.syncthingtray me.kozec.syncthingtk syncthing syncthingtray
+synergy quicksynergy
+synergy-mod lutris_synergy steam_icon_17520
+synfig_icon appimagekit-synfigstudio org.synfig.SynfigStudio
+synology-assistant com.synology.SynologyAssistant synology-uploader-photos
+synology-cloud-station-backup com.synology.CloudStationBackup
+synology-cloud-station-drive
+synology-drive com.synology.SynologyDrive
+synology-note-station
+SysMonTask
+syspeek
+systach kali-stress-testing-trans
+system-config-samba samba smb4k
+system-error abrt apport apport-gtk2 bug-buddy com.github.timecraft.notifier gnome-abrt gnome-warning kali-bugs kbugbuster mintreport org.freedesktop.GnomeAbrt script-error
+system-file-manager athena d3lphin dde-file-manager nemo org.gnome.Nautilus org.kde.index org.xfce.filemanager org.xfce.thunar pcmanfm pcmanfm-qt spacefm Thunar xfce-filemanager
+system-help 4137_winhlp32.0 A35F_hh.0 gnochm gnome-help gtk-help khelpcenter litemanual org.gnome.Yelp stock_help stock_help-agent susehelpcenter uos-service-support xfce-man yast-support
+system-keyboard-mx
+system-lock-screen xfce4-system-lock xfsm-lock
+system-log-out computer-log-out gnome-logout xfsm-logout
+system-reboot system-restart xfsm-reboot
+system-save-session
+system-shutdown boot gnome-session gnome-session-halt gnome-session-properties gnome-shutdown org.xfce.panel.actions system-log-out system-shut-down xfsm-shutdown
+system-software-install apper appgrid aptdaemon-download aptdaemon-working drakstats gnome-app-install gnome-apt kentoo mintupdate-release-upgrade package-manager-icon pirut porthole rpmdrake synaptic system-software-installer update-notifier yast-sw_single yumex-dnf zeroinstall
+system-software-update aptdaemon-update-cache aptdaemon-upgrade liteupdates mandrivaupdate mintupdate nwg-shell-update pamac-updater pup q4os-updatemgr update-manager update-notifier yast-update-online yast-upgrade zen-icon
+system-suspend gnome-session-suspend sleep xfpm-suspend xfsm-suspend
+system-suspend-hibernate gnome-session-hebirnate gnome-session-hibernate system-hibernate xfsm-hibernate
+system-switch-user switchuser xfsm-switch xfsm-switch-user
+system-users calligraauthor config-users cs-user kuser liteusermanager preferences-desktop-user preferences-system-users system-config-authentication system-config-users user-info user_icon userdrake yast-auth-client yast-users
+system76-driver
+tabletop-simulator lutris_tabletop-simulator steam_icon_286160
+tagainijisho
+taisei org.taisei_project.Taisei
+tamtam-app
+tandem appimagekit-tandem chat.tandem.Client
+tanglet org.gottcode.Tanglet
+tartube
+taskbar
+tauonmb com.github.taiko2k.tauonmb
+taxi com.github.alecaddd.taxi
+tc appimagekit-tc tc-twitch
+tdeprintfax
+tdewalletmanager
+team-fortress-classic lutris_team-fortress-classic steam_icon_20
+team-fortress2 lutris_team-fortress-2 steam_icon_440
+team-fortress2-classified steam_icon_3545060
+teamcity
+teams-for-linux appimagekit-teams-for-linux com.github.IsmaelMartinez.teams_for_linux solstice-microsoft-365-teams teams
+teamspeak3 com.teamspeak.TeamSpeak com.teamspeak.TeamSpeak3
+teamviewer TeamViewer
+technic-launcher
+teeworlds com.teeworlds.Teeworlds lutris_teeworlds steam_icon_380840
+tegaki-recognize
+TeighaViewer
+tekken-7 lutris_tekken-7 steam_icon_389730
+telegram brave-ibblmnobmgdmpoeblocemifbpglakpoi-Default brave-majiogicmcnmdhhlgmkahaleckhjbmlk-Default chrome-ibblmnobmgdmpoeblocemifbpglakpoi-Default chrome-majiogicmcnmdhhlgmkahaleckhjbmlk-Default io.github.tdesktop_x64.TDesktop org.telegram.desktop snap.telegram-desktop. telegram-desktop telegram-desktop-bin
+tellico org.kde.tellico
+Temps
+tenacity org.tenacityaudio.Tenacity
+terminator
+terminus
+termius-app com.termius.Termius
+terraria lutris_terraria steam_icon_105600
+terratech lutris_terratech steam_icon_285920
+teslagrad lutris_teslagrad steam_icon_249590
+tetrio-desktop TETR.IO
+tetzle org.gottcode.Tetzle
+TeXmacs texmacs
+texmaker net.xm1math.Texmaker
+texstudio org.texstudio.TeXstudio
+text-css stylesheet
+text-x-hex kali-reverse-engineering-trans
+textadept
+textosaurus io.github.martinrotter.textosaurus
+TeXworks org.tug.texworks
+the-binding-of-isaac-rebirth lutris_the-binding-of-isaac-rebirth steam_icon_250900
+the-cave lutris_the-cave steam_icon_221810
+the-elder-scrolls-v-skyrim lutris_the-elder-scrolls-v-skyrim steam_icon_489830 steam_icon_72850
+the-escapists-2 lutris_the-escapists-2 steam_icon_641990
+the-long-dark lutris_the-long-dark steam_icon_305620
+the-sims-3 lutris_the-sims-3 steam_icon_47890
+the-sims-4 lutris_the-sims-4 steam_icon_1222670
+the-stanley-parable lutris_the-stanley-parable steam_icon_221910
+the-swapper lutris_the-swapper steam_icon_231160
+the-talos-principle lutris_the-talos-principle steam_icon_257510
+the-witcher lutris_the-witcher-enhanced-edition steam_icon_20900
+the-witcher-2 lutris_the-witcher-2-assassins-of-kings-enhanced-edition steam_icon_20920
+the-witcher-3 lutris_the-witcher-3-wild-hunt steam_icon_292030
+thedarkmod lutris_the-dark-mod
+theia theia-electron theia-ide
+thermal-monitor indicator-sensors ksensors mate-sensors-applet psensor xfce-sensors xsensors
+thextech ru.wohlsoft.TheXTech
+thimbleweed-park lutris_thimbleweed-park steam_icon_569860
+thingy
+thinkorswim com.tdameritrade.ThinkOrSwim
+thomas-was-alone lutris_thomas-was-alone steam_icon_220780
+thonny org.thonny.Thonny
+thorium appimagekit-thorium
+thorium-browser
+thunar
+thunderbird org.mozilla.thunderbird org.mozilla.Thunderbird org.mozilla.thunderbird_esr thunderbird-bin thunderbird-icon thunderbird-mozilla-build
+thunderbird-beta
+tibia lutris_tibia Tibia
+tic80 com.tic80.TIC_80
+tidal chrome-emefpkhgihlhfddcjfghpndaeliajgjj-Default
+tidal-hifi com.mastermindzh.tidal-hifi
+tigervnc org.tigervnc.vncviewer
+tiktok brave-nlalbmkafgmoifbeooblidblkmlhhpnc-Default chrome-nlalbmkafgmoifbeooblidblkmlhhpnc-Default
+tiled org.mapeditor.Tiled
+tilem
+tilesetter steam_icon_1105890
+tilix com.gexperts.Tilix terminix
+tilp
+timekpr
+timeshift
+timestripe brave-ikllmbphdgkmdfmmlohklnceeccfoppn-Default chrome-ikllmbphdgkmdfmmlohklnceeccfoppn-Default vivaldi-ikllmbphdgkmdfmmlohklnceeccfoppn-Default
+timidity
+tinder brave-hejiihbkifllpgdfndalmghiodgkefan-Default chrome-hejiihbkifllpgdfndalmghiodgkefan-Default
+tipp10 com.gitlab.tipp10.tipp10
+tixati
+tizen-studio-certificatemanager
+tizen-studio-dynamicanalyzer
+tizen-studio-em
+tizen-studio-ide
+tlauncher
+tlpui com.github.d4nj1.tlpui
+tmm
+to-the-moon lutris_to-the-moon steam_icon_206440
+toby-the-secret-mine steam_icon_395160
+todoist com.todoist.Todoist goa-account-todoist
+toggldesktop com.toggl.TogglDesktop
+toki-tori lutris_toki-tori steam_icon_38700
+tokodon org.kde.tokodon
+tomahawk
+tomato com.github.luizaugustomm.tomato com.github.tomatoers.tomato pomodoro-indicator tomate
+tomb-raider lutris_tomb-raider steam_icon_203160
+ToneLib-GFX
+ToneLib-Jam
+ToneLib-Zoom
+toolbox
+toontown-rewritten com.toontownrewritten.Launcher shticker-book-rewritten tooniversal
+tor browser-tor com.github.micahflee.torbrowser-launcher org.torproject.torbrowser-launcher tor-browser tor-browser-en tor-browser-ru torbrowser
+tor-browser-alpha
+tor-browser-nightly
+torchlight-2 lutris_torchlight-ii steam_icon_200710
+torcs net.sourceforge.torcs
+torguard
+toribash lutris_toribash steam_icon_248570
+torii-srs
+tormessenger instant-messenger tor-messenger
+torrenttools appimagekit-torrenttools
+torrserver
+tortoisehg thg thg_logo
+total-war steam_icon_325610
+totally-accurate-battle-simulator steam_icon_508440
+touchpad-indicator preferences-desktop-touchpad touchpad
+touhou-dream-logical-world steam_icon_1664410
+touhou-luna-nights lutris_touhou-luna-nights steam_icon_851100
+trackma
+trackmania-nations-forever lutris_trackmania-nation-forever steam_icon_11020
+tracktion tracktion7
+tracktion-download-manager
+transmageddon
+transmission com.transmissionbt.Transmission transmission-gtk transmission-qt
+transmission-remote-gtk io.github.TransmissionRemoteGtk org.equeim.Tremotesf transgui transgui-2
+trashindicator
+trelby
+trello
+tremulous com.grangerhub.Tremulous
+tresorit
+tribler org.tribler.Tribler
+trilium com.github.zadam.trilium trilium-notes
+trillian
+trimage
+trine lutris_trine steam_icon_35700
+trine2 lutris_trine-2-complete-story steam_icon_35720
+trine3 lutris_trine-3-the-artifacts-of-power steam_icon_319910
+trinity-desktop appimagekit-trinity-desktop
+trojita
+true-combat-elite tce
+truecrypt kali-truecrypt
+tsc org.secretchronicles.TSC
+tumblr
+tumiki-fighters
+tupitube.desk
+turbowarp appimagekit-turbowarp-desktop org.turbowarp.TurboWarp turbowarp-desktop
+turtleart org.laptop.TurtleArtActivity
+tusk-app tusk
+tutanota-desktop appimagekit-tutanota-desktop com.tutanota.Tutanota
+tux net.sourceforge.ExtremeTuxRacer penguin pinguin tuxracer
+tuxcut
+tuxedo-control-center
+tuxedo-webfai-creator
+tuxguitar ar.com.tuxguitar.TuxGuitar
+tuxmath com.tux4kids.tuxmath
+tuxpaint org.tuxpaint.Tuxpaint
+tuxpuck distributor-logo-crux org.debian.TuxPuck
+tuxtype com.tux4kids.tuxtype
+tvtime freetuxtv me-tv paromplayer tvmaxe
+tw.ddnet.ddnet
+tweet-tray appimagekit-tweet-tray
+tweetdeck
+twinkle
+twitter goa-account-twitter Nocturn nocturn Nocturn-linux solstice-twitter-twitter
+twitter-x brave-jgeocpdicgmkeemopbanhokmhcgcflmi-Default chrome-jgeocpdicgmkeemopbanhokmhcgcflmi-Default msedge-jgeocpdicgmkeemopbanhokmhcgcflmi-Default
+twupic
+type-rider lutris_typerider steam_icon_258890
+typecatcher io.github.mmstick.FontFinder
+typora io.typora.Typora
+ubiquity-kde anaconda calamares cs-sources debian-installer-launcher deepin-installer deepin-installer-oem edit-urpm-sources litesources software-properties system-installer system-os-installer ubiquity uos-installtool yast-live-install
+ubuntu-tweak
+ubuntustudio-controls
+ue4editor ubinary
+uget com.ugetdm.uGet uget-icon
+uk.me.doof.Lander
+ukuu
+ulauncher
+umbrello org.kde.umbrello
+umlet_logo com.umlet.Umlet
+ums
+unciv io.github.yairm210.unciv
+undertale lutris_undertale steam_icon_391540
+unison-gtk
+unity-editor-icon
+unity-tweak-tool
+unityhub appimagekit-unityhub com.unity.UnityHub
+unknown-horizons org.unknown_horizons.UnknownHorizons
+uno-calculator
+unsplash brave-cnlnpjpkobmmbdnpbdceplbemhibbhll-Default chrome-cnlnpjpkobmmbdnpbdceplbemhibbhll-Default
+unturned lutris_unturned steam_icon_304930
+uplink lutris_uplink steam_icon_1510
+upload-pictures
+upscayl org.upscayl.Upscayl
+upsource
+upwork
+uqm net.sourceforge.uqm_mods.UQM-MegaMod
+urbanterror info.urbanterror.UrbanTerror uterror
+urserver
+usb usbview
+usb-creator com.github.artemanufrij.imageburner deepin-boot-maker gnome-multi-writer imagewriter mintstick multibootusb multisystem multisystem-liveusb multisystem-vbox mx-usb-unmounter org.gnome.MultiWriter org.kde.isoimagewriter rosa-imagewriter tuxboot unetbootin usb-creator-gtk usb-creator-kde usbimager
+usbguard-icon
+utilities-log-viewer activity-log-manager gnome-system-log korg-journal logview logviewer mate-system-log plv yast-journal
+utilities-system-monitor deepin-system-monitor gkrellm gnethogs gnome-monitor gnome-system-monitor ksysguard nwg-processes org.gnome.SystemMonitor org.kde.plasma.awesomewidget org.kde.plasma.systemloadviewer org.kde.resourcesMonitor org.xfce.taskmanager package_utilities qps
+utilities-terminal bash deepin-terminal Etermutilities-terminal gksu-debian gnome-eterm gnome-term gnome-terminal hotwire konsole lxterminal openterm org.gnome.Terminal org.kde.konsole org.kde.qmlkonsole org.xfce.terminal org.xfce.terminal-settings org.xfce.terminalemulator roxterm Terminal terminal terminal-tango terminology tilda xconsole xfce-terminal
+utilities-terminal_su cs-cat-admin gksu-root-terminal yast-sudo
+utilities-tweak-tool computersettings gnome-control-center gnome-settings gtk-preferences kcontrol org.xfce.settings.manager package_settings preferences-desktop preferences-system systemsettings xfce-system-settings xfce4-mcs-manager yast-powertweak
+utilities-x-terminal gnome-xterm mini.xterm org.xfce.terminalemulator tilda urxvt urxvt_48x48 utilities-terminal xterm xterm-color xterm-color_48x48
+utools
+utox appimagekit-qtox io.github.qtox.qTox qtox ricin toxygen
+vacuum
+valheim lutris_valheim steam_icon_892970
+valyriatear
+variety
+vbam visualboyadvance-m
+VCVRack
+vdrift vdrift-64x64
+vectr
+veloren lutris_veloran net.veloren.airshipper net.veloren.veloren
+ventoy
+veracrypt veracrypt.xpm
+vesktop dev.vencord.Vesktop
+veusz io.github.veusz.Veusz
+veyon-configurator
+veyon-master
+viber com.viber.Viber
+vibrantLinux io.github.libvibrant.vibrantLinux
+vice-vsid
+vice-x128
+vice-x64
+vice-x64dtv
+vice-xcbm2
+vice-xpet
+vice-xplus4
+vice-xscpu64
+vice-xvic
+vico
+victor-vran lutris_victor-vran steam_icon_345180
+vidcutter com.ozmartians.VidCutter
+videomass appimagekit-videomass
+vieb appimagekit-vieb dev.vieb.Vieb
+vifm
+viking org.viking.Viking
+vim gvim org.vim.Vim vim-qt
+vimeo
+viper-browser appimagekit-viper-browser
+virt-manager org.virt_manager.virt-manager
+virtualbox indicator-virtual-box VBox virtualbox-ose
+virustotal com.virustotal.VirusTotalUploader
+visual-paradigm
+visualvm
+vita3k
+vitomu appimagekit-vitomu
+vivado_logo com.github.corna.Vivado
+vivaldi com.vivaldi.Vivaldi vivaldi-stable
+vivaldi-beta
+vivaldi-snapshot
+vk
+vkaudiosaver
+vlc org.videolan.VLC
+vmd
+vmpk kcmmidi net.sourceforge.VMPK pianoteq pianoteq-stage tdemid
+vmware-netcfg vmnetcfg
+vmware-player vmplayer vmware
+vmware-view
+vmware-vmrc
+vmware-workstation
+vncviewer realvnc-vncviewer vnc vncviewer48x48
+vnote appimagekit-vnote fun.vnote.app.VNote
+vocal com.github.needle-and-thread.vocal com.github.needleandthread.vocal
+void-wizard
+vokoscreen
+vokoscreenNG com.github.vkohaupt.vokoscreenNG
+vorta com.borgbase.Vorta vorta32
+vprerex
+vroid-studio F516_VRoidStudio.0 lutris_vroid-studio
+vscode code com.visualstudio.code visual-studio-code
+vscode-exploration
+vscode-insiders
+vscodium com.vscodium.codium
+vscodium-insiders com.vscodium.codium-insiders
+vstudio
+vuze
+VVVVVV lutris_vvvvvv steam_icon_70300
+vym
+wallch
+wallpapoz
+war-thunder com.endlessnetwork.tankwarriors in.p1x.TanksOfFreedom lutris_war-thunder net.gaijin.WarThunder net.sourceforge.atanks net.sourceforge.btanks steam_icon_236390
+warframe lutris_warframe steam_icon_230410
+wargus
+warmux org.gna.Warmux warmux_128x128
+warpinator org.x.Warpinator
+warsow net.warsow.Warsow wsw
+warzone2100 net.wz2100.wz2100
+wassabee io.wasabiwallet.WasabiWallet
+waterfox net.waterfox.waterfox waterfox-classic waterfox-current waterfox-icon
+wavebox io.wavebox.Wavebox
+waveform11 com.tracktion.Waveform
+waydroid
+wayland
+Weasis io.github.nroduit.Weasis
+weather com.librehat.yahooweather cumulus gis-weather gnome-weather indicator-weather meteo-qt org.gnome.Weather org.kde.kweather org.xfce.panel.weather solstice-bbc-bbc-weather solstice-metoffice-weather solstice-nhk-nhk-weather solstice-weathernews-japan weather-storm weather-widget xfce4-weather
+web-lounge
+webamp-desktop appimagekit-webamp-desktop
+webapp-manager
+webby
+webcamoid appimagekit-webcamoid io.github.webcamoid.Webcamoid
+webcord io.github.spacingbat3.webcord
+webplotdigitizer
+webstorm com.jetbrains.WebStorm
+webtorrent-desktop io.webtorrent.WebTorrent
+wechat appimagekit-wewechat com.qq.weixin.deepin com.tencent.WeChat deepin.com.wechat weixin wewechat
+weka
+welcome-screen litewelcome
+welle.io
+wemeet com.tencent.wemeet wemeetapp
+wesnoth lutris_the-battle-for-wesnoth org.wesnoth.Wesnoth steam_icon_599390 wesnoth-1.10-icon wesnoth-1.12-icon wesnoth-1.14-icon wesnoth-icon
+wesnoth_editor wesnoth-1.10_editor-icon wesnoth-1.12_editor-icon wesnoth-1.14_editor-icon wesnoth_editor-icon
+whalebird social.whalebird.WhalebirdDesktop
+whatpulse
+whatsapp com.github.eneshecan.WhatsAppForLinux io.github.mimbrero.WhatsAppDesktop wazzapp whatsapp-desktop whatsapp-for-linux whatsapp-nativefier whatsdesk
+whatsie com.ktechpit.whatsie
+wicd kali-wireless-attacks-trans linssid nm-device-wireless wicd-gtk wifi-radar
+WickrMe
+widelands org.widelands.Widelands wl-ico-64
+wihotspot
+wikipedia
+winbox
+windows95
+windscribe
+windstille-0.2
+wine 1CD8_rundll32.0 2905_wscript.0 5742_rundll32.0 7765_winebrowser.0 bottles_wine D3EE_SwitchBoard.0 deepin-wine-assist org.winehq.Wine
+wine-help C06E_winhlp32.0 D15F_hh.0 winhelp
+wine-launcher appimagekit-wine-launcher
+wine-uninstaller bottles_wine-uninstaller D23E_msiexec.0 msiexec
+winecfg bottles_wine-winecfg wine-winecfg
+winefile
+winemine
+winetricks bottles_winetricks com.github.Matoking.protontricks
+wingpanel io.elementary.wingpanel topmenu-applet
+wings3d com.wings3d.WINGS
+wire appimagekit-wire-desktop com.wire.WireDesktop wire-desktop
+wireshark kali-wireshark org.wireshark.Wireshark
+wiznote com.wiz.Note
+woeusbgui-icon woeusb-logo
+wolfenstein com.realm667.WolfenDoom_Blade_of_Agony m_doom
+wolfram-language
+wolfram-player
+wootility
+wordpad 2EF4_wordpad.0 97C1_wordpad.0 gnome-documents org.gnome.Documents package_wordprocessing
+wordpress kali-wpscan unity-webapps-wordpress wpcom wpscan
+words calligrawords
+wordview wordview.xpm
+Worker
+workflowy appimagekit-workflowy
+workrave
+workspace-switcher-left-bottom cs-workspaces kpager mate-panel-workspace-switcher nwg-workspace org.xfce.panel.pager org.xfce.workspaces preferences-desktop-virtual workspace-switcher
+workspace-switcher-right-bottom
+workspace-switcher-right-top
+workspace-switcher-top-left preferences-desktop-workspaces xfce4-workspaces
+world-of-goo lutris_world-of-goo steam_icon_22000 steam_icon_22010 worldofgoo
+world-of-tanks com.worldoftanks.Client
+worldofpadman net.worldofpadman.WoP wop
+worms lutris_worms-reloaded steam_icon_22600 steam_icon_22690 steam_icon_233840 steam_icon_327030
+worms-armageddon lutris_worms-armageddon steam_icon_217200
+wpa_gui
+wps-office-etmain com.wps.Office.etmain com.wps.Office2019.etmain wps-office2019-etmain
+wps-office-pdfmain com.wps.Office.pdfmain com.wps.Office2019.pdfmain wps-office2019-pdfmain
+wps-office-wppmain com.wps.Office.wppmain com.wps.Office2019.wppmain wps-office2019-wppmain
+wps-office-wpsmain com.wps.Office.wpsmain com.wps.Office2019.wpsmain wps-office2019-wpsmain
+wps-office2019-kprometheus
+wpscrackgui
+write_stylus Write144x144
+wunderlist
+wxcas
+wxglade
+wyrmsun io.github.Andrettin.Wyrmsun lutris_wyrmsun steam_icon_370070
+x-plane lutris_x-plane-11 steam_icon_269950 steam_icon_292180
+x-rebirth lutris_x-rebirth steam_icon_2870
+x-tile
+x2-the-threat lutris_x2-the-threat steam_icon_2800
+x2goclient
+x3-albion-prelude lutris_x3-albion-prelude steam_icon_201310
+x3-reunion lutris_x3-reunion steam_icon_2810
+x3-terran-conflict lutris_x3-terran-conflict steam_icon_2820
+x4-foundations lutris_x4-foundations steam_icon_392160
+xampp
+xash3d
+xbox brave-chcecgcbjkilfgeccdhoeaillkophnhg-Default brave-eelgndlbgohgbfkmhamljdkkdpejnemo-Default chrome-chcecgcbjkilfgeccdhoeaillkophnhg-Default chrome-eelgndlbgohgbfkmhamljdkkdpejnemo-Default
+xcas
+xclicker xyz.xclicker.xclicker
+xcom-2 lutris_xcom-2 steam_icon_268500
+xcom-enemy-unknown lutris_xcom-enemy-unknown steam_icon_200510
+xcos
+xdman
+xemu app.xemu.xemu
+xenia
+xfce-system-lock cs-screensaver
+xfce4-cpugraph-plugin org.xfce.panel.cpugraph
+xfce4-eyes mate-eyes-applet xeyes
+xfce4-fsguard-plugin
+xfce4-fsguard-plugin-warning
+xfce4-sample-plugin
+xfce4-session org.xfce.session preferences-system-session session-properties
+xfce4-statusnotifier-plugin
+xfce4-systray org.xfce.panel.statustray org.xfce.panel.systray systemtray
+xfce4-taskbar org.xfce.panel.tasklist preferences-desktop-plasma-theme
+xfe
+xfwm4 org.xfce.xfwm4
+Xfwm4CompositeEditor org.xfce.settings.editor
+xhydra kali-hydra
+xiaomitool
+xine
+xiphos org.xiphos.Xiphos
+xmind net.xmind.XMind net.xmind.XMind8 XMind
+xmlcopyeditor
+xmoto org.tuxfamily.XMoto
+xnconvert com.xnview.XnConvert
+xneur gxneur kdeneur
+xnoise
+xnretro com.xnview.XnRetro
+xnsketch com.xnview.XnSketch
+xnview appimagekit-xnviewmp com.xnview.XnViewMP xnviewmp
+xonotic lutris_xonotic org.xonotic.Xonotic
+xonsh
+xorg kcmx mate-panel-force-quit x xapp xdiagnose
+xournal com.github.xournalpp.xournalpp xournalpp
+XRCed
+xt7-player-mpv
+YACReader com.yacreader.YACReader
+YACReaderLibrary
+yad
+yahoo-mail
+yakuake altyo org.kde.yakuake
+yakyak
+yandex-browser-beta ru.yandex.Browser yandex-browser
+yandex-disk yd-128
+yandex-music yandexmusic
+yaourtgui
+yaradio-yamusic appimagekit-yaradio-yamusic
+yarock
+yast yast-control-center
+yast-hwinfo kcmprocessor yast-hardware
+yast-snapper deepin-clone mintbackup systemback
+yast-sound audio-speakers cs-sound gnome-settings-sound gnome-sound-properties kcmsound litesoundsglob multimedia-volume-control phonon-gstreamer preferences-desktop-sound preferences-sound unity-sound-panel xfce-sound xfce4-pulseaudio-plugin xfce4-sound
+yast-vm-install
+yast-vm-migrate
+yast-vpn
+yed
+ymuse com.yktoo.ymuse
+yokadi
+yoshimi
+youdao-dict
+your-freedom
+youtrack
+youtube brave-agimnkijcaahngcdmfeangaknmldooml-Default chrome-agimnkijcaahngcdmfeangaknmldooml-Default smtube solstice-google-youtube
+youtube-dl appimagekit-youtube-dl-gui com.github.JannikHv.Gydl gydl youtube-dl-gui youtube-dl-qt-icon YouTubeDownloader
+youtube-music appimagekit-youtube-music brave-cinhimbnkkaeohfgghhklpknlkffjgod-Default chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default solstice-google-youtube-music
+youtube-music-desktop-app app.ytmdesktop.ytmdesktop appimagekit-youtube-music-desktop-app
+yubikey-neo-manager
+yubikey-personalization-gui
+yubikey-piv-manager
+yubioath com.yubico.yubioath
+yuna appimagekit-yuna
+yuzu appimagekit-yuzu org.yuzu_emu.yuzu
+yuzu-ea
+zandronum com.zandronum.Zandronum
+zanshin
+zaproxy kali-zaproxy org.zaproxy.ZAP
+zart
+zaz io.sourceforge.zaz
+zbstudio
+zdoom
+zeal org.zealdocs.Zeal
+zed dev.zed.Zed
+zegrapher ZeGrapher
+zen-bound-2 steam_icon_61600
+zen-browser app.zen_browser.zen io.github.zen_browser.zen
+zenbooru
+zenkit
+ZeroNet
+zerotier-gui
+zettlr appimagekit-zettlr com.zettlr.Zettlr Zettlr
+zevdocs
+ziggurat lutris_ziggurat steam_icon_308420
+zim org.zim_wiki.Zim
+zint uk.org.zint.zint-qt
+zmninja appimagekit-zmninjapro zmninjapro
+zoho-mail-desktop appimagekit-zoho-mail-desktop
+zombie-panic-source lutris_zombie-panic-source steam_icon_17500
+Zoom us.zoom.Zoom zoom-desktop zoom-icon
+zotero org.zotero.Zotero
+zrythm org.zrythm.Zrythm
+zsnes io.github.xyproto.zsnes
+zulip org.zulip.Zulip
+zuluCrypt
+zuluMount
+zumaudio com.zamaudio.zamautosat com.zamaudio.zamaximx2 com.zamaudio.zamcomp com.zamaudio.zamcompx2 com.zamaudio.zamdelay com.zamaudio.zamdynamiceq com.zamaudio.zameq2 com.zamaudio.zamgate com.zamaudio.zamgatex2 com.zamaudio.zamgeq31 com.zamaudio.zamgrains com.zamaudio.zamheadx2 com.zamaudio.zamphono com.zamaudio.zamtube com.zamaudio.zamulticomp com.zamaudio.zamulticompx2 com.zamaudio.zamverb
+zynaddsubfx
